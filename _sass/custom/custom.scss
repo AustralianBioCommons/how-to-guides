@@ -1,7 +1,20 @@
+//
+// BioCommons Colors: https://github.com/AustralianBioCommons/umccr-dictionary/blob/main/docs/_sass/custom/custom.scss
+//
+
+$bioc-pink:#ed087c;
+$bioc-purple: #b21e8d;
+$bioc-blue: #205a86;
+$bioc-yellow: #f49f1d;
+$bioc-teal: #5ac3b1;
+$bioc-olive: #8ea869;
+$bioc-green: #2cb77c;
+
+
 body {
   font-family: Arial;
-  color: blue;
-  font-size: 20pt;
+  color: $bioc-blue;
+  font-size: 12pt;
   margin-bottom: 60px;
 }
 
@@ -12,5 +25,9 @@ body {
 .nav-list {
   font-family: Arial;
   font-size: 12pt;
-  color: #205a86;
+  color: $bioc-blue;
+}
+
+a {
+  color: $bioc-purple;
 }
