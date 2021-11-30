@@ -2,7 +2,7 @@
 title: "HiFi genome assembly on Galaxy Australia"
 has_children: false
 parent: Workflows
-nav_order: 1
+nav_order: 2
 ---
 
 ---
