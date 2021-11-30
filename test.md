@@ -17,15 +17,15 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 
 ## **Yes**
 
-- Take me to the Quick start guide!
+- Take me to the [Quick start guide](#quick-start-guide)!
 - Show me the WorkflowHub entries
      - File conversion: [BAM to FASTQ + QC](https://workflowhub.eu/workflows/220)
      - Assembly: [PacBio HiFi genome assembly using hifiasm](https://workflowhub.eu/workflows/221)
-     - Purge duplicates: [Purge duplicates from hifiasm assembly]()
+     - Purge duplicates: [Purge duplicates from hifiasm assembly](https://workflowhub.eu/workflows/237)
 
 ## **No**
 
-- Take me to the in-depth guide!
+- Take me to the [in-depth guide!](#in-depth-guide)
 - Take me to more training material for Galaxy
 
 > **If you need help, the Galaxy community is both approachable and helpful.**
