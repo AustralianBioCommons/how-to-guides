@@ -19,7 +19,6 @@ $bioc-green: #2cb77c;
 
 body {
   font-family: Arial;
-  color: $bioc-blue;
   font-size: 12pt;
   margin-bottom: 60px;
 }
@@ -31,9 +30,8 @@ body {
 .nav-list {
   font-family: Arial;
   font-size: 12pt;
-  color: $bioc-blue;
 }
 
 a {
-  color: $bioc-purple;
+  color: $bioc-blue;
 }
