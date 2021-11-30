@@ -1,8 +1,5 @@
----
-title: About
-nav_order: 1
----
+# About
 
-## About the How-to-Guides
+About the How-to-Guides
 
 
