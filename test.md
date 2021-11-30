@@ -53,21 +53,21 @@ Further to this, a summary of the different elements of this assembly approach a
 
 # Quick start guide
 
-## Login to Galaxy Australia
+1. Login to Galaxy Australia
 
-## Create a new history
+2. Create a new history
 
-## Upload your HiFi ```ccs.bam``` data files to your Galaxy history
+3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
 
-## Load and execute workflows, using required options
+4. Load and execute workflows, using required options
      
 - FILE CONVERSION workflow: ```BAM to FASTQ + QC``` **optional**
 - ASSEMBLY workflow: ```PacBio HiFi genome assembly workflow```
 - PURGE DUPLICATES workflow: ```Purge duplicates from hifiasm assembly``` **optional**
 
-## Review workflow report and perform additional QC as needed
+5. Review workflow report and perform additional QC as needed
 
-## Re-run workflows, or individual tools, as needed
+6. Re-run workflows, or individual tools, as needed
 
 ---
 
