@@ -35,10 +35,7 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 
 # The overall workflow
 
-![**Fig 1.** The approach described in this How-to-Guide, including Quick Start guide steps **1)** registration, 
-**2)** upload of input BAM file, **3)** BAM to FASTQ conversion workflow, **4)** assembly workflow, **5)** purge 
-duplicates workflow and **6)** reviewing the assembly report and FASTA metrics. Required workflow 
-steps are blue, and optional steps are red.](/images/overall_workflow.png)
+![Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input BAM file, 3) BAM to FASTQ conversion workflow, 4) assembly workflow, 5) purge duplicates workflow and 6) reviewing the assembly report and FASTA metrics. Required workflow steps are blue, and optional steps are red.](images/overall_workflow.png)
 
 Further to this, a summary of the different elements of this assembly approach are detailed below:
 
