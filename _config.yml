@@ -10,6 +10,7 @@ gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/AustralianBioCommons/how-to-guides" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Enable or disable heading anchors
 heading_anchors: true
@@ -17,3 +18,11 @@ heading_anchors: true
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+# Aux links for the upper right navigation
+aux_links:
+  "View these docs on GitHub":
+    - "https://github.com/AustralianBioCommons/how-to-guides/tree/main"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
