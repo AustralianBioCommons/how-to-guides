@@ -12,5 +12,5 @@ nav_order: 1
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-![](./images/1_register.png)
+![](../images/1_register.png)
 *Fig 1. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
