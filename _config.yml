@@ -1,5 +1,5 @@
 # see https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml
-
+logo: "/images/Australian-Biocommons-Logo-Horizontal-300dpi.jpg"
 title: "How-to-Guides"
 description: A collection of bioinformatics focused How-to-Guides
 remote_theme: pmarsceill/just-the-docs
