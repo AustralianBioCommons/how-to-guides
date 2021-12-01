@@ -5,6 +5,12 @@ grand_parent: GalaxyAustralia
 nav_order: 1
 ---
 
+# *De novo* genome assembly with hifiasm on [Galaxy Australia](https://usegalaxy.org.au/)
+
+[Galaxy Australia](https://usegalaxy.org.au/) is capable of *de novo* assembling genomes based on PacBio high fidelity reads built from circular consensus sequence HiFi reads.
+
+This How-to-Guide will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows (see **Fig 1**) developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -13,14 +19,6 @@ nav_order: 1
 1. TOC
 {:toc}
 </details>
-
----
-
-# *De novo* genome assembly with hifiasm on [Galaxy Australia](https://usegalaxy.org.au/)
-
-[Galaxy Australia](https://usegalaxy.org.au/) is capable of *de novo* assembling genomes based on PacBio high fidelity reads built from circular consensus sequence HiFi reads.
-
-This How-to-Guide will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows (see **Fig 1**) developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
 
 ---
 
