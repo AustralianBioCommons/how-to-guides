@@ -28,10 +28,10 @@ The Australian BioCommons is working with the Bioplatforms Australia data portal
 
 ## In Galaxy Australia, perform the steps outlined in Fig. 2
 
-- 3.1 Click on ```Upload Data``` 
-- 3.2 Select ```Paste/Fetch data```
-- 3.3 Paste the URL you obtained from the data portal into the content box.
-- 3.4 Select ```Start```
+1. Click on ```Upload Data``` 
+2. Select ```Paste/Fetch data```
+3. Paste the URL you obtained from the data portal into the content box.
+4. Select ```Start```
 
 > Note: you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ```ccs.bam``` files and paste them in here.
 
