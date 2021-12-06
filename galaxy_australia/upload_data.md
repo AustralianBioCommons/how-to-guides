@@ -2,7 +2,7 @@
 title: Upload data file(s)
 parent: GalaxyAustralia
 has_children: false
-nav_order: 2
+nav_order: 3
 ---
 
 # Upload data file(s)

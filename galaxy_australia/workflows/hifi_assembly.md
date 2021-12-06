@@ -22,21 +22,6 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 
 ---
 
-# First things first: are you familiar with Galaxy Australia?
-
-## **Yes**
-
-- Take me to the [Quick start guide](#quick-start-guide)!
-- Show me the WorkflowHub entries
-     - File conversion: [BAM to FASTQ + QC](https://workflowhub.eu/workflows/220)
-     - Assembly: [PacBio HiFi genome assembly using hifiasm](https://workflowhub.eu/workflows/221)
-     - Purge duplicates: [Purge duplicates from hifiasm assembly](https://workflowhub.eu/workflows/237)
-
-## **No**
-
-- Take me to the [in-depth guide!](#in-depth-guide)
-- Take me to more training material for Galaxy
-
 > **If you need help, the Galaxy community is both approachable and helpful.**
 [**Ask them questions!**](https://help.galaxyproject.org/)
 
@@ -55,6 +40,11 @@ Further to this, a summary of the different elements of this assembly approach a
 | FILE CONVERSION  | BAM to FASTQ + QC                         | Conversion of files from BAM to FASTQ, including a FASTQC quality control (QC) step. |                                                                     | FASTQ file, FASTQC report HTML file                                                                         |
 | ASSEMBLY         | PacBio HiFi genome assembly using hifiasm | Assembly using the hifiasm tool, including Bandage visualisation and QC.             |                                                                     | Assembly file in FASTA format, FASTA metrics, Assembly report file                                          |
 | PURGE DUPLICATES | Purge duplicates from hifiasm assembly    | Optional workflow to purge duplicates from the contig assembly.                      |                                                                     | Purged primary sequences from draft assembly (FASTA), Purged haplotig sequences from draft assembly (FASTA) |
+
+- The WorkflowHub entries
+     - File conversion: [BAM to FASTQ + QC](https://workflowhub.eu/workflows/220)
+     - Assembly: [PacBio HiFi genome assembly using hifiasm](https://workflowhub.eu/workflows/221)
+     - Purge duplicates: [Purge duplicates from hifiasm assembly](https://workflowhub.eu/workflows/237)
 
 ---
 
