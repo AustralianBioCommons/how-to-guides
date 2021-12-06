@@ -11,12 +11,8 @@ nav_order: 2
 The Australian BioCommons is working with the Bioplatforms Australia data portal team to develop a direct transfer mechanism from the portal to Galaxy Australia histories. This solution will be made available as soon as possible.
 
 1. Select your data using the Bioplatforms Data Portal
-
 - The files you need for the assembly are ```.css.bam``` format
 - Fig 1 shows a HiFi data set selected in the data portal browser interface.
-
-![](../images/data portal.png)
-*Fig 1.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
 
 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see Fig. 1)
 
@@ -24,6 +20,11 @@ The Australian BioCommons is working with the Bioplatforms Australia data portal
 > The URL is time sensitive and will expire after 10 minutes. 
 > Please note you only need to instigate the download (next step) within this 10 minute window. 
 > The import itself can take longer than 10 minutes.
+
+![](../images/data portal.png)
+*Fig 1.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
+
+
 
 3. In Galaxy Australia, perform the steps outlined in Fig. 2
 
