@@ -71,6 +71,9 @@ Further to this, a summary of the different elements of this assembly approach a
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
+![](../images/1_register.png)
+*Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
+
 ---
 
 ## Upload data file(s)
@@ -88,6 +91,9 @@ available as soon as possible.
      - The files you need for the assembly are ```.css.bam``` format
      - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
 
+![](../images/data portal.png)
+*Fig 3.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
+
 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
 
 	 - **Note:** This will copy a download URL to your clipboard. 
@@ -101,6 +107,9 @@ available as soon as possible.
      - Step 3: Paste the URL you obtained from the data portal into the content box.
      - Step 4: Select ```Start```
 
+![](../images/import data.png)
+*Fig 4. Process required for download of data based on a URL provided to Galaxy Australia.*
+
 > **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here.
 
 ---
@@ -112,6 +121,9 @@ available as soon as possible.
 - [Download](https://usersupport.bioplatforms.com/programmatic_access.html) required HiFi data to your personal computer, then
 - Upload / transfer to Galaxy Australia (see **Fig 5**)
      - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 5**).
+
+![](../images/2_upload.png)
+*Fig 5. Choosing local files to upload to Galaxy Australia.*
 
 ### Self-managed (Cloudstor mediated)
 
