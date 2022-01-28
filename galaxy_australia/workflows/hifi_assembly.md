@@ -153,11 +153,20 @@ available as soon as possible.
 
 3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
 
+![](../images/2_workflow_button.png)
+*Fig 6. The main page of the Galaxy Australia service.*
+
 4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
+
+![](../images/3_workflow_screen.png)
+*Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box.*
 
 5. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). **WARNING:** depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced.
 
 6. Click ```Run workflow``` (step 2 in **Fig 8**).
+
+![](../images/4_run_wf_1.png)
+*Fig 8. The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow.*
 
 7. The workflow will produce
 
@@ -177,6 +186,8 @@ workflow name in the list and selecting ```Edit```.
 You don’t need to re-run entire workflows!
 You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below.
 
+![](./images/repeat_run.png)
+
 ---
 
 ## Assembly workflow
@@ -188,6 +199,9 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 
 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
+
+![](../images/6_run_wf_2.png)
+*Fig 10. PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.*
 
 5. The workflow invocation window will open. 
 
@@ -223,6 +237,9 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 
 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```Purge duplicates from hifiasm assembly``` workflow (the workflow is shown in **Fig 12**).
+
+![](../images/Purge_duplicates.png)
+*Fig 12. Purge duplicates from hifiasm assembly.*
 
 5. The workflow invocation window will open. 
 
@@ -279,11 +296,17 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 
 2. Select the tool from the search results (step 2 in **Fig S3**).
 
+![](../images/figS3.png)
+*Fig S3. Search for and open a tool using the Galaxy Australia interface.*
+
 3. In the tool menu, select the first FASTQ data set (step 3 in **Fig S4**).
 
 4. Insert additional FASTQ data sets by selecting the ```+ Insert Dataset``` button (step 4 in **Fig S4**).
 
 5. When all data sets are selected, press ```Execute``` (step 5 in **Fig S4**).
+
+![](../images/figS4.png)
+*Fig S4. Select data sets and execute the Concatenate datasets tool.*
 
 ---
 
