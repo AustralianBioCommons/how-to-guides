@@ -101,11 +101,12 @@ longer than 10 minutes.
      - Step 1: Click on ```Upload Data``` 
      - Step 2: Select ```Paste/Fetch data```
      - Step 3: Paste the URL you obtained from the data portal into the content box.
+     - Step 4: Select ```Start```
 
 > **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here.
 
-     - Step 4: Select ```Start```
-	 
+---
+
 ## Other data transfer options are also available
 
 ### Self-managed (download & upload)
@@ -122,5 +123,85 @@ longer than 10 minutes.
 ### Supported
 
 - Contact the [Galaxy Australia Support team](mailto:help@genome.edu.au) for data chaperoning.
+
+---
+
+## OPTIONAL STEP: convert BAM files to FASTQ 
+
+> **READ ME**
+
+>*You must do this step if your files are in ```ccs.bam``` format*
+
+>*This step is not needed if files are already in FASTQ format*
+
+>*You will need to complete this workflow for each BAM file*
+
+
+1. Make sure you are logged into Galaxy Australia
+
+2. [Visit this link]() and retrieve the workflow for file conversion by clicking the import workflow button at the top right
+
+3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
+
+4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
+
+> **Did you know?**
+You can view the workflow diagram by clicking on the 
+workflow name in the list and selecting ```Edit```.
+
+5. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**).
+
+> **WARNING:** depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced.
+
+6. Click ```Run workflow``` (step 2 in **Fig 8**).
+
+7. The workflow will produce
+
+     - A ```FASTQ file``` that will be the input for the assembly workflow covered in the next section (**Fig 9a**), and
+     - A ```FastQC report``` which you can view in the Galaxy user interface (**Fig 9b**).
+	 
+> **Did you know?**
+You don’t need to re-run entire workflows!
+You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below.
+
+8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
+
+>**Don’t forget:** you will then need to [join the multiple FASTQ files together](#joinfiles).
+Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose.
+
+---
+
+## Assembly workflow
+
+1. Make sure you are logged into Galaxy Australia
+
+2. [Visit this link]() and retrieve the assembly workflow by clicking the import workflow button at the top right
+
+3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
+
+4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
+
+5. The workflow invocation window will open. 
+
+6. Select the FASTQ file that was produced by the ```BAM to FASTQ + QC``` workflow using the drop-down menu.
+
+7. Select correct workflow input parameters
+
+8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
+
+9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs:
+
+     - Bandage info and images for:
+          - Primary assembly contig graph
+          - Alternate assembly contig graph
+          - Processed unitig graph
+          - Haplotype resolved raw unitig graph
+     - FASTA file for the primary assembly contig GFA file
+     - Fasta statistics for primary assembly contig FASTA file
+	 
+> **Did you know?**
+You can access the other assembly output types for hifiasm (haplotype resolved, unitig graph and alternate assembly).
+They are just hidden so that the workflow highlights the provision of the primary assembly contig graph.
+For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 ---
