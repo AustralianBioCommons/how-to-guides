@@ -63,3 +63,64 @@ Further to this, a summary of the different elements of this assembly approach a
 ---
 
 # In-depth guide
+
+## Register and login
+
+1. To register for Galaxy Australia, visit the [login page](https://usegalaxy.org.au/login).
+2. Click the ```Register here``` link, as shown in **Fig 2**.
+3. Complete the registration wizard and click ```Create```.
+4. Login to your account!
+
+---
+
+## Upload data file(s)
+
+> **FAQ: can data be seamlessly transferred from 
+the Data Portal to Galaxy Australia?**
+The Australian BioCommons is working with the 
+Bioplatforms Australia data portal team to develop 
+a direct transfer mechanism from the portal to 
+Galaxy Australia histories. This solution will be made 
+available as soon as possible.
+
+5. Select your data using the Bioplatforms Data Portal
+
+     - The files you need for the assembly are ```.css.bam``` format
+     - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
+
+6. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**)
+
+> **Note:** This will copy a download URL to your clipboard. 
+**The URL is time sensitive and will expire after 10 minutes.** 
+Please note you only need to instigate the 
+download within this 10 minute window. The import itself can take 
+longer than 10 minutes.
+
+7. In Galaxy Australia, perform the steps outlined in **Fig. 4**
+
+     - Step 1: Click on ```Upload Data``` 
+     - Step 2: Select ```Paste/Fetch data```
+     - Step 3: Paste the URL you obtained from the data portal into the content box.
+
+> **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here.
+
+     - Step 4: Select ```Start```
+	 
+## Other data transfer options are also available
+
+### Self-managed (download & upload)
+
+- [Download](https://usersupport.bioplatforms.com/programmatic_access.html) required HiFi data to your personal computer, then
+- Upload / transfer to Galaxy Australia (see **Fig 5**)
+     - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 5**).
+
+### Self-managed (Cloudstor mediated)
+
+- Upload / transfer data to Cloudstor (see [Getting Started Guide](https://support.aarnet.edu.au/hc/en-us/articles/227469547-CloudStor-Getting-Started-Guide)), then
+- Upload / transfer to Galaxy Australia (see ```Import from CloudStor``` tool in Galaxy Australia)
+
+### Supported
+
+- Contact the [Galaxy Australia Support team](mailto:help@genome.edu.au) for data chaperoning.
+
+---
