@@ -249,7 +249,7 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 # Appendices
 
-## Revealing hidden files{#hiddenfiles}
+## Revealing hidden files
 
 > By default, the workflow hides 3 of the outputs of hifiasm. The only one that is visible is the primary assembly contig graph.
 To reveal the hidden outputs, follow these steps:
@@ -260,7 +260,7 @@ To reveal the hidden outputs, follow these steps:
 
 ---
 
-## Joining multiple FASTQ files (e.g from multiple flow cells){#joinfiles}
+## Joining multiple FASTQ files (e.g from multiple flow cells)
 
 > If you need to concatenate multiple FASTQ files, for example from multiple flow cells, you can use the ```Concatenate datasets tail-to-head``` tool in Galaxy Australia (see below).
 Note that you can insert multiple data sets (i.e. FASTQs), and should only concatenate files with identical formats.
