@@ -47,15 +47,21 @@ Further to this, a summary of the different elements of this assembly approach a
 
 # Quick start guide
 
-1. Login to Galaxy Australia
-2. Create a new history
-3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
-4. Load and execute workflows, using required options
+### 1. Login to Galaxy Australia
+
+### 2. Create a new history
+
+### 3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
+
+### 4. Load and execute workflows, using required options
+
      - FILE CONVERSION workflow: ```BAM to FASTQ + QC``` **optional**
      - ASSEMBLY workflow: ```PacBio HiFi genome assembly workflow```
      - PURGE DUPLICATES workflow: ```Purge duplicates from hifiasm assembly``` **optional**
-5. Review workflow report and perform additional QC as needed
-6. Re-run workflows, or individual tools, as needed
+
+### 5. Review workflow report and perform additional QC as needed
+
+### 6. Re-run workflows, or individual tools, as needed
 
 ---
 
@@ -63,10 +69,13 @@ Further to this, a summary of the different elements of this assembly approach a
 
 ## Register and login
 
-1. To register for Galaxy Australia, visit the [login page](https://usegalaxy.org.au/login).
-2. Click the ```Register here``` link, as shown in **Fig 2**.
-3. Complete the registration wizard and click ```Create```.
-4. Login to your account!
+### 1. To register for Galaxy Australia, visit the [login page](https://usegalaxy.org.au/login).
+
+### 2. Click the ```Register here``` link, as shown in **Fig 2**.
+
+### 3. Complete the registration wizard and click ```Create```.
+
+### 4. Login to your account!
 
 ![](../images/1_register.png)
 *Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
@@ -138,10 +147,8 @@ available as soon as possible.
 > **READ ME**
 
 >*You must do this step if your files are in ```ccs.bam``` format*
-
->*This step is not needed if files are already in FASTQ format*
-
->*You will need to complete this workflow for each BAM file*
+*This step is not needed if files are already in FASTQ format*
+*You will need to complete this workflow for each BAM file*
 
 
 ### 1. Make sure you are logged into Galaxy Australia
