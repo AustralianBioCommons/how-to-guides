@@ -86,7 +86,7 @@ a direct transfer mechanism from the portal to
 Galaxy Australia histories. This solution will be made 
 available as soon as possible.
 
-1. Select your data using the Bioplatforms Data Portal
+### 1. Select your data using the Bioplatforms Data Portal
 
      - The files you need for the assembly are ```.css.bam``` format
      - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
@@ -94,13 +94,13 @@ available as soon as possible.
 ![](../images/data portal.png)
 *Fig 3.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
 
-2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
+### 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
 
 	 - **Note:** This will copy a download URL to your clipboard. 
 	 - **The URL is time sensitive and will expire after 10 minutes.** 
 	 - Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
 
-3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
+### 3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
 
      - Step 1: Click on ```Upload Data``` 
      - Step 2: Select ```Paste/Fetch data```
@@ -147,36 +147,36 @@ available as soon as possible.
 >*You will need to complete this workflow for each BAM file*
 
 
-1. Make sure you are logged into Galaxy Australia
+### 1. Make sure you are logged into Galaxy Australia
 
-2. [Visit this link]() and retrieve the workflow for file conversion by clicking the import workflow button at the top right
+### 2. [Visit this link]() and retrieve the workflow for file conversion by clicking the import workflow button at the top right
 
-3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
+### 3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
 
 ![](../images/2_workflow_button.png)
 
 *Fig 6. The main page of the Galaxy Australia service.*
 
-4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
+### 4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
 
 ![](../images/3_workflow_screen.png)
 
 *Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box.*
 
-5. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). **WARNING:** depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced.
+### 5. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). **WARNING:** depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced.
 
-6. Click ```Run workflow``` (step 2 in **Fig 8**).
+### 6. Click ```Run workflow``` (step 2 in **Fig 8**).
 
 ![](../images/4_run_wf_1.png)
 
 *Fig 8. The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow.*
 
-7. The workflow will produce
+### 7. The workflow will produce
 
      - A ```FASTQ file``` that will be the input for the assembly workflow covered in the next section (**Fig 9a**), and
      - A ```FastQC report``` which you can view in the Galaxy user interface (**Fig 9b**).
 	 
-8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
+### 8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
 
 >**Don’t forget:** you will then need to [join the multiple FASTQ files together](#joinfiles).
 Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose.
@@ -203,26 +203,26 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 
 ## Assembly workflow
 
-1. Make sure you are logged into Galaxy Australia
+### 1. Make sure you are logged into Galaxy Australia
 
-2. [Visit this link]() and retrieve the assembly workflow by clicking the import workflow button at the top right
+### 2. [Visit this link]() and retrieve the assembly workflow by clicking the import workflow button at the top right
 
-3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
+### 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 
-4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
+### 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
 
 ![](../images/6_run_wf_2.png)
 *Fig 10. PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.*
 
-5. The workflow invocation window will open. 
+### 5. The workflow invocation window will open. 
 
-6. Select the FASTQ file that was produced by the ```BAM to FASTQ + QC``` workflow using the drop-down menu.
+### 6. Select the FASTQ file that was produced by the ```BAM to FASTQ + QC``` workflow using the drop-down menu.
 
-7. Select correct workflow input parameters
+### 7. Select correct workflow input parameters
 
-8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
+### 8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
 
-9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs (**Fig 11**):
+### 9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs (**Fig 11**):
 
      - Bandage info and images for:
           - Primary assembly contig graph
@@ -253,29 +253,29 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 ## OPTIONAL STEP: Purge duplicates from hifiasm assembly
 
-1. Make sure you are logged into Galaxy Australia
+### 1. Make sure you are logged into Galaxy Australia
 
-2. [Visit this link]() and retrieve the workflow for purge duplicates by clicking the import workflow button at the top right
+### 2. [Visit this link]() and retrieve the workflow for purge duplicates by clicking the import workflow button at the top right
 
-3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
+### 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 
-4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```Purge duplicates from hifiasm assembly``` workflow (the workflow is shown in **Fig 12**).
+### 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```Purge duplicates from hifiasm assembly``` workflow (the workflow is shown in **Fig 12**).
 
 ![](../images/Purge_duplicates.png)
 
 *Fig 12. Purge duplicates from hifiasm assembly.*
 
-5. The workflow invocation window will open. 
+### 5. The workflow invocation window will open. 
 
-6. Select the raw reads in FASTQ format, and hifiasm primary contig assembly file (FASTA format) using the drop-down menu.
+### 6. Select the raw reads in FASTQ format, and hifiasm primary contig assembly file (FASTA format) using the drop-down menu.
 
 > These inputs are both produced by the ```PacBio HiFi genome assembly using hifiasm``` workflow.
 
-7. Select correct workflow input parameters
+### 7. Select correct workflow input parameters
 
-8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
+### 8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
 
-9. The ```Purge duplicates from hifiasm assembly``` workflow produces the following outputs:
+### 9. The ```Purge duplicates from hifiasm assembly``` workflow produces the following outputs:
 
      - Purged primary sequences from draft assembly (FASTA)
      - Purged haplotig sequences from draft assembly (FASTA)
@@ -286,19 +286,19 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 > A workflow report is generated automatically following completion of the workflow run (see **Fig 13**).
 
-1. Review quality control contents of the workflow report.
-
-2. Inspect bandage image (**Fig 14**).
-
-3. Review fasta statistics (**Fig 15**).
+### 1. Review quality control contents of the workflow report.
 
 ![](../images/workflow report.png)
 
 *Fig 13. Example workflow report.*
 
+### 2. Inspect bandage image (**Fig 14**).
+
 ![](../images/primary hifiasm assembly.png)
 
 *Fig 14. Bandage image for the primary hifiasm assembly.*
+
+### 3. Review fasta statistics (**Fig 15**).
 
 ![](../images/fasta statistics - report.png)
 
@@ -317,9 +317,9 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 > By default, the workflow hides 3 of the outputs of hifiasm. The only one that is visible is the primary assembly contig graph.
 To reveal the hidden outputs, follow these steps:
 
-1. In your history panel, click on ```hidden files``` (as shown by the red box in **Fig S1**).
+### 1. In your history panel, click on ```hidden files``` (as shown by the red box in **Fig S1**).
 
-2. If you would like to unhide the data set, click on ```Unhide it``` in the expanded history panel that appears following step 1 (as shown by the red box in **Fig S2**).
+### 2. If you would like to unhide the data set, click on ```Unhide it``` in the expanded history panel that appears following step 1 (as shown by the red box in **Fig S2**).
 
 ---
 
@@ -328,19 +328,19 @@ To reveal the hidden outputs, follow these steps:
 > If you need to concatenate multiple FASTQ files, for example from multiple flow cells, you can use the ```Concatenate datasets tail-to-head``` tool in Galaxy Australia (see below).
 Note that you can insert multiple data sets (i.e. FASTQs), and should only concatenate files with identical formats.
 
-1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig S3**).
+### 1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig S3**).
 
-2. Select the tool from the search results (step 2 in **Fig S3**).
+### 2. Select the tool from the search results (step 2 in **Fig S3**).
 
 ![](../images/figS3.png)
 
 *Fig S3. Search for and open a tool using the Galaxy Australia interface.*
 
-3. In the tool menu, select the first FASTQ data set (step 3 in **Fig S4**).
+### 3. In the tool menu, select the first FASTQ data set (step 3 in **Fig S4**).
 
-4. Insert additional FASTQ data sets by selecting the ```+ Insert Dataset``` button (step 4 in **Fig S4**).
+### 4. Insert additional FASTQ data sets by selecting the ```+ Insert Dataset``` button (step 4 in **Fig S4**).
 
-5. When all data sets are selected, press ```Execute``` (step 5 in **Fig S4**).
+### 5. When all data sets are selected, press ```Execute``` (step 5 in **Fig S4**).
 
 ![](../images/figS4.png)
 
