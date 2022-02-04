@@ -186,7 +186,13 @@ workflow name in the list and selecting ```Edit```.
 You don’t need to re-run entire workflows!
 You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below.
 
-![](./images/repeat_run.png)
+![](../images/fastq_stats.png)
+*Fig 9a. Example Fastq file output.*
+
+![](../images/fastqc_report.png)
+*Fig 9b. Example FASTQC html report.*
+
+![](../images/repeat_run.png)
 
 ---
 
@@ -211,7 +217,7 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 
 8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
 
-9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs:
+9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs (**Fig 11**):
 
      - Bandage info and images for:
           - Primary assembly contig graph
@@ -220,7 +226,16 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
           - Haplotype resolved raw unitig graph
      - FASTA file for the primary assembly contig GFA file
      - Fasta statistics for primary assembly contig FASTA file
-	 
+
+![](../images/Bandage info .png)
+*Fig 11a. Example Bandage info file for primary assembly contig graph.*
+
+![](../images/Bandage image .png)
+*Fig 11b. Example Bandage image file for primary assembly contig graph.*
+
+![](../images/Fasta statistics .png)
+*Fig 11c. Example Fasta statistics for primary assembly contig FASTA file.*
+		
 > **Did you know?**
 You can access the other assembly output types for hifiasm (haplotype resolved, unitig graph and alternate assembly).
 They are just hidden so that the workflow highlights the provision of the primary assembly contig graph.
@@ -267,6 +282,15 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 2. Inspect bandage image (**Fig 14**).
 
 3. Review fasta statistics (**Fig 15**).
+
+![](../images/workflow report.png)
+*Fig 13. Example workflow report.*
+
+![](../images/primary hifiasm assembly.png)
+*Fig 14. Bandage image for the primary hifiasm assembly.*
+
+![](../images/fasta statistics - report.png)
+*Fig 15. Basic summary statistics are included in the fasta statistics output. This includes: `number of contigs (num_seq)`, `assembly size (num_bp)`, `contig N50 (len_N50)`, `L50`.*
 
 ## OPTIONAL STEP: Post-assembly quality control workflow
 
