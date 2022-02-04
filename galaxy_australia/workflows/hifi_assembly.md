@@ -187,9 +187,11 @@ You don’t need to re-run entire workflows!
 You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below.
 
 ![](../images/fastq_stats.png)
+
 *Fig 9a. Example Fastq file output.*
 
 ![](../images/fastqc_report.png)
+
 *Fig 9b. Example FASTQC html report.*
 
 ![](../images/repeat_run.png)
