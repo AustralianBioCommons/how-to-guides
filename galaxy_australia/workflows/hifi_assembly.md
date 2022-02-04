@@ -17,8 +17,17 @@ This How-to-Guide will describe the steps required to assemble your genome on th
   - [Quick start guide](#quick-start-guide)
   - [In-depth guide](#in-depth-guide)
        - [Register and login](#register-and-login)
-       - [Upload data file(s)](#upload-data-file(s))
-  
+       - [Upload data file(s)](#upload-data-files)
+	   - [Other data transfer options are also available](#other-data-transfer-options-are-also-available)
+	   - [OPTIONAL STEP: convert BAM files to FASTQ](#optional-step-convert-bam-files-to-fastq)
+	   - [Assembly workflow](#assembly-workflow)
+	   - [OPTIONAL STEP: Purge duplicates from hifiasm assembly](#optional-step-purge-duplicates-from-hifiasm-assembly)
+	   - [Review Workflow Report](#review-workflow-report)
+	   - [OPTIONAL STEP: Post-assembly quality control workflow](#optional-step-post-assembly-quality-control-workflow)
+  - [Appendices](#appendices)
+	   - [Revealing hidden files](#revealing-hidden-files)
+	   - [Joining multiple FASTQ files (e.g from multiple flow cells)](#joining-multiple-fastq-files-eg-from-multiple-flow-cells)  
+
 ---
 
 > **If you need help, the Galaxy community is both approachable and helpful.**
@@ -309,6 +318,8 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 ![](../images/fasta statistics - report.png)
 
 *Fig 15. Basic summary statistics are included in the fasta statistics output. This includes: `number of contigs (num_seq)`, `assembly size (num_bp)`, `contig N50 (len_N50)`, `L50`.*
+
+---
 
 ## OPTIONAL STEP: Post-assembly quality control workflow
 
