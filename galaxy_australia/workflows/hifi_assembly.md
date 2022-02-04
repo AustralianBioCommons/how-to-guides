@@ -16,8 +16,8 @@ This How-to-Guide will describe the steps required to assemble your genome on th
   - [Overall workflow](#the-overall-workflow)
   - [Quick start guide](#quick-start-guide)
   - [In-depth guide](#in-depth-guide)
-  - [Register and login](##register-and-login)
-  - [Upload data file(s)](##upload-data-file(s))
+       - [Register and login](#register-and-login)
+       - [Upload data file(s)](#upload-data-file(s))
   
 ---
 
