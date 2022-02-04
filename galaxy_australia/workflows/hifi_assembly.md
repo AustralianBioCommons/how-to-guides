@@ -11,15 +11,12 @@ nav_order: 1
 
 This How-to-Guide will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows (see **Fig 1**) developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
+## TOC
 
+  - [Overall workflow](#the-overall-workflow)
+  - [Quick start guide](#quick-start-guide)
+  - [In-depth guide](#in-depth-guide)
+  
 ---
 
 > **If you need help, the Galaxy community is both approachable and helpful.**
