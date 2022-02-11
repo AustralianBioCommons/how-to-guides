@@ -10,6 +10,11 @@ nav_order: 1
 
 _This documentation is intended as an overview for facility support staff and does not replace the official SHPC documentation._
 
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
 {:toc}
 
 
