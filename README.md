@@ -15,7 +15,7 @@ If you want to add contents to this site, you can follow the following procedure
 1. If not done already, create your own fork of this Github repository;
 2. In your fork, create a branch with a concise name, that reflects its contents, such as `add/how-to-login-galaxy`;
 3. Create and commit your edits to the new branch;
-4. Open a Github Pull Request (PR) on this repository for your branch;
+4. Open a Github Pull Request (PR) on this repository for your branch, concisely providing context for your additions;
 5. Follow-up any feedback from the repository maintainers;
 6. Look at your shiny, newly published contents!
 
