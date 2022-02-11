@@ -1,6 +1,6 @@
 ---
 title: Start here!
-parent: GalaxyAustralia
+parent: Galaxy Australia
 has_children: false
 nav_order: 1
 ---
