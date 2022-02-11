@@ -1,6 +1,6 @@
 ---
 title: Upload data file(s)
-parent: GalaxyAustralia
+parent: Galaxy Australia
 has_children: false
 nav_order: 3
 ---
