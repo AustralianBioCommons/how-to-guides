@@ -6,6 +6,15 @@ nav_order: 2
 ---
 
 # Singularity HPC (SHPC) on Pawsey HPC
+{: no_toc }
+
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 
 _This documentation is intended as an overview for facility support staff and does not replace the official SHPC documentation._
 
