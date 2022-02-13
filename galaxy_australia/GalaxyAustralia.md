@@ -1,5 +1,5 @@
 ---
-title: Galaxy Australia
+title: Bioinformatics workflows for Galaxy Australia
 has_children: true
 nav_order: 2
 ---
