@@ -1,6 +1,6 @@
 ---
 title: Register and Log in
-parent: Galaxy Australia
+parent: Bioinformatics workflows for Galaxy Australia
 has_children: false
 nav_order: 2
 ---
