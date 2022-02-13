@@ -1,7 +1,7 @@
 ---
 title: "HiFi genome assembly on Galaxy Australia"
 parent: Genomics workflows
-grand_parent: Galaxy Australia
+grand_parent: Bioinformatics workflows for Galaxy Australia
 nav_order: 1
 ---
 
