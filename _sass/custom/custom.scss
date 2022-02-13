@@ -19,7 +19,7 @@ $bioc-green: #2cb77c;
 }
 
 body {
-  font-family: Arial;
+  font-family: proxima-nova;
   font-size: 12pt;
   margin-bottom: 60px;
   background-color: #fafafa;
@@ -30,8 +30,12 @@ body {
 }
 
 .nav-list {
-  font-family: Arial;
+  font-family: proxima-nova
   font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .08em;
+  text-transform: uppercase;
 }
 
 a {
