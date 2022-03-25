@@ -64,11 +64,11 @@ Further to this, a summary of the different elements of this assembly approach a
 
 ### 3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
 
-### 4. Load and execute workflows, using required options
+### 4. Load and execute workflows (links included below), using required options
 
-     - FILE CONVERSION workflow: ```BAM to FASTQ + QC``` **optional**
-     - ASSEMBLY workflow: ```PacBio HiFi genome assembly workflow```
-     - PURGE DUPLICATES workflow: ```Purge duplicates from hifiasm assembly``` **optional**
+- FILE CONVERSION workflow: [```BAM to FASTQ + QC```](https://usegalaxy.org.au/u/johan/w/bam-to-fastq-with-qc-for-hifiasm-shared-by-user-gareth-qfab) **optional**
+- ASSEMBLY workflow: [```PacBio HiFi genome assembly workflow```](https://usegalaxy.org.au/u/johan/w/hifiasm-shared-by-user-gareth-qfab)
+- PURGE DUPLICATES workflow: [```Purge duplicates from hifiasm assembly```](https://usegalaxy.org.au/u/johan/w/purge-duplicates-from-hifiasm-shared-by-user-gareth-qfab) **optional**
 
 ### 5. Review workflow report and perform additional QC as needed
 
@@ -89,7 +89,8 @@ Further to this, a summary of the different elements of this assembly approach a
 ### 4. Login to your account!
 
 ![](../images/1_register.png)
-*Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
+
+***Fig 2.** Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
 
 ---
 
@@ -109,23 +110,24 @@ available as soon as possible.
      - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
 
 ![](../images/data portal.png)
-*Fig 3.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
+
+***Fig 3.** The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
 
 ### 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
 
-	 - **Note:** This will copy a download URL to your clipboard. 
-	 - **The URL is time sensitive and will expire after 10 minutes.** 
-	 - Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
+- **Note:** This will copy a download URL to your clipboard. 
+- **The URL is time sensitive and will expire after 10 minutes.** 
+- Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
 
 ### 3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
 
-     - Step 1: Click on ```Upload Data``` 
-     - Step 2: Select ```Paste/Fetch data```
-     - Step 3: Paste the URL you obtained from the data portal into the content box.
-     - Step 4: Select ```Start```
+- Step 1: Click on ```Upload Data``` 
+- Step 2: Select ```Paste/Fetch data```
+- Step 3: Paste the URL you obtained from the data portal into the content box.
+- Step 4: Select ```Start```
 
 ![](../images/import data.png)
-*Fig 4. Process required for download of data based on a URL provided to Galaxy Australia.*
+***Fig 4.** Process required for download of data based on a URL provided to Galaxy Australia.*
 
 > **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here.
 
@@ -140,7 +142,7 @@ available as soon as possible.
      - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 5**).
 
 ![](../images/2_upload.png)
-*Fig 5. Choosing local files to upload to Galaxy Australia.*
+***Fig 5.** Choosing local files to upload to Galaxy Australia.*
 
 ### Self-managed (Cloudstor mediated)
 
@@ -156,27 +158,26 @@ available as soon as possible.
 ## OPTIONAL STEP: convert BAM files to FASTQ 
 
 > **READ ME**
-
->*You must do this step if your files are in ```ccs.bam``` format*
+*You must do this step if your files are in ```ccs.bam``` format*
 *This step is not needed if files are already in FASTQ format*
 *You will need to complete this workflow for each BAM file*
 
 
 ### 1. Make sure you are logged into Galaxy Australia
 
-### 2. [Visit this link]() and retrieve the workflow for file conversion by clicking the import workflow button at the top right
+### 2. [Visit this link](https://usegalaxy.org.au/u/johan/w/bam-to-fastq-with-qc-for-hifiasm-shared-by-user-gareth-qfab) and retrieve the workflow for file conversion by clicking the import workflow button at the top right
 
 ### 3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
 
 ![](../images/2_workflow_button.png)
 
-*Fig 6. The main page of the Galaxy Australia service.*
+***Fig 6.** The main page of the Galaxy Australia service.*
 
 ### 4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
 
 ![](../images/3_workflow_screen.png)
 
-*Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box.*
+***Fig 7.** The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box.*
 
 ### 5. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). **WARNING:** depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced.
 
@@ -184,12 +185,12 @@ available as soon as possible.
 
 ![](../images/4_run_wf_1.png)
 
-*Fig 8. The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow.*
+***Fig 8.** The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow.*
 
 ### 7. The workflow will produce
 
-     - A ```FASTQ file``` that will be the input for the assembly workflow covered in the next section (**Fig 9a**), and
-     - A ```FastQC report``` which you can view in the Galaxy user interface (**Fig 9b**).
+- A ```FASTQ file``` that will be the input for the assembly workflow covered in the next section (**Fig 9a**), and
+- A ```FastQC report``` which you can view in the Galaxy user interface (**Fig 9b**).
 	 
 ### 8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
 
@@ -206,11 +207,11 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 
 ![](../images/fastq_stats.png)
 
-*Fig 9a. Example Fastq file output.*
+***Fig 9a.** Example Fastq file output.*
 
 ![](../images/fastqc_report.png)
 
-*Fig 9b. Example FASTQC html report.*
+***Fig 9b.** Example FASTQC html report.*
 
 ![](../images/repeat_run.png)
 
@@ -220,14 +221,14 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 
 ### 1. Make sure you are logged into Galaxy Australia
 
-### 2. [Visit this link]() and retrieve the assembly workflow by clicking the import workflow button at the top right
+### 2. [Visit this link](https://usegalaxy.org.au/u/johan/w/hifiasm-shared-by-user-gareth-qfab) and retrieve the assembly workflow by clicking the import workflow button at the top right
 
 ### 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 
 ### 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
 
 ![](../images/6_run_wf_2.png)
-*Fig 10. PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.*
+***Fig 10.** PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.*
 
 ### 5. The workflow invocation window will open. 
 
@@ -239,25 +240,25 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 
 ### 9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs (**Fig 11**):
 
-     - Bandage info and images for:
-          - Primary assembly contig graph
-          - Alternate assembly contig graph
-          - Processed unitig graph
-          - Haplotype resolved raw unitig graph
-     - FASTA file for the primary assembly contig GFA file
-     - Fasta statistics for primary assembly contig FASTA file
+- Bandage info and images for:
+     - Primary assembly contig graph
+     - Alternate assembly contig graph
+     - Processed unitig graph
+     - Haplotype resolved raw unitig graph
+- FASTA file for the primary assembly contig GFA file
+- Fasta statistics for primary assembly contig FASTA file
 
 ![](../images/Bandage info .png)
 
-*Fig 11a. Example Bandage info file for primary assembly contig graph.*
+***Fig 11a.** Example Bandage info file for primary assembly contig graph.*
 
 ![](../images/Bandage image .png)
 
-*Fig 11b. Example Bandage image file for primary assembly contig graph.*
+***Fig 11b.** Example Bandage image file for primary assembly contig graph.*
 
 ![](../images/Fasta statistics .png)
 
-*Fig 11c. Example Fasta statistics for primary assembly contig FASTA file.*
+***Fig 11c.** Example Fasta statistics for primary assembly contig FASTA file.*
 		
 > **Did you know?**
 You can access the other assembly output types for hifiasm (haplotype resolved, unitig graph and alternate assembly).
@@ -270,7 +271,7 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 ### 1. Make sure you are logged into Galaxy Australia
 
-### 2. [Visit this link]() and retrieve the workflow for purge duplicates by clicking the import workflow button at the top right
+### 2. [Visit this link](https://usegalaxy.org.au/u/johan/w/purge-duplicates-from-hifiasm-shared-by-user-gareth-qfab) and retrieve the workflow for purge duplicates by clicking the import workflow button at the top right
 
 ### 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 
@@ -278,7 +279,7 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 ![](../images/Purge_duplicates.png)
 
-*Fig 12. Purge duplicates from hifiasm assembly.*
+***Fig 12.** Purge duplicates from hifiasm assembly.*
 
 ### 5. The workflow invocation window will open. 
 
@@ -292,8 +293,8 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 ### 9. The ```Purge duplicates from hifiasm assembly``` workflow produces the following outputs:
 
-     - Purged primary sequences from draft assembly (FASTA)
-     - Purged haplotig sequences from draft assembly (FASTA)
+- Purged primary sequences from draft assembly (FASTA)
+- Purged haplotig sequences from draft assembly (FASTA)
 
 ---
 
