@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# :construction: ** This site is still under construction ** :construction:
+# ** This site is still under construction **
 
 
 # About
