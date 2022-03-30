@@ -21,7 +21,7 @@ The repository aims to provide guidance and a minimal starting template for:
 
 - Documenting a new [tool](https://github.com/AustralianBioCommons/doc_guidelines/blob/master/tools.md) or [workflow](https://github.com/AustralianBioCommons/doc_guidelines/blob/master/workflows.md)
 - Documenting tool or workflow access, use and [optimisation on infrastructures](https://github.com/AustralianBioCommons/doc_guidelines/blob/master/infrastructure_optimisation.md)
-- Recommending additional repository contents that make your work more [FAIR]()
+- Recommending additional repository contents that make your work more [FAIR](https://www.go-fair.org/fair-principles/)
 
 >The Australian BioCommons guidelines are based on learnings from existing efforts, including our own projects, but also the Galaxy, NextFlow and Snakemake communities.
 
