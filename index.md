@@ -4,9 +4,6 @@ title: Home
 nav_order: 1
 ---
 
-# ** This site is still under construction **
-
-
 # About
 
 This site presents How-to-Guides and other associated documentation that supports the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
@@ -29,13 +26,6 @@ If you want to add contents to this site, you can follow this procedure:
 4. Open a Github Pull Request (PR) on this repository for your branch, concisely providing context for your additions;
 5. Follow-up on any feedback from the repository maintainers;
 6. Once merged, look at your shiny, newly published contents!
-
-
-# Service links
-
-[ToolFinder](https://australianbiocommons.github.io/2_tools.html){: .btn .btn-purple }
-
-[WorkflowFinder](https://australianbiocommons.github.io/2_1_workflows.html){: .btn .btn-blue }
 
 
 # Acknowledgements
