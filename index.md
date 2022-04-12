@@ -10,7 +10,7 @@ This site presents How-to-Guides and other associated documentation that support
 
 Some examples of the How-to-Guides included here are:
 
-- [HiFi genome assembly with Galaxy Australia](galaxy_australia/workflows/hifi_assembly.md)
+- [HiFi genome assembly with Galaxy Australia](genome_assembly/hifi_assembly.md)
 - *More will be added soon!*
 
 # How to contribute

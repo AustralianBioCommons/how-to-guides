@@ -1,6 +1,6 @@
 ---
 title: Start here!
-parent: Bioinformatics workflows for Galaxy Australia
+parent: Using Galaxy Australia
 has_children: false
 nav_order: 1
 ---
@@ -11,7 +11,7 @@ nav_order: 1
 
 ### Yes
 
-- Take me to the [Workflows!](workflows/Workflows.md)!
+- Take me to the [Workflows!]()!
 
 ### No
 

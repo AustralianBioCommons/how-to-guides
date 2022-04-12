@@ -1,5 +1,5 @@
 ---
-title: Using Galaxy Australia
+title: Genome assembly
 has_children: true
 nav_order: 2
 ---

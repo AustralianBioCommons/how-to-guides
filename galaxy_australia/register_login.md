@@ -1,6 +1,6 @@
 ---
 title: Register and Log in
-parent: Bioinformatics workflows for Galaxy Australia
+parent: Using Galaxy Australia
 has_children: false
 nav_order: 2
 ---
@@ -12,5 +12,5 @@ nav_order: 2
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-![](images/1_register.png)
+![](../genome_assembly/images/1_register.png)
 *Fig 1. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*

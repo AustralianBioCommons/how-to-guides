@@ -1,6 +1,6 @@
 ---
 title: Upload data file(s)
-parent: Bioinformatics workflows for Galaxy Australia
+parent: Using Galaxy Australia
 has_children: false
 nav_order: 3
 ---
@@ -21,7 +21,7 @@ The Australian BioCommons is working with the Bioplatforms Australia data portal
 > Please note you only need to instigate the download (next step) within this 10 minute window. 
 > The import itself can take longer than 10 minutes.
 
-![](images/data portal.png)
+![](../genome_assembly/images/data%20portal.png)
 *Fig 1.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
 
 
@@ -35,7 +35,7 @@ The Australian BioCommons is working with the Bioplatforms Australia data portal
 
 > Note: you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ```ccs.bam``` files and paste them in here.
 
-![](images/import data.png)
+![](../genome_assembly/images/import%20data.png)
 *Fig 2. Process required for download of data based on a URL provided to Galaxy Australia.*
 
 ## Other options are also available
@@ -46,7 +46,7 @@ The Australian BioCommons is working with the Bioplatforms Australia data portal
 2. Upload / transfer to Galaxy Australia (see **Fig 3**)
      - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 3**).
 
-![](images/2_upload.png)
+![](../genome_assembly/images/2_upload.png)
 *Fig 3. Choosing local files to upload to Galaxy Australia.*
 
 ### Self-managed (Cloudstor mediated)
