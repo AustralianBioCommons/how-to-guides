@@ -5,4 +5,4 @@ nav_order: 4
 toc: true
 ---
 
-# Documentation
+# Best practice documentation
