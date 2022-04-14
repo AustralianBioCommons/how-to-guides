@@ -1,0 +1,32 @@
+# see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
+subitems:
+  - title: Home
+    url: /index
+  - title: Using Galaxy Australia
+    subitems:
+      - title: Start here!
+        url: /start_here
+      - title: Register and Log in
+        url: /register_login
+      - title: Upload data file(s)
+        url: /upload_data
+  - title: Genome assembly
+    subitems:
+      - title: HiFi genome assembly on Galaxy Australia
+        url: /hifi_assembly
+  - title: Command Line Software Deployments
+      - title: CernVM-FS on Cloud
+        url: /cernvmfs_on_cloud
+      - title: Singularity HPC (SHPC) on Cloud
+        url: /shpc_on_cloud
+      - title: Singularity HPC (SHPC) on HPC
+        url: /shpc_on_hpc
+      - title: Spack on HPC
+        url: /spack_on_hpc
+  - title: Best practice documentation
+      - title: Documentation Guidelines for tools and workflows
+        url: /DocumentationGuidelines
+      - title: Making tools and workflows discoverable
+        url: /make_tools_workflows_discoverable
+  - title: Contributors
+    url: /contributors
