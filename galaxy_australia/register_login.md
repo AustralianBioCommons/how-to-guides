@@ -1,8 +1,5 @@
 ---
 title: Register and Log in
-parent: Using Galaxy Australia
-has_children: false
-nav_order: 2
 ---
 
 # Register and login

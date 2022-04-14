@@ -1,8 +1,5 @@
 ---
 title: Upload data file(s)
-parent: Using Galaxy Australia
-has_children: false
-nav_order: 3
 ---
 
 # Upload data file(s)

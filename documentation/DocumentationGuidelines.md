@@ -1,8 +1,5 @@
 ---
 title: Documentation Guidelines for tools and workflows
-parent: Best practice documentation
-has_children: false
-nav_order: 1
 ---
 
 # Documentation Guidelines for tools and workflows

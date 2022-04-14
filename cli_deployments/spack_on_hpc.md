@@ -1,8 +1,5 @@
 ---
 title: Spack on HPC
-parent: Command Line Software Deployments
-has_children: false
-nav_order: 3
 ---
 
 # Spack on Pawsey HPC

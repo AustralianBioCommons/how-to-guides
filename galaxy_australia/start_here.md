@@ -1,8 +1,5 @@
 ---
 title: Start here!
-parent: Using Galaxy Australia
-has_children: false
-nav_order: 1
 ---
 
 # Start here!

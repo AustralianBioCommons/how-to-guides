@@ -1,7 +1,5 @@
 ---
 title: "HiFi genome assembly on Galaxy Australia"
-parent: Genome assembly
-nav_order: 1
 ---
 
 # *De novo* genome assembly with hifiasm on [Galaxy Australia](https://usegalaxy.org.au/)

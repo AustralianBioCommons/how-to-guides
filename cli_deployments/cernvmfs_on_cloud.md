@@ -1,8 +1,5 @@
 ---
 title: CernVM-FS on Cloud
-parent: Command Line Software Deployments
-has_children: false
-nav_order: 4
 ---
 
 # CernVM-FS on Pawsey Cloud

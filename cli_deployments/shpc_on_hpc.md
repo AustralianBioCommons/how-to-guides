@@ -1,8 +1,5 @@
 ---
 title: Singularity HPC (SHPC) on HPC
-parent: Command Line Software Deployments
-has_children: false
-nav_order: 2
 ---
 
 # Singularity HPC (SHPC) on Pawsey HPC
