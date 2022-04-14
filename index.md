@@ -1,7 +1,12 @@
 ---
-title: Home
+title: Australian BioCommons How-to-Guides
 ---
 
+---
+
+![](/images/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png)
+
+---
 # About
 
 This site presents How-to-Guides and other associated documentation that supports the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
@@ -25,6 +30,7 @@ If you want to add contents to this site, you can follow this procedure:
 5. Follow-up on any feedback from the repository maintainers;
 6. Once merged, look at your shiny, newly published contents!
 
+---
 
 # Acknowledgements
 
