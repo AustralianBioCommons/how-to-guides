@@ -6,23 +6,6 @@ title: Genome assembly with hifiasm on Galaxy Australia
 
 This How-to-Guide will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows (see **Fig 1**) developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
 
-## TOC
-
-  - [Overall workflow](#the-overall-workflow)
-  - [Quick start guide](#quick-start-guide)
-  - [In-depth guide](#in-depth-guide)
-       - [Register and login](#register-and-login)
-       - [Upload data file(s)](#upload-data-files)
-	   - [Other data transfer options are also available](#other-data-transfer-options-are-also-available)
-	   - [OPTIONAL STEP: convert BAM files to FASTQ](#optional-step-convert-bam-files-to-fastq)
-	   - [Assembly workflow](#assembly-workflow)
-	   - [OPTIONAL STEP: Purge duplicates from hifiasm assembly](#optional-step-purge-duplicates-from-hifiasm-assembly)
-	   - [Review Workflow Report](#review-workflow-report)
-	   - [OPTIONAL STEP: Post-assembly quality control workflow](#optional-step-post-assembly-quality-control-workflow)
-  - [Appendices](#appendices)
-	   - [Revealing hidden files](#revealing-hidden-files)
-	   - [Joining multiple FASTQ files (e.g from multiple flow cells)](#joining-multiple-fastq-files-eg-from-multiple-flow-cells)  
-
 ---
 
 > **If you need help, the Galaxy community is both approachable and helpful.**
