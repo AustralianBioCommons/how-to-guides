@@ -15,6 +15,7 @@ subitems:
       - title: HiFi genome assembly on Galaxy Australia
         url: /hifi_assembly
   - title: Command Line Software Deployments
+    subitems:
       - title: CernVM-FS on Cloud
         url: /cernvmfs_on_cloud
       - title: Singularity HPC (SHPC) on Cloud
@@ -24,6 +25,7 @@ subitems:
       - title: Spack on HPC
         url: /spack_on_hpc
   - title: Best practice documentation
+    subitems:
       - title: Documentation Guidelines for tools and workflows
         url: /DocumentationGuidelines
       - title: Making tools and workflows discoverable
