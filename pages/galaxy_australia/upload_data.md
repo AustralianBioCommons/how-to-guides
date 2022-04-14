@@ -2,8 +2,6 @@
 title: Upload data file(s)
 ---
 
-# Upload data file(s)
-
 > FAQ: can data be seamlessly transferred from the Data Portal to Galaxy Australia?
 The Australian BioCommons is working with the Bioplatforms Australia data portal team to develop a direct transfer mechanism from the portal to Galaxy Australia histories. This solution will be made available as soon as possible.
 

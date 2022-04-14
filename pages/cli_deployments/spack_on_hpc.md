@@ -1,8 +1,6 @@
 ---
-title: Spack on HPC
+title: Spack on Pawsey HPC
 ---
-
-# Spack on Pawsey HPC
 {: no_toc }
 
 

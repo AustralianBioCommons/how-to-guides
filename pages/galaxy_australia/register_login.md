@@ -2,8 +2,6 @@
 title: Register and Log in
 ---
 
-# Register and login
-
 1. To register for Galaxy Australia, visit the [login page](https://usegalaxy.org.au/login).
 2. Click the ```Register here``` link, as shown in **Fig 1**.
 3. Complete the registration wizard and click ```Create```.

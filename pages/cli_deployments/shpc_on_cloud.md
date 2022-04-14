@@ -1,8 +1,6 @@
 ---
-title: Singularity HPC (SHPC) on Cloud
+title: Singularity HPC (SHPC) on Pawsey Cloud
 ---
-
-# Singularity HPC (SHPC) on Pawsey Cloud
 {: no_toc }
 
 

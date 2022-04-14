@@ -1,8 +1,6 @@
 ---
-title: "HiFi genome assembly on Galaxy Australia"
+title: *De novo* genome assembly with hifiasm on [Galaxy Australia](https://usegalaxy.org.au/)
 ---
-
-# *De novo* genome assembly with hifiasm on [Galaxy Australia](https://usegalaxy.org.au/)
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of *de novo* assembling genomes based on PacBio high fidelity reads built from circular consensus sequence HiFi reads.
 

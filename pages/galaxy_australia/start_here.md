@@ -2,8 +2,6 @@
 title: Start here!
 ---
 
-# Start here!
-
 ## First things first: are you familiar with Galaxy Australia?
 
 ### Yes

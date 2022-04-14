@@ -2,8 +2,6 @@
 title: Documentation Guidelines for tools and workflows
 ---
 
-# Documentation Guidelines for tools and workflows
-
 **Do you want your tools and workflows to be documented in a standard way?**
 
 **If the answer is yes, then read on!**

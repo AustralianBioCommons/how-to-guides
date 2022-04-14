@@ -1,8 +1,6 @@
 ---
-title: CernVM-FS on Cloud
+title: CernVM-FS on Pawsey Cloud
 ---
-
-# CernVM-FS on Pawsey Cloud
 {: no_toc }
 
 

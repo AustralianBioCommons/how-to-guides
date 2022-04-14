@@ -1,5 +1,3 @@
 ---
-title: Making tools discoverable
+title: Making tools and workflows discoverable
 ---
-
-# Making tools discoverable

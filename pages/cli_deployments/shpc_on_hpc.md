@@ -1,8 +1,6 @@
 ---
-title: Singularity HPC (SHPC) on HPC
+title: Singularity HPC (SHPC) on Pawsey HPC
 ---
-
-# Singularity HPC (SHPC) on Pawsey HPC
 {: no_toc }
 
 
