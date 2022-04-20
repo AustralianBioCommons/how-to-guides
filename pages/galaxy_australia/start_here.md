@@ -1,5 +1,5 @@
 ---
-title: First things first: are you familiar with Galaxy Australia?
+title: Are you familiar with Galaxy Australia?
 ---
 
 ## Yes
