@@ -36,21 +36,17 @@ Further to this, a summary of the different elements of this assembly approach a
 
 ## Quick start guide
 
-### 1. Login to Galaxy Australia
+1. Login to Galaxy Australia
+2. Create a new history
+3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
+4. Load and execute workflows (links included below), using required options
 
-### 2. Create a new history
+ - FILE CONVERSION workflow: [```BAM to FASTQ + QC```](https://usegalaxy.org.au/u/johan/w/bam-to-fastq-with-qc-for-hifiasm-shared-by-user-gareth-qfab) **optional**
+ - ASSEMBLY workflow: [```PacBio HiFi genome assembly workflow```](https://usegalaxy.org.au/u/johan/w/hifiasm-shared-by-user-gareth-qfab)
+ - PURGE DUPLICATES workflow: [```Purge duplicates from hifiasm assembly```](https://usegalaxy.org.au/u/johan/w/purge-duplicates-from-hifiasm-shared-by-user-gareth-qfab) **optional**
 
-### 3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
-
-### 4. Load and execute workflows (links included below), using required options
-
-- FILE CONVERSION workflow: [```BAM to FASTQ + QC```](https://usegalaxy.org.au/u/johan/w/bam-to-fastq-with-qc-for-hifiasm-shared-by-user-gareth-qfab) **optional**
-- ASSEMBLY workflow: [```PacBio HiFi genome assembly workflow```](https://usegalaxy.org.au/u/johan/w/hifiasm-shared-by-user-gareth-qfab)
-- PURGE DUPLICATES workflow: [```Purge duplicates from hifiasm assembly```](https://usegalaxy.org.au/u/johan/w/purge-duplicates-from-hifiasm-shared-by-user-gareth-qfab) **optional**
-
-### 5. Review workflow report and perform additional QC as needed
-
-### 6. Re-run workflows, or individual tools, as needed
+5. Review workflow report and perform additional QC as needed
+6. Re-run workflows, or individual tools, as needed
 
 ---
 
@@ -83,22 +79,22 @@ available as soon as possible.
      - The files you need for the assembly are ```.css.bam``` format
      - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
 
-![](images/data portal.png)
+ ![](images/data portal.png)
 
-***Fig 3.** The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
+ ***Fig 3.** The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
 
 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
 
-- **Note:** This will copy a download URL to your clipboard. 
-- **The URL is time sensitive and will expire after 10 minutes.** 
-- Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
+ - **Note:** This will copy a download URL to your clipboard. 
+ - **The URL is time sensitive and will expire after 10 minutes.** 
+ - Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
 
 3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
 
-- Step 1: Click on ```Upload Data``` 
-- Step 2: Select ```Paste/Fetch data```
-- Step 3: Paste the URL you obtained from the data portal into the content box.
-- Step 4: Select ```Start```
+ - Step 1: Click on ```Upload Data``` 
+ - Step 2: Select ```Paste/Fetch data```
+ - Step 3: Paste the URL you obtained from the data portal into the content box.
+ - Step 4: Select ```Start```
 
 ![](images/import data.png)
 ***Fig 4.** Process required for download of data based on a URL provided to Galaxy Australia.*
