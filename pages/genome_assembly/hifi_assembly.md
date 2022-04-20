@@ -45,6 +45,7 @@ Further to this, a summary of the different elements of this assembly approach a
  - ASSEMBLY workflow: [```PacBio HiFi genome assembly workflow```](https://usegalaxy.org.au/u/johan/w/hifiasm-shared-by-user-gareth-qfab)
  - PURGE DUPLICATES workflow: [```Purge duplicates from hifiasm assembly```](https://usegalaxy.org.au/u/johan/w/purge-duplicates-from-hifiasm-shared-by-user-gareth-qfab) **optional**
 
+{:start="5"}
 5. Review workflow report and perform additional QC as needed
 6. Re-run workflows, or individual tools, as needed
 
