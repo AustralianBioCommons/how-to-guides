@@ -1,8 +1,8 @@
 ---
-title: Australian BioCommons How-to-Guides
+title: How-to-Guides
 ---
 
-![](/images/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png)
+![](/images/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png){: width="500px"}
 
 ---
 
@@ -12,20 +12,28 @@ This site presents How-to-Guides and other associated documentation that support
 
 Some examples of the How-to-Guides included here are:
 
-- [HiFi genome assembly with Galaxy Australia](pages/genome_assembly/hifi_assembly.md)
+- [Getting started with Galaxy Australia](pages/galaxy_australia/start_here.md)
+- [Genome assembly with `hifiasm` on Galaxy Australia](pages/genome_assembly/hifi_assembly.md)
+- [Documentation Guidelines for tools and workflows](pages/documentation/DocumentationGuidelines.md)
 - *More will be added soon!*
 
 ---
 
 ## How to contribute
 
+If you want to add contents to this site, including a new How-to-Guide or modifications to an existing guide, 
+you can either [create an issue on the repository](https://github.com/AustralianBioCommons/how-to-guides/issues), 
+or follow the instructions below:
+
+1. 
+
 ---
 
 ## How to contribute (GitHub users)
 
-If you want to add contents to this site, you can follow this procedure:
+If you want to add contents to this site, please do the following:
 
-1. Create your own fork of this Github repository;
+1. Create your own fork of this GitHub repository;
 2. In your fork, create a branch with a concise name, that reflects its contents (e.g. `add/how-to-login-galaxy`);
 3. Create and commit your edits to the new branch;
 4. Open a Github Pull Request (PR) on this repository for your branch, concisely providing context for your additions;
