@@ -1,15 +1,6 @@
 ---
 title: Spack on Pawsey HPC
 ---
-{: no_toc }
-
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 
 This document is designed to give compute facility support staff a high-level overview of the use cases for Spack and its key features, plus some more specific information on how to use the tool.  
 This document is not designed to replace the comprehensive [documentation](https://spack.readthedocs.io/en/latest/index.html) provided by the Spack team. 

@@ -1,15 +1,6 @@
 ---
 title: CernVM-FS on Pawsey Cloud
 ---
-{: no_toc }
-
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 
 This document is designed to provide current users at [Pawsey Supercomputing Centre](https://pawsey.org.au) easy access to a reference dataset repository, through CernVM-FS.
 
