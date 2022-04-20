@@ -87,17 +87,17 @@ available as soon as possible.
 {:start="2"}
 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
 
- - **Note:** This will copy a download URL to your clipboard. 
- - **The URL is time sensitive and will expire after 10 minutes.** 
- - Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
+    - **Note:** This will copy a download URL to your clipboard. 
+    - **The URL is time sensitive and will expire after 10 minutes.** 
+    - Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
 
 {:start="3"}
 3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
 
- - Step 1: Click on ```Upload Data``` 
- - Step 2: Select ```Paste/Fetch data```
- - Step 3: Paste the URL you obtained from the data portal into the content box.
- - Step 4: Select ```Start```
+     - Step 1: Click on ```Upload Data``` 
+     - Step 2: Select ```Paste/Fetch data```
+     - Step 3: Paste the URL you obtained from the data portal into the content box.
+     - Step 4: Select ```Start```
 
 ![](images/import data.png)
 ***Fig 4.** Process required for download of data based on a URL provided to Galaxy Australia.*
@@ -164,7 +164,8 @@ available as soon as possible.
 
 - A ```FASTQ file``` that will be the input for the assembly workflow covered in the next section (**Fig 9a**), and
 - A ```FastQC report``` which you can view in the Galaxy user interface (**Fig 9b**).
-	 
+
+{:start="8"}	 
 8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
 
 >**Don’t forget:** you will then need to [join the multiple FASTQ files together](#joinfiles).
