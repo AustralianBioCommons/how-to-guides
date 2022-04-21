@@ -5,30 +5,30 @@ subitems:
   - title: Using Galaxy Australia
     subitems:
       - title: Start here!
-        url: /galaxy_australia/start_here/
+        url: /galaxy_australia/start_here
       - title: Register and Log in
-        url: /galaxy_australia/register_login/
+        url: /galaxy_australia/register_login
       - title: Upload data file(s)
-        url: /galaxy_australia/upload_data/
+        url: /galaxy_australia/upload_data
   - title: Genome assembly
     subitems:
       - title: HiFi genome assembly on Galaxy Australia
-        url: /genome_assembly/hifi_assembly/
+        url: /genome_assembly/hifi_assembly
   - title: Command Line Software Deployments
     subitems:
       - title: CernVM-FS on Cloud
-        url: /cli_deployments/cernvmfs_on_cloud/
+        url: /cli_deployments/cernvmfs_on_cloud
       - title: Singularity HPC (SHPC) on Cloud
-        url: /cli_deployments/shpc_on_cloud/
+        url: /cli_deployments/shpc_on_cloud
       - title: Singularity HPC (SHPC) on HPC
-        url: /cli_deployments/shpc_on_hpc/
+        url: /cli_deployments/shpc_on_hpc
       - title: Spack on HPC
-        url: /cli_deployments/spack_on_hpc/
+        url: /cli_deployments/spack_on_hpc
   - title: Best practice documentation
     subitems:
       - title: Documentation Guidelines for tools and workflows
-        url: /documentation/DocumentationGuidelines/
+        url: /documentation/DocumentationGuidelines
       - title: Making tools and workflows discoverable
-        url: /documentation/make_tools_workflows_discoverable/
+        url: /documentation/make_tools_workflows_discoverable
   - title: Contributors
-    url: /contributors/
+    url: /contributors
