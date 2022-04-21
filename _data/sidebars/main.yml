@@ -1,34 +1,34 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 subitems:
   - title: Home
-    url: index/
+    url: /index
   - title: Using Galaxy Australia
     subitems:
       - title: Start here!
-        url: /pages/galaxy_australia/start_here/
+        url: /pages/galaxy_australia/start_here
       - title: Register and Log in
-        url: /pages/galaxy_australia/register_login/
+        url: /pages/galaxy_australia/register_login
       - title: Upload data file(s)
-        url: /pages/galaxy_australia/upload_data/
+        url: /pages/galaxy_australia/upload_data
   - title: Genome assembly
     subitems:
       - title: HiFi genome assembly on Galaxy Australia
-        url: /pages/genome_assembly/hifi_assembly/
+        url: /pages/genome_assembly/hifi_assembly
   - title: Command Line Software Deployments
     subitems:
       - title: CernVM-FS on Cloud
-        url: /pages/cli_deployments/cernvmfs_on_cloud/
+        url: /pages/cli_deployments/cernvmfs_on_cloud
       - title: Singularity HPC (SHPC) on Cloud
-        url: /pages/cli_deployments/shpc_on_cloud/
+        url: /pages/cli_deployments/shpc_on_cloud
       - title: Singularity HPC (SHPC) on HPC
-        url: /pages/cli_deployments/shpc_on_hpc/
+        url: /pages/cli_deployments/shpc_on_hpc
       - title: Spack on HPC
-        url: /pages/cli_deployments/spack_on_hpc/
+        url: /pages/cli_deployments/spack_on_hpc
   - title: Best practice documentation
     subitems:
       - title: Documentation Guidelines for tools and workflows
-        url: /pages/documentation/DocumentationGuidelines/
+        url: /pages/documentation/DocumentationGuidelines
       - title: Making tools and workflows discoverable
-        url: /pages/documentation/make_tools_workflows_discoverable/
+        url: /pages/documentation/make_tools_workflows_discoverable
   - title: Contributors
-    url: /pages/contributors/
+    url: /pages/contributors
