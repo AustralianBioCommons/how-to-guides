@@ -1,7 +1,7 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 subitems:
   - title: Home
-    url: /index
+    url: index/
   - title: Using Galaxy Australia
     subitems:
       - title: Start here!
