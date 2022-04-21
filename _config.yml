@@ -17,6 +17,5 @@ defaults:
       path: ""
       type: "pages"
     values:
-      permalink: /:basename
       layout: "page"
       sidebar: main
