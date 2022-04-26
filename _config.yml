@@ -1,15 +1,18 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 title: "How-to-Guides"
 description: A collection of bioinformatics focused How-to-Guides
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@custom-main-logo
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.14.0
 
 theme_variables:
   # biocommons blue
   theme_color: 205a86
-  back_to_top: true
   topnav:
     brand_logo: assets/img/main_logo.png
-    github: true
+
+permalink: /:categories/:year/:month/:day/:title
+
+exclude:
+  - README.md
 
 defaults:
   -
