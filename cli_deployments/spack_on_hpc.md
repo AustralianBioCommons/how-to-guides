@@ -8,7 +8,7 @@ This document is not designed to replace the comprehensive [documentation](https
 
 ## What is Spack and why is it useful?
 
-Spack is a package manager designed for HPC that supports multiple versions and configurations of software on a wide variety of architectures. It reduces the complexity for software installs on _exotic_ architectures without a standard ABI. In short, you can manage tricky installs with simple syntax. An example of usage at the Pawsey Centre is to install packages that require specific optimisation for performance, as opposed to use of generic containers. The Spack-installed software can be invoked by calling the executable with the full path, using spack load, or generating a modulefile with Spack and using it.
+Spack is a package manager designed for HPC that supports multiple versions and configurations of software on a wide variety of architectures. It reduces the complexity for software installations on _exotic_ architectures and/or needing libraries that do not have a standard ABI. In short, you can manage tricky installations with simple syntax. An example of usage at the Pawsey Centre is to install packages that require specific optimisation for performance, as opposed to use of generic containers. The Spack-installed software can be invoked by calling the executable with the full path, using spack load, or generating a modulefile with Spack and using it.
 
 ### Key features include:
 
