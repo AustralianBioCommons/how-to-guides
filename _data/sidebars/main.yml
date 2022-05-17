@@ -2,6 +2,8 @@
 subitems:
   - title: Home
     url: /
+  - title: Contributors
+    url: /contributors
   - title: Using Galaxy Australia
     subitems:
       - title: Start here!
@@ -25,10 +27,4 @@ subitems:
       - title: Spack on HPC
         url: /cli_deployments/spack_on_hpc
   - title: Best practice documentation
-    subitems:
-      - title: Documentation Guidelines for tools and workflows
-        url: /documentation/DocumentationGuidelines
-      - title: Making tools and workflows discoverable
-        url: /documentation/make_tools_workflows_discoverable
-  - title: Contributors
-    url: /contributors
+    url: /documentation/DocumentationGuidelines
