@@ -146,7 +146,7 @@ available as soon as possible.
 
 {% include callout.html type="warning" content="Depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced." %}
 
-6.Click ```Run workflow``` (step 2 in **Fig 8**).
+6. Click ```Run workflow``` (step 2 in **Fig 8**).
 
 {% include image.html file="hifi_assembly/4_run_wf_1.png" caption="Fig 8. The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow."%}
 
@@ -244,9 +244,7 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 {% include callout.html type="note" content="A workflow report is generated automatically following completion of the workflow run (see **Fig 13**)." %}
 
 1. Review quality control contents of the workflow report (**Fig 13**).
-{:start="2"}
 2. Inspect bandage image (**Fig 14**).
-{:start="3"}
 3. Review fasta statistics (**Fig 15**).
 
 {% include image.html file="hifi_assembly/workflow_report.png" caption="Fig 13. Example workflow report."%}
@@ -284,7 +282,7 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig S3**).
 2. Select the tool from the search results (step 2 in **Fig S3**).
 
-{% include image.html file="hifi_assembly/figS3.png" caption="Fig S3. Search for and open a tool using the Galaxy Australia interface."%}
+{% include image.html file="hifi_assembly/figS3.png" caption="Fig S3. Search for and open a tool using the Galaxy Australia interface." max-width="10" inline=true %}
 
 {:start="3"}
 3. In the tool menu, select the first FASTQ data set (step 3 in **Fig S4**).
