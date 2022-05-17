@@ -1,6 +1,6 @@
 ---
 title: Genome assembly with hifiasm on Galaxy Australia
-contributors: [Gareth Price, Johan Gustafsson]
+contributors: [Gareth Price, Jo Day, Johan Gustafsson, Kate Farquharson]
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of *de novo* assembling genomes based on PacBio high fidelity reads built from circular consensus sequence HiFi reads.
@@ -9,8 +9,7 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 
 ---
 
-> **If you need help, the Galaxy community is both approachable and helpful.**
-[**Ask them questions!**](https://help.galaxyproject.org/)
+{% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
 
 ---
 
@@ -69,21 +68,22 @@ Further to this, a summary of the different elements of this assembly approach a
 
 ### Upload data file(s)
 
-> **FAQ: can data be seamlessly transferred from 
+{% include callout.html type="note" content="**FAQ: can data be seamlessly transferred from 
 the Data Portal to Galaxy Australia?**
 The Australian BioCommons is working with the 
 Bioplatforms Australia data portal team to develop 
 a direct transfer mechanism from the portal to 
 Galaxy Australia histories. This solution will be made 
 available as soon as possible.
-
+" %}
+ 
 1. Select your data using the Bioplatforms Data Portal
      - The files you need for the assembly are ```.css.bam``` format
      - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
 
- ![](./images/data_portal.png){: height="500px" width="500px"}
+ ![Fig 3. The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.](./images/data_portal.png){: height="500px" width="500px"}
 
- ***Fig 3.** The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
+ 
 
 {:start="2"}
 2. Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see **Fig. 3**).
@@ -100,10 +100,9 @@ available as soon as possible.
      - Step 3: Paste the URL you obtained from the data portal into the content box.
      - Step 4: Select ```Start```
 
-![](./images/import_data.png){: height="500px" width="500px"}
-***Fig 4.** Process required for download of data based on a URL provided to Galaxy Australia.*
+![Fig 4. Process required for download of data based on a URL provided to Galaxy Australia.](./images/import_data.png){: height="500px" width="500px"}
 
-> **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here.
+{% include callout.html type="note" content="Note: you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here." %}
 
 ---
 
@@ -115,9 +114,7 @@ available as soon as possible.
 - Upload / transfer to Galaxy Australia (see **Fig 5**)
      - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 5**).
 
-![](./images/2_upload.png){: height="500px" width="500px"}
-
-***Fig 5.** Choosing local files to upload to Galaxy Australia.*
+![Fig 5. Choosing local files to upload to Galaxy Australia.](./images/2_upload.png){: height="500px" width="500px"}
 
 #### Self-managed (Cloudstor mediated)
 
@@ -132,34 +129,28 @@ available as soon as possible.
 
 ### OPTIONAL STEP: convert BAM files to FASTQ 
 
-> **READ ME**
-*You must do this step if your files are in ```ccs.bam``` format*
-*This step is not needed if files are already in FASTQ format*
-*You will need to complete this workflow for each BAM file*
+{% include callout.html type="note" content="You must do this step if your files are in ```ccs.bam``` format" %}
 
+{% include callout.html type="note" content="This step is not needed if files are already in FASTQ format" %}
+
+{% include callout.html type="note" content="You will need to complete this workflow for each BAM file" %}
 
 1. Make sure you are logged into Galaxy Australia
 2. [Visit this link](https://usegalaxy.org.au/u/johan/w/bam-to-fastq-with-qc-for-hifiasm-shared-by-user-gareth-qfab) and retrieve the workflow for file conversion by clicking the import workflow button at the top right
 3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
 
-![](./images/2_workflow_button.png)
-
-***Fig 6.** The main page of the Galaxy Australia service.*
+![Fig 6. The main page of the Galaxy Australia service.](./images/2_workflow_button.png)
 
 {:start="4"}
 4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
 
-![](./images/3_workflow_screen.png)
-
-***Fig 7.** The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box.*
+![Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box.](./images/3_workflow_screen.png)
 
 {:start="5"}
 5. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). **WARNING:** depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced.
 6. Click ```Run workflow``` (step 2 in **Fig 8**).
 
-![](./images/4_run_wf_1.png)
-
-***Fig 8.** The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow.*
+![Fig 8. The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow.](./images/4_run_wf_1.png)
 
 {:start="7"}
 7. The workflow will produce
@@ -170,24 +161,20 @@ available as soon as possible.
 {:start="8"}	 
 8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
 
->**Don’t forget:** you will then need to [join the multiple FASTQ files together](#joinfiles).
-Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose.
+{% include callout.html type="important" content="**Don’t forget:** you will then need to [join the multiple FASTQ files together](#joinfiles).
+Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose." %}
 
-> **Did you know?**
+{% include callout.html type="note" content="**Did you know?**
 You can view the workflow diagram by clicking on the 
-workflow name in the list and selecting ```Edit```.
+workflow name in the list and selecting ```Edit```." %}
 
-> **Did you know?**
+{% include callout.html type="note" content="**Did you know?**
 You don’t need to re-run entire workflows!
-You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below.
+You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below." %}
 
-![](./images/fastq_stats.png)
+![Fig 9a. Example Fastq file output.](./images/fastq_stats.png)
 
-***Fig 9a.** Example Fastq file output.*
-
-![](./images/fastqc_report.png)
-
-***Fig 9b.** Example FASTQC html report.*
+![Fig 9b. Example FASTQC html report.](./images/fastqc_report.png)
 
 ![](./images/repeat_run.png)
 
@@ -200,9 +187,7 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
 
-![](./images/6_run_wf_2.png){: height="500px" width="500px"}
-
-***Fig 10.** PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.*
+![Fig 10. PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.](./images/6_run_wf_2.png){: height="500px" width="500px"}
 
 {:start="5"}
 5. The workflow invocation window will open. 
@@ -218,22 +203,17 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
      - FASTA file for the primary assembly contig GFA file
      - Fasta statistics for primary assembly contig FASTA file
 
-![](./images/bandage_info.png)
+![Fig 11a. Example Bandage info file for primary assembly contig graph.](./images/bandage_info.png)
 
-***Fig 11a.** Example Bandage info file for primary assembly contig graph.*
+![Fig 11b. Example Bandage image file for primary assembly contig graph.](./images/bandage_image.png)
 
-![](./images/bandage_image.png)
+![Fig 11c. Example Fasta statistics for primary assembly contig FASTA file.](./images/fasta_statistics.png)
 
-***Fig 11b.** Example Bandage image file for primary assembly contig graph.*
-
-![](./images/fasta_statistics.png)
-
-***Fig 11c.** Example Fasta statistics for primary assembly contig FASTA file.*
-		
-> **Did you know?**
+{% include callout.html type="tip" content="**Did you know?**
 You can access the other assembly output types for hifiasm (haplotype resolved, unitig graph and alternate assembly).
 They are just hidden so that the workflow highlights the provision of the primary assembly contig graph.
 For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
+" %}
 
 ---
 
@@ -244,15 +224,13 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```Purge duplicates from hifiasm assembly``` workflow (the workflow is shown in **Fig 12**).
 
-![](./images/Purge_duplicates.png)
-
-***Fig 12.** Purge duplicates from hifiasm assembly.*
+![Fig 12. Purge duplicates from hifiasm assembly.](./images/Purge_duplicates.png)
 
 {:start="5"}
 5. The workflow invocation window will open. 
 6. Select the raw reads in FASTQ format, and hifiasm primary contig assembly file (FASTA format) using the drop-down menu.
 
-> These inputs are both produced by the ```PacBio HiFi genome assembly using hifiasm``` workflow.
+{% include callout.html type="note" content="These inputs are both produced by the ```PacBio HiFi genome assembly using hifiasm``` workflow." %}
 
 {:start="7"}
 7. Select correct workflow input parameters
@@ -265,33 +243,27 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
 
 ### Review Workflow Report
 
-> A workflow report is generated automatically following completion of the workflow run (see **Fig 13**).
+{% include callout.html type="note" content="A workflow report is generated automatically following completion of the workflow run (see **Fig 13**)." %}
 
 1. Review quality control contents of the workflow report.
 
-![](./images/workflow_report.png)
-
-*Fig 13. Example workflow report.*
+![Fig 13. Example workflow report.](./images/workflow_report.png)
 
 {:start="2"}
 2. Inspect bandage image (**Fig 14**).
 
-![](./images/primary_hifiasm_assembly.png)
-
-*Fig 14. Bandage image for the primary hifiasm assembly.*
+![Fig 14. Bandage image for the primary hifiasm assembly.](./images/primary_hifiasm_assembly.png)
 
 {:start="3"}
 3. Review fasta statistics (**Fig 15**).
 
-![](./images/fasta_statistics_report.png)
-
-*Fig 15. Basic summary statistics are included in the fasta statistics output. This includes: `number of contigs (num_seq)`, `assembly size (num_bp)`, `contig N50 (len_N50)`, `L50`.*
+![Fig 15. Basic summary statistics are included in the fasta statistics output. This includes: `number of contigs (num_seq)`, `assembly size (num_bp)`, `contig N50 (len_N50)`, `L50`.](./images/fasta_statistics_report.png)
 
 ---
 
 ### OPTIONAL STEP: Post-assembly quality control workflow
 
-> **Note:** This workflow is still being developed.
+{% include callout.html type="note" content="Note: This workflow is still being developed." %}
 
 ---
 
@@ -315,18 +287,14 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig S3**).
 2. Select the tool from the search results (step 2 in **Fig S3**).
 
-![](./images/figS3.png){: height="200px" width="200px"}
-
-*Fig S3. Search for and open a tool using the Galaxy Australia interface.*
+![Fig S3. Search for and open a tool using the Galaxy Australia interface.](./images/figS3.png){: height="200px" width="200px"}
 
 {:start="3"}
 3. In the tool menu, select the first FASTQ data set (step 3 in **Fig S4**).
 4. Insert additional FASTQ data sets by selecting the ```+ Insert Dataset``` button (step 4 in **Fig S4**).
 5. When all data sets are selected, press ```Execute``` (step 5 in **Fig S4**).
 
-![](./images/figS4.png){: height="500px" width="500px"}
-
-*Fig S4. Select data sets and execute the Concatenate datasets tool.*
+![Fig S4. Select data sets and execute the Concatenate datasets tool.](./images/figS4.png){: height="500px" width="500px"}
 
 ---
 
