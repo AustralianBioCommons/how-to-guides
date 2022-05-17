@@ -7,5 +7,5 @@ title: Register and Log in
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-![](../genome_assembly/images/1_register.png)
+![](../images/hifi_assembly/1_register.png)
 *Fig 1. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
