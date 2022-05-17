@@ -1,5 +1,5 @@
 ---
-title: Genome assembly with `hifiasm` on Galaxy Australia
+title: Genome assembly with hifiasm on Galaxy Australia
 contributors: [Gareth Price, Johan Gustafsson]
 ---
 
@@ -61,7 +61,7 @@ Further to this, a summary of the different elements of this assembly approach a
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-![](./images/1_register.png)
+![](./images/1_register.png){: height="200px" width="200px"}
 
 ***Fig 2.** Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/).*
 
@@ -81,7 +81,7 @@ available as soon as possible.
      - The files you need for the assembly are ```.css.bam``` format
      - **Fig 3** shows a HiFi data set selected in the data portal browser interface.
 
- ![](./images/data_portal.png)
+ ![](./images/data_portal.png){: height="200px" width="200px"}
 
  ***Fig 3.** The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.*
 
@@ -100,7 +100,7 @@ available as soon as possible.
      - Step 3: Paste the URL you obtained from the data portal into the content box.
      - Step 4: Select ```Start```
 
-![](./images/import_data.png)
+![](./images/import_data.png){: height="200px" width="200px"}
 ***Fig 4.** Process required for download of data based on a URL provided to Galaxy Australia.*
 
 > **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ccs.bam files and paste them in here.
@@ -115,7 +115,7 @@ available as soon as possible.
 - Upload / transfer to Galaxy Australia (see **Fig 5**)
      - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 5**).
 
-![](./images/2_upload.png)
+![](./images/2_upload.png){: height="200px" width="200px"}
 ***Fig 5.** Choosing local files to upload to Galaxy Australia.*
 
 #### Self-managed (Cloudstor mediated)
@@ -199,7 +199,7 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 3. Navigate back to your list of workflows by clicking on the ```Workflow``` tab in the Galaxy interface (highlighted by a red box in **Fig 6**) 
 4. Once you have reached the workflow screen, select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 10**).
 
-![](./images/6_run_wf_2.png)
+![](./images/6_run_wf_2.png){: height="200px" width="200px"}
 ***Fig 10.** PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run.*
 
 {:start="5"}
@@ -313,7 +313,7 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig S3**).
 2. Select the tool from the search results (step 2 in **Fig S3**).
 
-![](./images/figS3.png)
+![](./images/figS3.png){: height="200px" width="200px"}
 
 *Fig S3. Search for and open a tool using the Galaxy Australia interface.*
 
@@ -322,7 +322,7 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 4. Insert additional FASTQ data sets by selecting the ```+ Insert Dataset``` button (step 4 in **Fig S4**).
 5. When all data sets are selected, press ```Execute``` (step 5 in **Fig S4**).
 
-![](./images/figS4.png)
+![](./images/figS4.png){: height="200px" width="200px"}
 
 *Fig S4. Select data sets and execute the Concatenate datasets tool.*
 
