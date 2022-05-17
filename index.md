@@ -14,6 +14,10 @@ Some examples of the How-to-Guides included here are:
 [Genome assembly with hifiasm on Galaxy Australia](genome_assembly/hifi_assembly.md){: class="btn btn-primary col-3"}
 [Documentation Guidelines for tools and workflows](documentation/DocumentationGuidelines.md){: class="btn btn-primary col-3"}
 
+---
+
+## Contributing
+
 [**Guidelines for contributing!**](contributing.md){: class="btn btn-primary col-3"}
 
 ---
