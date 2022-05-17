@@ -2,6 +2,8 @@
 subitems:
   - title: Home
     url: /
+  - title: How to contribute
+    url: /contributing
   - title: Contributors
     url: /contributors
   - title: Using Galaxy Australia
