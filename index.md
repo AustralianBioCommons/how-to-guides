@@ -1,9 +1,6 @@
 ---
 title: How-to-Guides
 ---
-
-![](/images/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png){: width="500px"}
-
 ---
 
 ## About
