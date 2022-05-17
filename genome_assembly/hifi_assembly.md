@@ -283,7 +283,7 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig S3**).
 2. Select the tool from the search results (step 2 in **Fig S3**).
 
-{% include image.html file="hifi_assembly/figS3.png" caption="Fig S3. Search for and open a tool using the Galaxy Australia interface."%}
+{% include image.html file="hifi_assembly/figS3.png" caption="Fig S3. Search for and open a tool using the Galaxy Australia interface." max-width="10" %}
 
 {:start="3"}
 3. In the tool menu, select the first FASTQ data set (step 3 in **Fig S4**).
