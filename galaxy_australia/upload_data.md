@@ -2,9 +2,9 @@
 title: Upload data file(s)
 ---
 
-> FAQ: can data be seamlessly transferred from the Data Portal to Galaxy Australia?
+{% include callout.html type="note" content="FAQ: can data be seamlessly transferred from the Data Portal to Galaxy Australia?
 The Australian BioCommons is working with the Bioplatforms Australia data portal team to develop a direct transfer mechanism from the portal to Galaxy Australia histories. 
-This solution will be made available as soon as possible.
+This solution will be made available as soon as possible." %}
 
 ## Select your data 
 
@@ -14,16 +14,15 @@ This solution will be made available as soon as possible.
 
 ## Click ```Access``` and select ```Copy Download URL``` in the drop down menu (see Fig. 1)
 
-> **Note:** This will copy a download URL to your clipboard. 
-> The URL is time sensitive and will expire after 10 minutes. 
-> Please note you only need to instigate the download (next step) within this 10 minute window. 
-> The import itself can take longer than 10 minutes.
+{% include callout.html type="note" content="This will copy a download URL to your clipboard." %}
 
-![](/images/hifi_assembly/data_portal.png){: height="500px" width="500px"}
+{% include callout.html type="warning" content="The URL is time sensitive and will expire after 10 minutes." %}
 
-*Fig 1.* The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface.
+{% include callout.html type="warning" content="You only need to instigate the download (next step) within this 10 minute window." %}
 
+{% include callout.html type="warning" content="The import itself can take longer than 10 minutes." %}
 
+{% include image.html file="hifi_assembly/data_portal.png" caption="Fig 1. The appearance of a HiFi data set in the Bioplatforms Australia data portal browser interface." %}
 
 ## In Galaxy Australia, perform the steps outlined in Fig. 2
 
@@ -32,11 +31,9 @@ This solution will be made available as soon as possible.
 3. Paste the URL you obtained from the data portal into the content box.
 4. Select ```Start```
 
-> **Note:** you can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ```ccs.bam``` files and paste them in here.
+{% include callout.html type="note" content="You can paste multiple URLs in this box. If you have more than 1 SMRT cell of data, you will need to copy the URLs for each of the ```ccs.bam``` files and paste them in here." %}
 
-![](../images/hifi_assembly/import_data.png){: height="500px" width="500px"}
-
-*Fig 2. Process required for download of data based on a URL provided to Galaxy Australia.*
+{% include image.html file="hifi_assembly/import_data.png" caption="Fig 2. Process required for download of data based on a URL provided to Galaxy Australia." %}
 
 ## Other options are also available
 
@@ -46,9 +43,7 @@ This solution will be made available as soon as possible.
 2. Upload / transfer to Galaxy Australia (see **Fig 3**)
      - Note: the following Galaxy Training Network tutorial provides guidance on [how to upload files via URL](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#upload-a-file). The same mechanism can be used to upload local files, by selecting ```Choose local files``` (see **Fig 3**).
 
-![](../images/hifi_assembly/2_upload.png){: height="500px" width="500px"}
-
-*Fig 3. Choosing local files to upload to Galaxy Australia.*
+{% include image.html file="hifi_assembly/2_upload.png" caption="Fig 3. Choosing local files to upload to Galaxy Australia." %}
 
 ### Self-managed (Cloudstor mediated)
 
