@@ -1,5 +1,6 @@
 ---
 title: Genome assembly with `hifiasm` on Galaxy Australia
+contributors: [Gareth Price, Johan Gustafsson]
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of *de novo* assembling genomes based on PacBio high fidelity reads built from circular consensus sequence HiFi reads.

@@ -12,10 +12,11 @@ This site presents How-to-Guides and other associated documentation that support
 
 Some examples of the How-to-Guides included here are:
 
-- [Getting started with Galaxy Australia](pages/galaxy_australia/start_here.md)
-- [Genome assembly with `hifiasm` on Galaxy Australia](pages/genome_assembly/hifi_assembly.md)
-- [Documentation Guidelines for tools and workflows](pages/documentation/DocumentationGuidelines.md)
-- *More will be added soon!*
+[Getting started with Galaxy Australia](galaxy_australia/start_here.md){: class="btn btn-primary col-3"}
+[Genome assembly with `hifiasm` on Galaxy Australia](genome_assembly/hifi_assembly.md){: class="btn btn-primary col-3"}
+[Documentation Guidelines for tools and workflows](documentation/DocumentationGuidelines.md){: class="btn btn-primary col-3"}
+
+*More will be added soon!*
 
 ---
 
