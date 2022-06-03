@@ -1,6 +1,6 @@
 ---
 title: Stacks workflows in Galaxy Australia using RADseq
-contributors: [Anna Syme, Johan Gustafsson, Tom Harrop, Mike Thang]
+contributors: [Anna Syme, Johan Gustafsson, Tom Harrop, Wai Cheng (Mike) Thang]
 ---
 
 ## Introduction & context
