@@ -113,7 +113,7 @@ To change a population map in Galaxy:
 3. Paste it in to create a new file, as described above. 
 4. Modify it as required, before saving. 
 
-**You can upload a population map directly into Galaxy. **
+You can upload a population map directly into Galaxy:
 
 {% include callout.html type="important" content="If this file generates an error when running Stacks, you can reformat it by copying the contents and pasting into a new file (as described above), particularly to convert the spaces to tabs." %}
 
