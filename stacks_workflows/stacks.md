@@ -80,8 +80,8 @@ Please note that:
 
 ### Reads QC, optional
 
-% include callout.html type="note" content="For more information about performing QC, see the Galaxy tutorial [Quality Control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)" %}
-% include callout.html type="note" content="A recommended tool for QC in Galaxy is fastp (search in tool panel). It will automatically search for adapters but you can also add in the adapter sequence if you know it." %}
+{% include callout.html type="note" content="For more information about performing QC, see the Galaxy tutorial [Quality Control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)" %}
+{% include callout.html type="note" content="A recommended tool for QC in Galaxy is fastp (search in tool panel). It will automatically search for adapters but you can also add in the adapter sequence if you know it." %}
 
 A workflow with some potentially relevant QC steps is listed and described below. 
 
