@@ -225,6 +225,7 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
 </table>
 
 {% include callout.html type="note" content="If you import a workflow from the shared Galaxy workflows, you can keep track of any changes (or make your own). This is useful if you need to keep a record of the particular version of a workflow that you used in an analysis." %}
+
 {% include callout.html type="important" content="A set of workflows has also been uploaded to workflow hub (see links in table above). These have version numbers. Any changes to these workflows will result in new version numbers assigned." %}
 
 
@@ -291,6 +292,7 @@ The workflow steps are:
 {% include callout.html type="note" content="You may have different requirements here in terms of how many adapter sequences you want to enter. We recommend copying the workflow and modifying as needed." %}
 
 {:start="3"}
+
 3. Send these reads to fastp for additional filtering or trimming. Default settings are on but can be modified as needed. Send output statistics to `MultiQC`, this is "Report 3" in the Galaxy history. 
 4. The filtered and trimmed reads are then ready for the stacks workflows. 
 
