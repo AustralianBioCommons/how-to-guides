@@ -18,6 +18,10 @@ subitems:
     subitems:
       - title: HiFi genome assembly on Galaxy Australia
         url: /genome_assembly/hifi_assembly
+  - title: Population genomics
+    subitems:
+      - title: Stacks workflows in Galaxy Australia using RADseq
+        url: /stacks_workflows/stacks
   - title: Command Line Software Deployments
     subitems:
       - title: CernVM-FS on Cloud
