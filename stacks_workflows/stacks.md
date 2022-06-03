@@ -115,7 +115,7 @@ To change a population map in Galaxy:
 
 **You can upload a population map directly into Galaxy. **
 
-% include callout.html type="important" content="If this file generates an error when running Stacks, you can reformat it by copying the contents and pasting into a new file (as described above), particularly to convert the spaces to tabs." %}
+{% include callout.html type="important" content="If this file generates an error when running Stacks, you can reformat it by copying the contents and pasting into a new file (as described above), particularly to convert the spaces to tabs." %}
 
 For more troubleshooting, you can check if a pop map is formatted correctly (if comfortable with the commandline):
 as explained more here: ​​[https://groups.google.com/g/stacks-users/c/6-F5mETPv-A?pli=1](https://groups.google.com/g/stacks-users/c/6-F5mETPv-A?pli=1)
@@ -224,8 +224,8 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
   </tr>
 </table>
 
-% include callout.html type="note" content="If you import a workflow from the shared Galaxy workflows, you can keep track of any changes (or make your own). This is useful if you need to keep a record of the particular version of a workflow that you used in an analysis." %}
-% include callout.html type="important" content="A set of workflows has also been uploaded to workflow hub (see links in table above). These have version numbers. Any changes to these workflows will result in new version numbers assigned." %}
+{% include callout.html type="note" content="If you import a workflow from the shared Galaxy workflows, you can keep track of any changes (or make your own). This is useful if you need to keep a record of the particular version of a workflow that you used in an analysis." %}
+{% include callout.html type="important" content="A set of workflows has also been uploaded to workflow hub (see links in table above). These have version numbers. Any changes to these workflows will result in new version numbers assigned." %}
 
 
 
@@ -281,14 +281,14 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
 
 ### Steps and outputs
 
-% include callout.html type="hint" content="The workflow can be modified to suit your own parameters." %}
+{% include callout.html type="hint" content="The workflow can be modified to suit your own parameters." %}
 
 The workflow steps are:
 
 1. Run `FastQC` to get statistics on the raw reads, send to `MultiQC` to create a nice output. This is tagged as "Report 1" in the Galaxy history. 
 2. Run `Cutadapt` on the reads to cut adapters - enter two files with adapter sequence at the workflow option for "Choose file containing 3' adapters". The default settings are on except that the "Maximum error rate" for the adapters is set to 0.2 instead of 0.1. Send output statistics to `MultiQC`, this is "Report 2" in the Galaxy history. 
 
-% include callout.html type="note" content="You may have different requirements here in terms of how many adapter sequences you want to enter. We recommend copying the workflow and modifying as needed." %}
+{% include callout.html type="note" content="You may have different requirements here in terms of how many adapter sequences you want to enter. We recommend copying the workflow and modifying as needed." %}
 
 {:start="3"}
 3. Send these reads to fastp for additional filtering or trimming. Default settings are on but can be modified as needed. Send output statistics to `MultiQC`, this is "Report 3" in the Galaxy history. 
@@ -360,7 +360,7 @@ This workflow takes in bam files and a population map and produces output from g
 
 ## De novo workflow
 
-% include callout.html type="warning" content="This takes a lot longer than the reference-guided workflow." %} 
+{% include callout.html type="warning" content="This takes a lot longer than the reference-guided workflow." %} 
 
 ### Inputs:
 
