@@ -148,81 +148,15 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
 
 ### Links to workflows
 
-<table>
-  <tr>
-   <td><strong>Workflow name</strong>
-   </td>
-   <td><strong>Link to workflow</strong>
-<p>
-<strong>in Galaxy Australia</strong>
-   </td>
-   <td><strong>Link to workflow</strong>
-<p>
-<strong>in workflow hub</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>QC of reads, if required
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads">https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/346">https://workflowhub.eu/workflows/346</a>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Reference-guided Stacks workflow</strong>
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow">https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/347">https://workflowhub.eu/workflows/347</a>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Partial ref-guided workflow: BWA MEM only
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem">https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/351">https://workflowhub.eu/workflows/351</a>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Partial ref-guided workflow: gstacks and pops only 
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops">https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/352">https://workflowhub.eu/workflows/352</a>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>De novo Stacks workflow</strong>
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf">https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/348">https://workflowhub.eu/workflows/348</a>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Partial de-novo workflow: ustacks only
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/de-novo-wf-ustacks-only">https://usegalaxy.org.au/u/anna/w/de-novo-wf-ustacks-only</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/349">https://workflowhub.eu/workflows/349</a>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Partial de-novo workflow: cstacks, sstacks, gstacks, populations only
-   </td>
-   <td><a href="https://usegalaxy.org.au/u/anna/w/denovo-c-s-g-pops">https://usegalaxy.org.au/u/anna/w/denovo-c-s-g-pops</a>
-   </td>
-   <td><a href="https://workflowhub.eu/workflows/350">https://workflowhub.eu/workflows/350</a>
-   </td>
-  </tr>
-</table>
-
+| Workflow name | Link to workflow in Galaxy Australia | Link to workflow in WorkflowHub |
+|---------------|--------------------------------------|---------------------------------|
+| QC of reads, if required | https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads | https://workflowhub.eu/workflows/346 |
+| Reference-guided Stacks workflow | https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow | https://workflowhub.eu/workflows/347 |
+| Partial ref-guided workflow: BWA MEM only | https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem | https://workflowhub.eu/workflows/351 |
+| Partial ref-guided workflow: gstacks and pops only | https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops | https://workflowhub.eu/workflows/352 |
+| *De novo* Stacks workflow | https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf | https://workflowhub.eu/workflows/348 |
+| Partial *de novo* workflow: ustacks only | https://usegalaxy.org.au/u/anna/w/de-novo-wf-ustacks-only | https://workflowhub.eu/workflows/349 |
+| Partial *de novo* workflow: cstacks, sstacks, gstacks, populations only | https://usegalaxy.org.au/u/anna/w/denovo-c-s-g-pops | https://workflowhub.eu/workflows/350 |
 
 
 {% include callout.html type="note" content="If you import a workflow from the shared Galaxy workflows, you can keep track of any changes (or make your own). This is useful if you need to keep a record of the particular version of a workflow that you used in an analysis." %}
