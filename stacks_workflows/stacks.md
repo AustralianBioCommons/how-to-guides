@@ -510,7 +510,7 @@ Convert the VCF output and use the R vcfR package
 
 **How to know what the best parameters are for all the tools?**
 
-* The best way to guage this is to read the Stacks manual, and check that the parameters make sense to you for your data and your research questions. The tools in the workflows have been set with certain parameters (usually the default settings), but these can be changed. 
+* The best way to gauge this is to read the Stacks manual, and check that the parameters make sense to you for your data and your research questions. The tools in the workflows have been set with certain parameters (usually the default settings), but these can be changed. 
 
 **What if I don't have a closely-related reference genome?**
 
