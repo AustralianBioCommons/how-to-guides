@@ -150,13 +150,13 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
 
 | Workflow name | Link to workflow in Galaxy Australia | Link to workflow in WorkflowHub |
 |---------------|--------------------------------------|---------------------------------|
-| QC of reads, if required | https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads | https://workflowhub.eu/workflows/346 |
-| Reference-guided Stacks workflow | https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow | https://workflowhub.eu/workflows/347 |
-| Partial ref-guided workflow: BWA MEM only | https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem | https://workflowhub.eu/workflows/351 |
-| Partial ref-guided workflow: gstacks and pops only | https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops | https://workflowhub.eu/workflows/352 |
-| *De novo* Stacks workflow | https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf | https://workflowhub.eu/workflows/348 |
-| Partial *de novo* workflow: ustacks only | https://usegalaxy.org.au/u/anna/w/de-novo-wf-ustacks-only | https://workflowhub.eu/workflows/349 |
-| Partial *de novo* workflow: cstacks, sstacks, gstacks, populations only | https://usegalaxy.org.au/u/anna/w/denovo-c-s-g-pops | https://workflowhub.eu/workflows/350 |
+| QC of reads, if required | [qc-of-radseq-reads](https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads) | [https://workflowhub.eu/workflows/346](https://workflowhub.eu/workflows/346) |
+| Reference-guided Stacks workflow | [stacks-ref-guided-workflow](https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow) | [https://workflowhub.eu/workflows/347](https://workflowhub.eu/workflows/347) |
+| Partial ref-guided workflow: BWA MEM only | [ref-guided-wf-bwa-mem](https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem) | [https://workflowhub.eu/workflows/351](https://workflowhub.eu/workflows/351) |
+| Partial ref-guided workflow: gstacks and pops only | [ref-guided-wf-gstacks-pops](https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops) | [https://workflowhub.eu/workflows/352](https://workflowhub.eu/workflows/352) |
+| *De novo* Stacks workflow | [stacks-denovo-wf](https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf) | [https://workflowhub.eu/workflows/348](https://workflowhub.eu/workflows/348) |
+| Partial *de novo* workflow: ustacks only | [de-novo-wf-ustacks-only](https://usegalaxy.org.au/u/anna/w/de-novo-wf-ustacks-only) | [https://workflowhub.eu/workflows/349](https://workflowhub.eu/workflows/349) |
+| Partial *de novo* workflow: cstacks, sstacks, gstacks, populations only | [denovo-c-s-g-pops](https://usegalaxy.org.au/u/anna/w/denovo-c-s-g-pops) | [https://workflowhub.eu/workflows/350](https://workflowhub.eu/workflows/350) |
 
 
 {% include callout.html type="note" content="If you import a workflow from the shared Galaxy workflows, you can keep track of any changes (or make your own). This is useful if you need to keep a record of the particular version of a workflow that you used in an analysis." %}
