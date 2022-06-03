@@ -457,7 +457,7 @@ variant calls for each locus
 
 haplotypes in VCF format
 
-Please see **section 7.3 RAD haplotypes** in [https://catchenlab.life.illinois.edu/stacks/manual/#coords](https://catchenlab.life.illinois.edu/stacks/manual/#coords) for a full description. 
+* Please see **section 7.3 RAD haplotypes** in [https://catchenlab.life.illinois.edu/stacks/manual/#coords](https://catchenlab.life.illinois.edu/stacks/manual/#coords) for a full description. 
 
 * These are the haplotypes per locus, phased into groups of snps. 
 * e.g.` Stacks2: populations on data 3, data 43, and data 42 Haplotypes in VCF format`
