@@ -205,6 +205,8 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
 
 ## QC workflow
 
+[Access `QC` workflow](https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads){: class="btn btn-primary col-3"}
+
 ### Inputs
 
 * demultiplexed reads in fastq format, in a collection
@@ -232,6 +234,8 @@ The workflow steps are:
 4. The filtered and trimmed reads are then ready for the stacks workflows. 
 
 ## Reference-guided workflow
+
+[Access `reference-guided` workflow](https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow){: class="btn btn-primary col-3"}
 
 ### Inputs
 
@@ -288,14 +292,20 @@ The workflow steps are:
 
 ### Option: Run only bwa mem
 
+[Access `run only bwa mem` workflow](https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem){: class="btn btn-primary col-3"}
+
 * This workflow takes in  demultiplexed reads in fastq format (in a collection) and a reference genome in fasta format. 
 * The outputs are a set of filtered bam files, ready for the next part of the stacks workflow (e.g. gstacks), and statistics on the bam files. 
 
 ### Option: Run only gstacks + populations
 
+[Access `run only gstacks + populations` workflow](https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops){: class="btn btn-primary col-3"}
+
 This workflow takes in bam files and a population map and produces output from gstacks and populations, as described above. 
 
 ## De novo workflow
+
+[Access `de novo` workflow](https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf){: class="btn btn-primary col-3"}
 
 {% include callout.html type="warning" content="This takes a lot longer than the reference-guided workflow." %} 
 
@@ -358,6 +368,8 @@ This workflow takes in bam files and a population map and produces output from g
 
 ### Option: run only ustacks
 
+[Access `run only ustacks` workflow](https://usegalaxy.org.au/u/anna/w/de-novo-wf-ustacks-only){: class="btn btn-primary col-3"}
+
 You may want to run ustacks with different batches of samples. To be able to combine these later, there are some necessary steps - we need to keep track of how many samples have already run in ustacks, so that new samples can be labelled with different identifying numbers.  
 
 1. In ustacks, under "Processing options" there is an option called "Start identifier at". 
@@ -375,6 +387,8 @@ To combine multiple outputs from ustacks, providing these have been given approp
 
 
 ### Option: run only cstacks onwards
+
+[Access `run only cstacks onwards` workflow](https://usegalaxy.org.au/u/anna/w/denovo-c-s-g-pops){: class="btn btn-primary col-3"}
 
 This workflow takes in ustacks output, and runs cstacks, sstacks, gstacks, and populations. 
 
