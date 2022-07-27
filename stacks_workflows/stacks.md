@@ -235,7 +235,7 @@ The workflow steps are:
 
 ## Reference-guided workflow
 
-[Access `reference-guided` workflow](https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow){: class="btn btn-primary col-3"}
+[Access `reference-guided` workflow](https://usegalaxy.org.au/u/anna/w/stacks-rad-seq-reference-guided-workflow){: class="btn btn-primary col-3"}
 
 ### Inputs
 
