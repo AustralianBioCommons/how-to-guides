@@ -151,7 +151,7 @@ A Galaxy workflow is a set of tools and settings, that can take in certain input
 | Workflow name | Link to workflow in Galaxy Australia | Link to workflow in WorkflowHub |
 |---------------|--------------------------------------|---------------------------------|
 | QC of reads, if required | [qc-of-radseq-reads](https://usegalaxy.org.au/u/anna/w/qc-of-radseq-reads) | [https://workflowhub.eu/workflows/346](https://workflowhub.eu/workflows/346) |
-| Reference-guided Stacks workflow | [stacks-ref-guided-workflow](https://usegalaxy.org.au/u/anna/w/stacks-ref-guided-workflow) | [https://workflowhub.eu/workflows/347](https://workflowhub.eu/workflows/347) |
+| Reference-guided Stacks workflow | [stacks-ref-guided-workflow](https://usegalaxy.org.au/u/anna/w/stacks-rad-seq-reference-guided-workflow) | [https://workflowhub.eu/workflows/347](https://workflowhub.eu/workflows/347) |
 | Partial ref-guided workflow: BWA MEM only | [ref-guided-wf-bwa-mem](https://usegalaxy.org.au/u/anna/w/ref-guided-wf-bwa-mem) | [https://workflowhub.eu/workflows/351](https://workflowhub.eu/workflows/351) |
 | Partial ref-guided workflow: gstacks and pops only | [ref-guided-wf-gstacks-pops](https://usegalaxy.org.au/u/anna/w/ref-guided-wf-gstacks-pops) | [https://workflowhub.eu/workflows/352](https://workflowhub.eu/workflows/352) |
 | *De novo* Stacks workflow | [stacks-denovo-wf](https://usegalaxy.org.au/u/anna/w/stacks-denovo-wf) | [https://workflowhub.eu/workflows/348](https://workflowhub.eu/workflows/348) |
