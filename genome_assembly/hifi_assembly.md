@@ -90,10 +90,11 @@ available as soon as possible.
 {:start="3"}
 3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
 
-     - Step 1: Click on ```Upload Data``` 
-     - Step 2: Select ```Paste/Fetch data```
-     - Step 3: Paste the URL you obtained from the data portal into the content box.
-     - Step 4: Select ```Start```
+     - Step 1: Create a new history
+     - Step 2: Click on ```Upload Data```
+     - Step 3: Select ```Paste/Fetch data```
+     - Step 4: Paste the URL you obtained from the data portal into the content box.
+     - Step 5: Select ```Start```
 
 {% include image.html file="hifi_assembly/import_data.png" caption="Fig 4. Process required for download of data based on a URL provided to Galaxy Australia."%}
 
@@ -160,7 +161,7 @@ available as soon as possible.
 {:start="8"}	 
 8. If you only have a single BAM file, stop here! If you have multiple BAM files, repeat this entire section of the tutorial for each BAM file:
 
-{% include callout.html type="important" content="**Don’t forget:** you will then need to [join the multiple FASTQ files together](#joinfiles).
+{% include callout.html type="important" content="if you have multiple BAM files to convert, you will need to [join the multiple FASTQ files produced by the workflow](#joinfiles).
 Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose." %}
 
 {% include callout.html type="tip" content="**Did you know?**

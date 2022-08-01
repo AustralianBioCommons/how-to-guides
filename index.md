@@ -25,7 +25,7 @@ Some examples of the How-to-Guides included here are:
 
 ## Contributing
 
-[**Guidelines for contributing!**](contributing.md){: class="btn btn-primary col-3"}
+[Guidelines for contributing!](contributing.md){: class="btn btn-primary col-3"}
 
 ---
 
