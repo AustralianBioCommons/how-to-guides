@@ -2,7 +2,6 @@
 title: How-to-Guides
 toc: false
 ---
----
 
 ## About
 
@@ -21,13 +20,11 @@ Some examples of the How-to-Guides included here are:
     <a href="/how-to-guides/documentation/DocumentationGuidelines" class="btn btn-primary h-100">Documentation Guidelines for tools and workflows</a>
   </div>
 </div>
----
 
 ## Contributing
 
 [Guidelines for contributing!](contributing.md){: class="btn btn-primary col-3"}
 
----
 
 ## Acknowledgements
 
