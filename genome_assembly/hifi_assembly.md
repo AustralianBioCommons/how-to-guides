@@ -95,10 +95,6 @@ available as soon as possible.
      - Step 3: Select ```Paste/Fetch data```
      - Step 4: Paste the URL you obtained from the data portal into the content box.
      - Step 5: Select ```Start```
-     - Step 1: Click on ```Upload Data``` 
-     - Step 2: Select ```Paste/Fetch data```
-     - Step 3: Paste the URL you obtained from the data portal into the content box.
-     - Step 4: Select ```Start```
 
 {% include image.html file="hifi_assembly/import_data.png" caption="Fig 4. Process required for download of data based on a URL provided to Galaxy Australia."%}
 
