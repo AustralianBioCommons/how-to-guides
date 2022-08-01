@@ -6,8 +6,6 @@ title: Documentation Guidelines for tools and workflows
 
 **If the answer is yes, then read on!**
 
----
-
 ## Why do the [documentation guidelines](https://github.com/AustralianBioCommons/doc_guidelines) exist?
 
 The Australian BioCommons has been working with community bioinformaticians and our infrastructure partners to establish a guidelines repository that can act as a template for documentation of tools and workflows.
@@ -19,8 +17,6 @@ The repository aims to provide guidance and a minimal starting template for:
 - Recommending additional repository contents that make your work more [FAIR](https://www.go-fair.org/fair-principles/)
 
 >The Australian BioCommons guidelines are based on learnings from existing efforts, including our own projects, but also the Galaxy, NextFlow and Snakemake communities.
-
----
 
 ## Should I contribute to an existing community workflow effort instead?
 
@@ -71,10 +67,8 @@ url: "https://github.com/Sydney-Informatics-Hub/GermlineShortV_biovalidation"
 
 ![](images/example_structure.png)
 
----
 
 ## How might I use the BioCommons guidelines?
 
 ![](images/example_uses_1.png)
 
----

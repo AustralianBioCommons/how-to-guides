@@ -3,9 +3,17 @@
 .navbar {
     .navbar-brand {
         font-size: 2.25rem;
-        color: $dark!important;
+        color: $dark !important;
     }
 }
+
 img {
     @extend .img-fluid;
 }
+
+h2 {
+    padding-top: 10px;
+    display: block;
+    border-top: 1px solid $table-border-color;
+}
+

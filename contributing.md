@@ -9,10 +9,6 @@ If you want to add contents to this site, including a new How-to-Guide or modifi
 you can either [create an issue on the repository](https://github.com/AustralianBioCommons/how-to-guides/issues), 
 or follow the instructions below:
 
-1. 
-
----
-
 ## How to contribute (GitHub users)
 
 If you want to add contents to this site, please do the following:
@@ -23,6 +19,3 @@ If you want to add contents to this site, please do the following:
 4. Open a Github Pull Request (PR) on this repository for your branch, concisely providing context for your additions;
 5. Follow-up on any feedback from the repository maintainers;
 6. Once merged, look at your shiny, newly published contents!
-
----
-
