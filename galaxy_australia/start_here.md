@@ -8,16 +8,20 @@ toc: false
 You can discover and launch Galaxy Australia bioinformatics **tools** via:
 
 [Galaxy Australia search panel](https://usegalaxy.org.au/){: .btn .btn-primary }
+
 [ToolFinder](https://australianbiocommons.github.io/2_tools.html){: .btn .btn-primary }
 
-{% include image.html file="getting_started/getting_started.svg" caption="Fig 1. Search panel for 
+{% include image.html file="getting_started/getting_started.png" caption="Fig 1. Search panel for 
 [Galaxy Australia](https://usegalaxy.org.au/) (left) and the [ToolFinder](https://australianbiocommons.github.io/2_tools.html) service (right)."%}
 
 You can access and run existing Galaxy **workflows** via:
 
 [Galaxy Australia workflow listings](https://usegalaxy.org.au/workflows/list_published){: .btn .btn-primary }
+
 [WorkflowHub registry - searching for Galaxy workflows](https://workflowhub.eu/workflows?filter%5Bworkflow_type%5D=galaxy){: .btn .btn-primary }
+
 [Galaxy Training Network](https://training.galaxyproject.org/){: .btn .btn-primary }
+
 [How-to-Guides on this site (e.g. Genome assembly with hifiasm)](genome_assembly/hifi_assembly.md){: .btn .btn-primary }
 
 ## No
