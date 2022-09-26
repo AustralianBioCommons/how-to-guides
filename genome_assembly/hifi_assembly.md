@@ -117,6 +117,10 @@ available as soon as possible.
 3. Navigate to your list of workflows by clicking on the ```Workflow``` tab (highlighted by a red box in **Fig 6**) in the Galaxy interface.
      {% include image.html inline=true file="hifi_assembly/2_workflow_button.png" caption="Fig 6. The main page of the Galaxy Australia service."%}
 
+{% include callout.html type="tip" content="**Did you know?**
+You can view the workflow diagram by clicking on the 
+workflow name in the list and selecting ```Edit```." %}
+
 4. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
      {% include image.html inline=true file="hifi_assembly/3_workflow_screen.png" caption="Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box."%}
 
@@ -137,21 +141,24 @@ available as soon as possible.
 Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose." %}
 
 {% include callout.html type="tip" content="**Did you know?**
-You can view the workflow diagram by clicking on the 
-workflow name in the list and selecting ```Edit```." %}
-
-{% include callout.html type="tip" content="**Did you know?**
 You don’t need to re-run entire workflows!
-You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below." %}
+You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and 
+pushing the button indicated below." ![](../images/hifi_assembly/repeat_run.png) %}
 
 {% include image.html file="hifi_assembly/fastq_stats.png" caption="Fig 9a. Example Fastq file output."%}
 
 {% include image.html file="hifi_assembly/fastqc_report.png" caption="Fig 9b. Example FASTQC html report."%}
 
-![](../images/hifi_assembly/repeat_run.png)
+
 
 
 ### Assembly workflow
+
+{% include callout.html type="important" content="This workflow includes an adapter filtering step that makes use of
+[HiFiAdapterFilt](https://bio.tools/hifiadapterfilt). Adapter contamination in the reads could cause misassemblies, 
+and will result in NCBI rejecting the upload of affected genome assemblies. `HiFiAdapterFilt` identifies `.ccs` 
+reads containing adapter sequences using the same method as NCBI and removes the entire read prior to genome assembly 
+to avoid such misassemblies." %}
 
 1. Make sure you are logged into Galaxy Australia
 2. [Visit this link](https://usegalaxy.org.au/u/johan/w/hifiasm-shared-by-user-gareth-qfab) and retrieve the assembly workflow by clicking the import workflow button at the top right
@@ -165,10 +172,10 @@ You can re-run individual tools in Galaxy Australia by selecting the previous to
 8. Click the ```Run workflow``` button (as in step 2 of **Fig 8**).
 9. The ```PacBio HiFi genome assembly using hifiasm``` workflow produces the following outputs (**Fig 11**):
    - Bandage info and images for:
-   - Primary assembly contig graph
-   - Alternate assembly contig graph
-   - Processed unitig graph
-   - Haplotype resolved raw unitig graph
+        - Primary assembly contig graph
+        - Alternate assembly contig graph
+        - Processed unitig graph
+        - Haplotype resolved raw unitig graph
    - FASTA file for the primary assembly contig GFA file
    - Fasta statistics for primary assembly contig FASTA file
 
