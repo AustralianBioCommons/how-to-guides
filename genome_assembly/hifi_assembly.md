@@ -140,7 +140,8 @@ workflow name in the list and selecting ```Edit```." %}
 {% include callout.html type="important" content="if you have multiple BAM files to convert, you will need to [join the multiple FASTQ files produced by the workflow](#joinfiles).
 Another tool called ```Concatenate datasets tail-to-head``` (Galaxy Version 0.1.1) can be used for this purpose." %}
 
-{% include callout.html type="tip" content="**Did you know?** You don’t need to re-run entire workflows! You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below." ![](../images/hifi_assembly/repeat_run.png) %}
+{% include callout.html type="tip" content="**Did you know?** You don’t need to re-run entire workflows! You can re-run individual tools in Galaxy Australia by selecting the previous tool run in your history and pushing the button indicated below." %}
+ ![](../images/hifi_assembly/repeat_run.png)
 
 {% include image.html file="hifi_assembly/fastq_stats.png" caption="Fig 9a. Example Fastq file output."%}
 
