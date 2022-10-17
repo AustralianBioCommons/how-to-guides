@@ -115,18 +115,18 @@ available as soon as possible.
    - retrieve the workflow for file conversion, 
    - add it to your Galaxy Australia workflows list, and
    - open your workflows list (which can also be reached by clicking the ```Workflow``` tab, highlighted by a red box in **Fig 6**, in the Galaxy interface)
+   
+3. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
 
 {% include image.html inline=true file="hifi_assembly/2_workflow_button.png" caption="Fig 6. The main page of the Galaxy Australia service."%}
 
-{% include callout.html type="tip" content="**Did you know?** You can view the workflow diagram by clicking on the workflow name in the list and selecting ```Edit```." %}
-
-3. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
+{% include callout.html type="tip" content="**Did you know?** You can view the workflow diagram by clicking on the workflow name in the list and selecting ```Edit```."%}
 
 {% include image.html inline=true file="hifi_assembly/3_workflow_screen.png" caption="Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box."%}
 
 4. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). 
    
-{% include callout.html type="warning" content="Depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced." %}
+{% include callout.html type="warning" content="Depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced."%}
 
 {:start="5"}
 
