@@ -33,4 +33,6 @@ subitems:
       - title: Spack on HPC
         url: /cli_deployments/spack_on_hpc
   - title: Best practice documentation
-    url: /documentation/DocumentationGuidelines
+    subitems:
+      title: Documentation guidelines template
+      url: /documentation/DocumentationGuidelines
