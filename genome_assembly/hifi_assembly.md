@@ -30,7 +30,7 @@ Further to this, a summary of the different elements of this assembly approach a
 
 | Process name     | Workflow name                             | Description                                                                          | Inputs                                                              | Outputs                                                                                                     |
 | ---------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| UPLOAD FILES     | Not applicable                            | See the [different upload options](upload-data-files).                                     | BAM (start at step 3 in Fig 1), or FASTQ (start at step 4 in Fig 1) | Uploaded data!                                                                                              |
+| UPLOAD FILES     | Not applicable                            | See the [different upload options](#upload-data-files).                                     | BAM (start at step 3 in Fig 1), or FASTQ (start at step 4 in Fig 1) | Uploaded data!                                                                                              |
 | FILE CONVERSION  | [BAM to FASTQ + QC](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=220&trs_version=2)                         | Conversion of files from BAM to FASTQ, including a FASTQC quality control (QC) step. |                                                                     | FASTQ file, FASTQC report HTML file                                                                         |
 | ASSEMBLY         | [PacBio HiFi genome assembly using hifiasm](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=221&trs_version=2) | Assembly using the hifiasm tool, including Bandage visualisation and QC.             |                                                                     | Assembly file in FASTA format, FASTA metrics, Assembly report file                                          |
 | PURGE DUPLICATES | [Purge duplicates from hifiasm assembly](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=237&trs_version=2)    | Optional workflow to purge duplicates from the contig assembly.                      |                                                                     | Purged primary sequences from draft assembly (FASTA), Purged haplotig sequences from draft assembly (FASTA) |
@@ -114,7 +114,7 @@ available as soon as possible.
 2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=220&trs_version=2) to:
    - retrieve the workflow for file conversion, 
    - add it to your Galaxy Australia workflows list, and
-   - open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
+   - open your workflows list (which can also be reached by clicking the ```Workflow``` tab, highlighted by a red box in **Fig 6**, in the Galaxy interface)
 
 {% include image.html inline=true file="hifi_assembly/2_workflow_button.png" caption="Fig 6. The main page of the Galaxy Australia service."%}
 
