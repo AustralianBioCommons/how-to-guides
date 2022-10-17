@@ -119,18 +119,20 @@ available as soon as possible.
 
 {% include image.html inline=true file="hifi_assembly/2_workflow_button.png" caption="Fig 6. The main page of the Galaxy Australia service."%}
 
-{% include callout.html inline=true type="tip" content="**Did you know?**
+{% include callout.html type="tip" content="**Did you know?**
 You can view the workflow diagram by clicking on the 
 workflow name in the list and selecting ```Edit```." %}
 
+{:start="3"}
 3. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
 
 {% include image.html inline=true file="hifi_assembly/3_workflow_screen.png" caption="Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box."%}
 
 4. The workflow invocation window will open. Select the BAM file that you previously loaded into your Galaxy history using the drop-down menu (step 1 in **Fig 8**). 
    
-{% include callout.html inline=true type="warning" content="Depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced." %}
+{% include callout.html type="warning" content="Depending on the contents of your BAM file, the parameters (options) chosen will impact the file produced." %}
 
+{:start="5"}
 5. Click ```Run workflow``` (step 2 in **Fig 8**).
      {% include image.html  inline=true file="hifi_assembly/4_run_wf_1.png" caption="Fig 8. The workflow invocation menu for the BAM to FASTQ + QC workflow. Step 1 is to select the BAM file for conversion using the drop-down menu, and Step 2 is to select Run workflow."%}
 
@@ -218,8 +220,9 @@ For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
    3. open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
 3. Select the play button (highlighted by a red box in **Fig 7**) for the ```Purge duplicates from hifiasm assembly``` workflow (the workflow is shown in **Fig 14**).
      
-{% include image.html inline=true file="hifi_assembly/Purge_duplicates.png" caption="Fig 14. Purge duplicates from hifiasm assembly."%}
+{% include image.html file="hifi_assembly/Purge_duplicates.png" caption="Fig 14. Purge duplicates from hifiasm assembly."%}
 
+{:start="4"}
 4. The workflow invocation window will open. 
 5. Select the raw reads in FASTQ format, and hifiasm primary contig assembly file (FASTA format) using the drop-down menu.
      {% include callout.html type="note" content="These inputs are both produced by the ```PacBio HiFi genome assembly using hifiasm``` workflow." %}
