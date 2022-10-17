@@ -22,6 +22,12 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 5. Review workflow report and perform additional QC as needed
 6. Re-run workflows, or individual tools, as needed
 
+## How to cite the workflows
+
+> Price, G. (2022). BAM to FASTQ + QC v1.0. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.220.2
+
+> Price, G. (2022). Purge duplicates from hifiasm assembly v1.0. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.237.2
+
 ## The overall workflow
 
 {% include image.html file="hifi_assembly/overall_workflow.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input BAM file, 3) BAM to FASTQ conversion workflow, 4) assembly workflow, 5) purge duplicates workflow and 6) reviewing the assembly report and FASTA metrics. Required workflow steps are blue, and optional steps are red."%}
@@ -214,7 +220,7 @@ to avoid such misassemblies." %}
 {% include callout.html type="tip" content="**Did you know?**
 You can access the other assembly output types for hifiasm (haplotype resolved, unitig graph and alternate assembly).
 They are just hidden so that the workflow highlights the provision of the primary assembly contig graph.
-For instructions on how to reveal hidden files, see [this link](#hiddenfiles).
+For instructions on how to reveal hidden files, see [this link](#revealing-hidden-files).
 " %}
 
 ### OPTIONAL STEP: Purge duplicates from hifiasm assembly
