@@ -120,8 +120,6 @@ available as soon as possible.
 
 {% include callout.html type="tip" content="**Did you know?** You can view the workflow diagram by clicking on the workflow name in the list and selecting ```Edit```." %}
 
-{:start="3"}
-
 3. Once you have reached the workflow screen, select the ```play``` button (highlighted by a red box in **Fig 7**) for the ```BAM to FASTQ + QC``` workflow.
 
 {% include image.html inline=true file="hifi_assembly/3_workflow_screen.png" caption="Fig 7. The workflows page of the Galaxy Australia service is where your workflows appear. The blue box is a zoom view of the workflow table, and the ```play``` button to launch your workflow is highlighted by a red box."%}
