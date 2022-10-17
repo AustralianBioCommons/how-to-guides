@@ -113,9 +113,9 @@ available as soon as possible.
 
 1. Make sure you are logged into Galaxy Australia
 2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=220&trs_version=2) to:
-   1. retrieve the workflow for file conversion, 
-   2. add it to your Galaxy Australia workflows list, and
-   3. open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
+   - retrieve the workflow for file conversion, 
+   - add it to your Galaxy Australia workflows list, and
+   - open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
 
 {% include image.html inline=true file="hifi_assembly/2_workflow_button.png" caption="Fig 6. The main page of the Galaxy Australia service."%}
 
