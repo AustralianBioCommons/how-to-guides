@@ -3,8 +3,6 @@ title: How to contribute
 toc: false
 ---
 
-## How to contribute
-
 If you want to add contents to this site, including a new How-to-Guide or modifications to an existing guide, 
 you can either [create an issue on the repository](https://github.com/AustralianBioCommons/how-to-guides/issues), 
 or follow the instructions below:
