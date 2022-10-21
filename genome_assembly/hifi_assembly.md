@@ -15,9 +15,9 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 2. Create a new history
 3. Upload your HiFi ```ccs.bam``` data files to your Galaxy history
 4. Load and execute workflows (links included below), using required options
-   - FILE CONVERSION workflow: [```BAM to FASTQ + QC```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=220&trs_version=2) **optional**
-   - ASSEMBLY workflow: [```PacBio HiFi genome assembly workflow```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=221&trs_version=2)
-   - PURGE DUPLICATES workflow: [```Purge duplicates from hifiasm assembly```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=237&trs_version=2) **optional**
+   - FILE CONVERSION workflow: [```BAM to FASTQ + QC v1.0```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=220&trs_version=2) **optional**
+   - ASSEMBLY workflow: [```PacBio HiFi genome assembly workflow v2.1```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=221&trs_version=3)
+   - PURGE DUPLICATES workflow: [```Purge duplicates from hifiasm assembly v1.0```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=237&trs_version=2) **optional**
 
 5. Review workflow report and perform additional QC as needed
 6. Re-run workflows, or individual tools, as needed
@@ -38,7 +38,7 @@ Further to this, a summary of the different elements of this assembly approach a
 | ---------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | UPLOAD FILES     | Not applicable                            | See the [different upload options](#upload-data-files).                                     | BAM (start at step 3 in Fig 1), or FASTQ (start at step 4 in Fig 1) | Uploaded data!                                                                                              |
 | FILE CONVERSION  | [BAM to FASTQ + QC](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=220&trs_version=2)                         | Conversion of files from BAM to FASTQ, including a FASTQC quality control (QC) step. |                                                                     | FASTQ file, FASTQC report HTML file                                                                         |
-| ASSEMBLY         | [PacBio HiFi genome assembly using hifiasm](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=221&trs_version=2) | Assembly using the hifiasm tool, including Bandage visualisation and QC.             |                                                                     | Assembly file in FASTA format, FASTA metrics, Assembly report file                                          |
+| ASSEMBLY         | [PacBio HiFi genome assembly using hifiasm](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=221&trs_version=3) | Assembly using the hifiasm tool, including Bandage visualisation and QC.             |                                                                     | Assembly file in FASTA format, FASTA metrics, Assembly report file                                          |
 | PURGE DUPLICATES | [Purge duplicates from hifiasm assembly](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=237&trs_version=2)    | Optional workflow to purge duplicates from the contig assembly.                      |                                                                     | Purged primary sequences from draft assembly (FASTA), Purged haplotig sequences from draft assembly (FASTA) |
 
 The WorkflowHub entries are all available in [this collection](https://workflowhub.eu/collections/5).
@@ -188,11 +188,15 @@ reads containing adapter sequences using the same method as NCBI and removes the
 to avoid such misassemblies." %}
 
 1. Make sure you are logged into Galaxy Australia
-2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=2) to:
-   1. retrieve the assembly workflow, 
+2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=3) to:
+   1. retrieve v2.1 of the assembly workflow, 
    2. add it to your Galaxy Australia workflows list, and
    3. open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
-3. Select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm``` workflow (the workflow is shown in **Fig 12**).
+   
+{% include callout.html type="tip" content="**Did you know?** version 2.1 of the workflow uses hifiasm v0.16.1." %}
+
+{:start="3"}
+3. Select the play button (highlighted by a red box in **Fig 7**) for the ```PacBio HiFi genome assembly using hifiasm v2.1``` workflow (the workflow is shown in **Fig 12**).
   
 {% include image.html file="hifi_assembly/6_run_wf_2.png" caption="Fig 12. PacBio HiFi genome assembly using hifiasm. The blue boxes indicate the main steps in the workflow, which produce the primary hifiasm assembly. The grey boxes indicate the other outputs of hifiasm, which are hidden but still accessible after the workflow has been run."%}
 
