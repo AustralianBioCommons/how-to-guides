@@ -9,6 +9,8 @@ This site presents How-to-Guides and other associated documentation that support
 
 Some examples of the How-to-Guides included here are:
 
+{% include section-navigation-tiles.html type="example_pages" affiliations=true search=true except="index.md" %}
+
 |Title|Topic|
 |-----|------|
 |[How to contribute](./contributing.md)||
