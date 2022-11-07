@@ -119,6 +119,8 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {% include image.html file="assembly_qc/BUSCO.png"%}
 
+{:start="10"}
+
 10. Click `Run workflow` (step 2 in **Fig 5**).
 
 {% include callout.html type="note" content="if you would like to determine the best k-mer length to use, you can use a script 
@@ -222,6 +224,7 @@ Column descriptors are below, with some sample results generated from test data 
 |athal_COL|all|104975080|125303808|83.7764|
 
 *Source of data: https://github.com/marbl/merqury
+
 Command used to generate results: `$MERQURY/merqury.sh F1.k18.meryl athal_COL.fasta test-1`
 
 #### output_merqury.completeness
