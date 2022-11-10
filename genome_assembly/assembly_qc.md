@@ -3,6 +3,9 @@ title: Assess the quality of your genome assembly
 contributors: [Kate Farquharson, Johan Gustafsson, Gareth Price, Simon Tang]
 ---
 
+{% include callout.html type="warning" content="this guide is still in development." %}
+
+
 ## Introduction
 
 Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here. 

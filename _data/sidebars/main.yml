@@ -6,18 +6,12 @@ subitems:
     url: /contributing
   - title: Contributors
     url: /contributors
-  - title: Using Galaxy Australia
-    subitems:
-      - title: Start here!
-        url: /galaxy_australia/start_here
-      - title: Register and Log in
-        url: /galaxy_australia/register_login
-      - title: Upload data file(s)
-        url: /galaxy_australia/upload_data
   - title: Genome assembly
     subitems:
       - title: HiFi genome assembly on Galaxy Australia
         url: /genome_assembly/hifi_assembly
+      - title: Assess the quality of your genome assembly
+        url: /genome_assembly/assembly_qc
   - title: Population genomics
     subitems:
       - title: Stacks workflows in Galaxy Australia using RADseq
