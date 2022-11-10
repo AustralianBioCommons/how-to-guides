@@ -9,7 +9,7 @@ This site presents How-to-Guides and other associated documentation that support
 
 Some examples of the How-to-Guides included here are:
 
-{% include section-navigation-tiles.html type="overview" search=true except="index.md" %}
+{% include section-navigation-tiles.html type="guides" search=true except="index.md" %}
 
 ## Acknowledgements
 

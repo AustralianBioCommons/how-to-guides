@@ -22,4 +22,8 @@ defaults:
     values:
       layout: "page"
       sidebar: main
-      type: overview
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      type: guides
