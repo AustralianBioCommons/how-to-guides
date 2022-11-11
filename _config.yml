@@ -24,7 +24,7 @@ defaults:
       sidebar: main
   -
     scope:
-      path: "/about"
+      path: "about"
     values:
       sidebar: about
   -
