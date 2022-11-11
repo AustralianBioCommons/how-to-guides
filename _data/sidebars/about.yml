@@ -1,11 +1,9 @@
 title: About
-title_url: /about
+title_url: about/about
 subitems:
-  - title: About
-    url: /about
   - title: How to contribute
-    url: /contributing
+    url: about/contributing
   - title: Contributors
-    url: /contributors
+    url: about/contributors
   - title: Acknowledgements
-    url: /acknowledgements
+    url: about/acknowledgements
