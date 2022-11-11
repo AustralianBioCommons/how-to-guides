@@ -1,7 +1,0 @@
-title: index
-title_url: /index
-subitems:
-  - title: Assess the quality of your genome assembly
-    url: /genome_assembly/assembly_qc
-  - title: Genome assembly with hifiasm on Galaxy Australia
-    url: /genome_assembly/hifi_assembly

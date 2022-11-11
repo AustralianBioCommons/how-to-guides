@@ -2,10 +2,6 @@
 subitems:
   - title: Home
     url: /
-  - title: How to contribute
-    url: /contributing
-  - title: Contributors
-    url: /contributors
   - title: Genome assembly
     subitems:
       - title: HiFi genome assembly on Galaxy Australia
