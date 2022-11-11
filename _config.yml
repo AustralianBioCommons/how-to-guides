@@ -22,11 +22,13 @@ defaults:
     values:
       layout: "page"
       sidebar: main
-  -  scope:
+  -
+    scope:
       path: ""
     values:
       sidebar: about
-  - scope:
+  -
+    scope:
       path: "genome_assembly"
       type: "pages"
     values:
