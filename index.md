@@ -11,5 +11,3 @@ Some examples of the How-to-Guides included here are:
 
 {% include section-navigation-tiles.html type="assembly_guides"%}
 
-## Acknowledgements
-
