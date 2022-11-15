@@ -33,3 +33,16 @@ defaults:
       type: "pages"
     values:
       type: assembly_guides
+  -
+    scope:
+      path: "documentation"
+      type: "pages"
+    values:
+      type: best_practice_documentation
+  -
+    scope:
+      path: "cli_deployments"
+      type: "pages"
+    values:
+      type: command_line_deployments
+
