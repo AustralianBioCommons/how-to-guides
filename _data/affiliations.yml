@@ -1,0 +1,15 @@
+- name: Australian BioCommons
+  image_url: /assets/img/main_logo.png
+  expose: true
+  type: infrastructure
+  url: https://www.biocommons.org.au/
+- name: Bioplatforms Australia
+  image_url: /images/infrastructures/BioplatformsAustralia.png
+  expose: true
+  type: infrastructure
+  url: https://bioplatforms.com/
+- name: Galaxy Australia
+  image_url: /images/infrastructures/galaxy-aust-logo-portrait-CMYK.png
+  expose: true
+  type: infrastructure
+  url: https://usegalaxy.org.au/
