@@ -1,5 +1,7 @@
 ---
 title: Documentation Guidelines for tools and workflows
+description: A guidelines repository that can act as a template for documentation of tools and workflows
+affiliations: [Australian BioCommons]
 ---
 
 **Do you want your tools and workflows to be documented in a standard way?**
