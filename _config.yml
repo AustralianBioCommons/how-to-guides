@@ -1,7 +1,8 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 title: "How-to-Guides"
 description: A collection of bioinformatics focused How-to-Guides
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.18.0
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.20.2
+topnav_title: How-to-Guides
 
 theme_variables:
   # biocommons blue
