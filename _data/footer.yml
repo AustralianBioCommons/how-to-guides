@@ -1,7 +1,18 @@
-# see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
+# see https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_data/footer.yml
 columns:
   - type: image
     image_width: 120px
     width: 3
     src: 'assets/img/main_logo.png'
-    alt: Australian BioCommons logo
+    alt: Australian BioCommons Logo
+  - type: links
+    width: 3
+    children:
+      - url_text: Home
+        url: /
+      - url_text: About
+        url: /about/about
+      - url_text: Contributors
+        url: /about/contributors
+      - url_text: Acknowledgments
+        url: /about/acknowledgements
