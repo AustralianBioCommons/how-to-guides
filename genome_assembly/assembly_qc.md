@@ -151,7 +151,7 @@ The metrics include various sequence read lengths (`n50`, `min`, `max`, `median`
 numbers of base pairs (`A`, `C`, `G`, `T`, `N`, total number `num_bp` and total number that are not N `num_bp_not_N`), 
 the total number of sequences as well as the GC content.
 
-{% include image.html file="assembly_qc/fasta_stats.png" caption="Fig 6. FASTA statistics output" max-width="4" %}
+{% include image.html file="assembly_qc/fasta_stats.png" caption="Fig 6. FASTA statistics output" max-width="5em" %}
 
 {% include callout.html type="tip" content="check that the GC content (%) is similar to 
 what you would expect from other closely related genomes. Check that the genome size (`num_bp`) 
