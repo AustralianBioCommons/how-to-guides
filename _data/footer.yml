@@ -1,4 +1,5 @@
 # see https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_data/footer.yml
+copyright: 'This site uses Cookies. We use cookies to help the website run effectively. To find out more, read our [Privacy](https://www.biocommons.org.au/privacy) and [Cookies](https://www.biocommons.org.au/cookies) statements.'
 columns:
   - type: image
     image_width: 120px
