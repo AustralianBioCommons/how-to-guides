@@ -3,6 +3,7 @@ title: "How-to-Guides"
 description: A collection of bioinformatics focused How-to-Guides
 remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.20.2
 topnav_title: How-to-Guides
+gtag: G-T8GWK081T9
 
 theme_variables:
   # biocommons blue

@@ -151,7 +151,7 @@ The metrics include various sequence read lengths (`n50`, `min`, `max`, `median`
 numbers of base pairs (`A`, `C`, `G`, `T`, `N`, total number `num_bp` and total number that are not N `num_bp_not_N`), 
 the total number of sequences as well as the GC content.
 
-Fig 6. FASTA statistics output
+{% include image.html file="assembly_qc/fasta_stats.png" caption="Fig 6. FASTA statistics output"%}
 
 {% include callout.html type="tip" content="check that the GC content (%) is similar to 
 what you would expect from other closely related genomes. Check that the genome size (`num_bp`) 
@@ -173,8 +173,7 @@ See the [QUAST user guide for additional detail](http://quast.sourceforge.net/do
 
 The most useful QUAST output is likely to be the summary report in either `.txt`, `.pdf` or `.html` format.
 
-
-Fig 7. QUAST output PDF
+{% include image.html file="assembly_qc/quast.png" caption="Fig 7. QUAST output PDF"%}
 
 {% include callout.html type="tip" content="Tabular required to merge QUAST results using MultiQC - recommended if comparing 1+ assemblies, of the same FASTA file." %}
 
@@ -194,9 +193,7 @@ If reporting BUSCO in a publication, be sure to report the:
 - number of BUSCOs in the lineage, and 
 - full score
 
-
 Fig 8. BUSCO output
-
 
 ### Merqury & meryl
 
@@ -299,6 +296,8 @@ These are spectra-cn plots, which record the copy number of k-mers. 'k-mer multi
 The different colours relate to the number of times the k-mer appears in the genome assembly itself. 2-copy k-mers are present in both haplotypes (homozygosity) and 1-copy k-mers are present in only one haplotype (and thus represent heterozygosity). Grey represents the k-mers found only in the reads (not assembled into the genome) and the small bar of red and blue on the left represent k-mers only found in the assembly (sequencing error). 
 
 This is a great graph to include in a publication as it provides both an accurate k-mer distribution of your genome, but also extra information about the heterozygosity and sequencing errors.
+
+{% include image.html file="assembly_qc/merqury.png" caption="Fig 9. Merqury `output.genome.spectra-cn` output"%}
 
 #### output.spectra-asm.<fl/ln/st>.png
 
