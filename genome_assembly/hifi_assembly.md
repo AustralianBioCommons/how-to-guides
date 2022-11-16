@@ -172,7 +172,7 @@ Note that you can insert multiple data sets (i.e. FASTQs), and should only conca
 
 1. Search for the ```Concatenate datasets tail-to-head``` tool in the Galaxy Australia browser interface (step 1 in **Fig 10**).
 2. Select the tool from the search results (step 2 in **Fig 10**).
-     {% include image.html inline=true file="hifi_assembly/fig10.png" caption="Fig 10. Search for and open a tool using the Galaxy Australia interface."%}
+     {% include image.html inline=true file="hifi_assembly/fig10.png" caption="Fig 10. Search for and open a tool using the Galaxy Australia interface."  max-width="10em" %}
 
 3. In the tool menu, select the first FASTQ data set (step 3 in **Fig 11**).
 4. Insert additional FASTQ data sets by selecting the ```+ Insert Dataset``` button (step 4 in **Fig 11**).
@@ -269,7 +269,7 @@ For instructions on how to reveal hidden files, see [this link](#revealing-hidde
 
 ### OPTIONAL STEP: Post-assembly quality control workflow
 
-{% include callout.html type="note" content="This workflow is still being developed." %}
+A [genome assembly quality control workflow guide](assembly_qc.md) is available.
 
 ## Appendices
 
