@@ -5,7 +5,7 @@ description: It is important to assess the quality of a genome assembly, and in 
 affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
 ---
 
-{% include callout.html type="warning" content="this guide is still in development." %}
+{% include callout.html type="important" content="This guide is still in development." %}
 
 
 ## Introduction
