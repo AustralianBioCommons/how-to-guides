@@ -26,9 +26,11 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 
 ## How to cite the workflows
 
-> Price, G. (2022). BAM to FASTQ + QC v1.0. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.220.2
+> Price, G. (2022). **BAM to FASTQ + QC v1.0**. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.220.2
 
-> Price, G. (2022). Purge duplicates from hifiasm assembly v1.0. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.237.2
+> Price, G., & Farquharson, K. (2022). **PacBio HiFi genome assembly using hifiasm v2.1**. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3
+
+> Price, G. (2022). **Purge duplicates from hifiasm assembly v1.0**. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.237.2
 
 ## The overall workflow
 

@@ -10,6 +10,7 @@ theme_variables:
   theme_color: 205a86
   topnav:
     brand_logo: assets/img/main_logo.png
+  privacy_statement_url: https://www.biocommons.org.au/privacy
 
 permalink: /:categories/:year/:month/:day/:title
 

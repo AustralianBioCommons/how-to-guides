@@ -1,13 +1,15 @@
 ---
-title: How to contribute
+title: How to Contribute
 toc: false
 ---
 
-If you want to add contents to this site, including a new How-to-Guide or modifications to an existing guide, 
-you can either [create an issue on the repository](https://github.com/AustralianBioCommons/how-to-guides/issues), 
-or follow the instructions below:
 
-## How to contribute (GitHub users)
+## GitHub issues
+
+If you think something should be added, or if you find an error, bug or mistake, please [create an issue](https://github.com/AustralianBioCommons/how-to-guides/issues/new) detailing the problem. We will do our best to fix the issue as soon as possible. You can also create an issue by clicking the `!` symbol next to the title on any of the pages.
+
+
+## Pull Request
 
 If you want to add content to this site, please do the following:
 
@@ -21,3 +23,6 @@ If you want to add content to this site, please do the following:
 8. Follow-up on any feedback from the repository maintainers;
 9. Once ready, the maintainers will merge the changes and deploy the new content;
 10. Once deployed, look at your shiny published content [here](https://australianbiocommons.github.io/how-to-guides/)!
+
+
+## Thanks for contributing!
