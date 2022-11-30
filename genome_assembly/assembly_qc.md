@@ -15,7 +15,7 @@ Once a genome has been assembled, it is important to assess the quality of the a
 Figure 1 shows the structure of the QC workflow on Galaxy Australia, from input of FASTA contigs, through to analysis using the tools Fasta statistics, [Quast](https://bio.tools/quast), 
 [BUSCO](https://bio.tools/busco), [Meryl](https://bio.tools/meryl) and [Merqury](https://bio.tools/merqury).
 
-{% include image.html file="assembly_qc/workflow_qc.png" caption="Fig 1. The `Genome assessment post assembly` workflow." max-width="80em" %}
+{% include image.html file="assembly_qc/workflow_qc.png" caption="Fig 1. The `Genome assessment post assembly` workflow." max-width="50em" %}
 
 Once you have checked the genome assembly, you may decide that:
 
@@ -27,11 +27,11 @@ Once you have checked the genome assembly, you may decide that:
 
 ### How to cite the workflow
 
-> Price, G. (2022). Genome assessment post assembly. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.1
+> Price, G. (2022). Genome assessment post assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.1" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.1</a>
 
 ### A note on software versions
 
-{% include callout.html type="important" content="the noted software versions are for [Genome assessment post assembly version 1.0.0](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=1)." %}
+{% include callout.html type="important" content="the noted software versions are for <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=1" ga-product="workflow_link" ga-id="403_assembly_QC">Genome assessment post assembly version 1.0.0</a>." %}
 
 | Software | Version |
 |----------|---------|
@@ -96,7 +96,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="3"}
 
-3. Visit [this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=1) to:
+3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=1" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
 
      - retrieve the workflow for assembly quality control, 
      - add it to your Galaxy Australia workflows list, and
@@ -313,7 +313,7 @@ The different colours relate to the number of times the k-mer appears in the gen
 
 This is a great graph to include in a publication as it provides both an accurate k-mer distribution of your genome, but also extra information about the heterozygosity and sequencing errors.
 
-{% include image.html file="assembly_qc/merqury.png" caption="Fig 9. Merqury `output.genome.spectra-cn` output" max-width="80em" %}
+{% include image.html file="assembly_qc/merqury.png" caption="Fig 9. Merqury `output.genome.spectra-cn` output" max-width="50em" %}
 
 #### output.spectra-asm.<fl/ln/st>.png
 
