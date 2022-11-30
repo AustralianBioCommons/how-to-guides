@@ -26,11 +26,11 @@ This How-to-Guide will describe the steps required to assemble your genome on th
 
 ## How to cite the workflows
 
-> Price, G. (2022). **BAM to FASTQ + QC v1.0**. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.220.2
+> Price, G. (2022). **BAM to FASTQ + QC v1.0**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.220.2" ga-product="workflow_doi" ga-id="220_conversion_qc">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.220.2</a>
 
-> Price, G., & Farquharson, K. (2022). **PacBio HiFi genome assembly using hifiasm v2.1**. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3
+> Price, G., & Farquharson, K. (2022). **PacBio HiFi genome assembly using hifiasm v2.1**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3" ga-product="workflow_doi" ga-id="221_hifi_assembly">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3</a>
 
-> Price, G. (2022). **Purge duplicates from hifiasm assembly v1.0**. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.237.2
+> Price, G. (2022). **Purge duplicates from hifiasm assembly v1.0**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.237.2" ga-product="workflow_doi" ga-id="237_purge_duplicates">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.237.2</a>
 
 ## The overall workflow
 
@@ -121,7 +121,7 @@ available as soon as possible.
 - **You will need to complete this workflow for each BAM file**
 
 1. Make sure you are logged into Galaxy Australia
-2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=220&trs_version=2) to:
+2. <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=220&trs_version=2" ga-product="workflow_link" ga-id="220_conversion_qc">Visit this link</a> to:
    - retrieve the workflow for file conversion, 
    - add it to your Galaxy Australia workflows list, and
    - open your workflows list (which can also be reached by clicking the ```Workflow``` tab, highlighted by a red box in **Fig 6**, in the Galaxy interface)
@@ -192,7 +192,7 @@ reads containing adapter sequences using the same method as NCBI and removes the
 to avoid such misassemblies." %}
 
 1. Make sure you are logged into Galaxy Australia
-2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=3) to:
+2. <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=3" ga-product="workflow_link" ga-id="221_hifi_assembly">Visit this link</a> to:
    1. retrieve v2.1 of the assembly workflow, 
    2. add it to your Galaxy Australia workflows list, and
    3. open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
@@ -234,7 +234,7 @@ For instructions on how to reveal hidden files, see [this link](#revealing-hidde
 ### OPTIONAL STEP: Purge duplicates from hifiasm assembly
 
 1. Make sure you are logged into Galaxy Australia
-2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=237&trs_version=2) to:
+2. <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=237&trs_version=2" ga-product="workflow_link" ga-id="237_purge_duplicates">Visit this link</a> to:
    1. retrieve the purge duplicates workflow, 
    2. add it to your Galaxy Australia workflows list, and
    3. open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
