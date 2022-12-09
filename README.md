@@ -4,7 +4,7 @@ This site presents How-to-Guides and other associated documentation that support
 
 ## Article template
 
-See [`guide_template.md`](./guide_template.md)
+See [`guide_template.md`](./about/guide_template.md)
 
 ## Acknowledgements
 

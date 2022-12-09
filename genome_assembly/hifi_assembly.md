@@ -47,7 +47,7 @@ Further to this, a summary of the different elements of this assembly approach a
 
 The WorkflowHub entries are all available in [this collection](https://workflowhub.eu/collections/5).
 
-## In-depth guide
+## In-depth workflow guide
 
 ### Register and login
 
@@ -80,15 +80,17 @@ available as soon as possible.
     - **The URL is time sensitive and will expire after 10 minutes.** 
     - Please note you only need to instigate the download within this 10 minute window. The import itself can take longer than 10 minutes.
 
-3. In Galaxy Australia, perform the steps outlined in **Fig. 4**
-     - Step 1: Create a new history
+3. In Galaxy Australia, create a new history
 
    ![](../images/hifi_assembly/galaxy_history.png)
 
-     - Step 2: Click on ```Upload Data```
-     - Step 3: Select ```Paste/Fetch data```
-     - Step 4: Paste the URL you obtained from the data portal into the content box.
-     - Step 5: Select ```Start```
+{:start="4"}
+
+4. Now, perform the steps outlined in **Fig. 4**
+     - Step 1: Click on ```Upload Data```
+     - Step 2: Select ```Paste/Fetch data```
+     - Step 3: Paste the URL you obtained from the data portal into the content box.
+     - Step 4: Select ```Start```
 
 {% include image.html file="hifi_assembly/import_data.png" caption="Fig 4. Process required for download of data based on a URL provided to Galaxy Australia."%}
 
@@ -116,9 +118,12 @@ available as soon as possible.
 ### OPTIONAL STEP: convert BAM files to FASTQ 
 
 {% include callout.html type="important" content="please note the following important points"%} 
-- **This workflow is not needed if files are already in FASTQ format**
-- **You must do this step if your files are in ```ccs.bam``` format**
-- **You will need to complete this workflow for each BAM file**
+
+> **This workflow is not needed if files are already in FASTQ format**
+
+> **You must do this step if your files are in ```ccs.bam``` format**
+
+> **You will need to complete this workflow for each BAM file**
 
 1. Make sure you are logged into Galaxy Australia
 2. <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=220&trs_version=2" ga-product="workflow_link" ga-id="220_conversion_qc">Visit this link</a> to:
@@ -193,9 +198,9 @@ to avoid such misassemblies." %}
 
 1. Make sure you are logged into Galaxy Australia
 2. <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=3" ga-product="workflow_link" ga-id="221_hifi_assembly">Visit this link</a> to:
-   1. retrieve v2.1 of the assembly workflow, 
-   2. add it to your Galaxy Australia workflows list, and
-   3. open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
+     - retrieve v2.1 of the assembly workflow, 
+     - add it to your Galaxy Australia workflows list, and 
+     - open your workflows list (which can also be reached by clicking the ```Workflow``` tab [highlighted by a red box in **Fig 6**] in the Galaxy interface)
    
 {% include callout.html type="tip" content="**Did you know?** version 2.1 of the workflow uses hifiasm v0.16.1." %}
 

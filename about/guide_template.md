@@ -1,12 +1,16 @@
 ---
 title: [How-to-Guide template]
 contributors: [Johan Gustafsson]
+description: Add a plain text description here.
+affiliations: [Australian BioCommons]
 ---
 
 > Before you start using this template!
 > 1. Add your name to the contributors section of the guide above
 > 2. Make sure to also add your name to [`CONTRIBUTORS.yml`](_data/CONTRIBUTORS.yml)
-> 3. Add citation information in the format provided below:
+> 3. Add a plain text description to the section above
+> 4. Add affiliations to the section above: make sure to also update [`affiliations.yml`](_data/affiliations.yml)
+> 5. Add citation information in the format provided below:
 
 **Note:** if this guide helped you, please cite it as follows
 > Citation information goes here!

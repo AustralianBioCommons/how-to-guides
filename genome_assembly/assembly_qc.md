@@ -89,7 +89,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 {:start="2"}
 
 2. Upload your primary genome assembly file to your current Galaxy history
-     - See this link for [details on how to upload files](https://australianbiocommons.github.io/how-to-guides/galaxy_australia/upload_data)
+     - See this link for [details on how to upload files](https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly#upload-data-files)
      - If you don’t have a history (i.e. you are using an existing assembly), you can create one, as shown in the image below
 
 {% include image.html file="assembly_qc/new_galaxy_history.png" caption="Fig 2. New Galaxy history!"%}
