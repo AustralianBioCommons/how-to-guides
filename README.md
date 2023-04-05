@@ -1,6 +1,6 @@
 ## About
 
-This site presents How-to-Guides and other associated documentation that supports the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+This site presents How-to Guides and other associated documentation that supports the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
 
 ## Article template
 
