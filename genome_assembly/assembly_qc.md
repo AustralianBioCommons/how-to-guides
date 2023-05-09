@@ -27,19 +27,19 @@ Once you have checked the genome assembly, you may decide that:
 
 ### How to cite the workflow
 
-> Price, G. (2022). Genome assessment post assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.1" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.1</a>
+> Price, G. (2023). Genome assessment post assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.2" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.2</a>
 
 ### A note on software versions
 
 {% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=1' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 1.0.0</a>." %}
 
-| Software | Version |
-|----------|---------|
-|FASTA stats | 2.0 |
+| Software | Version       |
+|----------|---------------|
+|FASTA stats | 2.0           |
 |QUAST | 5.0.2+galaxy1 |
 |BUSCO | 5.2.2+galaxy0 |
-|Meryl | 1.3+galaxy3 |
-|Merqury| 1.3 |
+|Meryl | 1.3+galaxy6   |
+|Merqury| 1.3           |
 
 
 ## Standards of genome quality
@@ -96,7 +96,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="3"}
 
-3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=1" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
+3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=2" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
 
      - retrieve the workflow for assembly quality control, 
      - add it to your Galaxy Australia workflows list, and
