@@ -1,5 +1,5 @@
 ---
-title: Welcome to the How-to-Guides
+title: Welcome to the How-to Guides
 toc: false
 ---
 
