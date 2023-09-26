@@ -78,6 +78,22 @@ Please note that:
 2. Then select all of the fastq read files
 3. Click "For all selected ...." and choose "Build Dataset List". This list can now be used as input into the Galaxy workflows described later in this guide.
 
+{% include callout.html type="important" content="The files in the collection should each have a sample name with no special characters (such as full stops or spaces). e.g. `sample25`, not `sample25.fastq.gz`." %}
+
+If you already have your files in Galaxy, in a collection, and want to relabel them to remove “.fastq.gz”, follow these steps: 
+
+First generate a table with the original names (e.g. `sample.fastq.gz`) and the new names (`sample`) :
+* Using the original population map, duplicate the filename column (with tool "compute on rows", add expression str(c1), mode = append)
+* extract sample IDs from the new filename column (with tool "column regex find and replace", using column 3, find regex (\d+)\.FASTQ\.gz , replacement \1 )
+* generate a table for mapping list identifiers (with tool "advanced cut columns from a table", operation = keep, delimited by tab, cut by fileds, fields = column 1 and column 3
+
+For the files in the collection: 
+* use tool "relabel identifiers"
+* input = file collection
+* how should the new labels be specified = map original identifiers to new ones using a two column table
+* new identifiers = the table with original names and new names, created in the step above
+* run => output = collection of renamed files
+
 ### Reads QC, optional
 
 {% include callout.html type="note" content="For more information about performing QC, see the Galaxy tutorial [Quality Control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)" %}
@@ -95,7 +111,7 @@ A workflow with some potentially relevant QC steps is listed and described below
 
 ### Create or amend a population map
 
-For more information about the population map format, see the Stacks manual. 
+For more information about the population map format, see the Stacks manual. The first column should contain sample names, and the second column should contain the population type. 
 
 To create a population map in Galaxy:
 
