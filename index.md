@@ -9,9 +9,6 @@ This resource presents step-by-step guides and other associated documentation th
 
 {% include section-navigation-tiles.html type="assembly_guides"%}
 
-## Best practice documentation
-
-{% include section-navigation-tiles.html type="best_practice_documentation"%}
 
 ## Developer info for command line deployments
 
