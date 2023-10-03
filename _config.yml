@@ -1,8 +1,8 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 title: "How-to Guides"
-description: A collection of bioinformatics focused How-to-Guides
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.23.0
-topnav_title: How-to-Guides
+description: A collection of bioinformatics focused How-to Guides
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@2.3.0
+#topnav_title: How-to-Guides
 gtag: G-T8GWK081T9
 
 theme_variables:
@@ -27,21 +27,10 @@ defaults:
       sidebar: main
   -
     scope:
-      path: "about"
-    values:
-      sidebar: about
-  -
-    scope:
       path: "genome_assembly"
       type: "pages"
     values:
       type: assembly_guides
-  -
-    scope:
-      path: "documentation"
-      type: "pages"
-    values:
-      type: best_practice_documentation
   -
     scope:
       path: "cli_deployments"
