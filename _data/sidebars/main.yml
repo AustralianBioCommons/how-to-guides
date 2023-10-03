@@ -1,6 +1,6 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 subitems:
-  - title: Home
+  - title: About
     url: /
   - title: Genome assembly
     subitems:
@@ -22,4 +22,7 @@ subitems:
         url: /cli_deployments/shpc_on_hpc
       - title: Spack on HPC
         url: /cli_deployments/spack_on_hpc
-
+  - title: How to contribute
+    url: about/contributing
+  - title: Contributors
+    url: about/contributors
