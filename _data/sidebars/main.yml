@@ -12,16 +12,6 @@ subitems:
     subitems:
       - title: Stacks workflows in Galaxy Australia using RADseq
         url: /stacks_workflows/stacks
-  - title: Command Line Software Deployments
-    subitems:
-      - title: CernVM-FS on Cloud
-        url: /cli_deployments/cernvmfs_on_cloud
-      - title: Singularity HPC (SHPC) on Cloud
-        url: /cli_deployments/shpc_on_cloud
-      - title: Singularity HPC (SHPC) on HPC
-        url: /cli_deployments/shpc_on_hpc
-      - title: Spack on HPC
-        url: /cli_deployments/spack_on_hpc
   - title: How to contribute
     url: about/contributing
   - title: Contributors

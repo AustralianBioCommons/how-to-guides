@@ -7,12 +7,13 @@ This resource presents step-by-step guides and other associated documentation th
 
 ## Genome assembly
 
-{% include section-navigation-tiles.html type="assembly_guides"%}
+{% include section-navigation-tiles.html type="genome-assembly"%}
 
 
-## Developer info for command line deployments
+## Population genomics
 
-{% include section-navigation-tiles.html type="command_line_deployments"%}
+{% include section-navigation-tiles.html type="pop-gen"%}
+
 
 ## Acknowledgements
 

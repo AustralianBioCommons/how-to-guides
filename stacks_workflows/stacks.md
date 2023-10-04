@@ -1,5 +1,6 @@
 ---
 title: Stacks workflows in Galaxy Australia using RADseq
+type: pop-gen
 contributors: [Anna Syme, Johan Gustafsson, Tom Harrop, Wai Cheng (Mike) Thang]
 ---
 
