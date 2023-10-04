@@ -2,6 +2,8 @@
 title: Stacks workflows in Galaxy Australia using RADseq
 type: pop-gen
 contributors: [Anna Syme, Johan Gustafsson, Tom Harrop, Wai Cheng (Mike) Thang]
+description: This guide describes the steps required to run multiple Stacks workflows on Galaxy Australia to analyse RADseq data.
+affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
 ---
 
 ## Introduction & context

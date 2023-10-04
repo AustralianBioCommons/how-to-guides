@@ -1,5 +1,5 @@
 ---
-title: Welcome to the How-to Guides
+title: Genomics How-to Guides
 toc: false
 ---
 
@@ -13,6 +13,13 @@ This resource presents step-by-step guides and other associated documentation th
 ## Population genomics
 
 {% include section-navigation-tiles.html type="pop-gen"%}
+
+
+## Contributors
+
+These guides would not be possible without the following contributors.
+
+{% include contributor-tiles-all.html %}
 
 
 ## Acknowledgements
