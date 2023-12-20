@@ -1,9 +1,12 @@
 /* see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme*/
 
-.navbar {
+header .navbar {
     .navbar-brand {
         font-size: 2.25rem;
         color: $dark !important;
+            img {
+                max-height: 80px;
+            }
     }
 }
 
