@@ -38,7 +38,7 @@ Once you have checked the genome assembly, you may decide that:
 |----------|---------------|
 |FASTA stats | 2.0           |
 |QUAST | 5.0.2+galaxy1 |
-|BUSCO | 5.2.2+galaxy0 |
+|BUSCO | 5.4.6+galaxy0 |
 |Meryl | 1.3+galaxy6   |
 |Merqury| 1.3           |
 
@@ -124,15 +124,15 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="7"}
 
-7. Select input data for the raw sequencing reads. These should be the HiFi reads, that have had adapters removed. These should be in `fastqsanger` format. 
+7. Select input data for the raw sequencing reads. These should be the HiFi reads, that have had adapters removed, and then concatenated into a single file. This should be in `fastqsanger` format. 
 
-9. Determine optimal k-mer size for genome
+8. Determine optimal k-mer size for genome
 
      - In order for Meryl to generate a database for each read file, a k-mer length must be selected 
      - It should be large enough to allow the k-mer to map uniquely to the genome 
      - k = 21 is generally a good length for a haploid genome of 3.1 Gb and a diploid genome of 6.2 Gb
 
-10. BUSCO lineage selection
+9. BUSCO lineage selection
 
      - In this workflow, the default setting for lineage is `eukaryota`
      - However, you can select an alternative lineage relevant to your genome
@@ -224,6 +224,15 @@ If reporting BUSCO in a publication, be sure to report the:
 
 Meryl produces a meryldb (download only, no visualisation available), which is required for Merqury. 
 It is visible in the workflow to allow for easy access, and to allow input for tools other than Merqury
+
+### Additional tables
+
+Two additional tables are created and displayed as output files, as well as in the workflow report. 
+
+These are:
+
+- a table for assembly statistics, which includes a calculation of genome coverage and selected lines from the Fasta Statistics output
+- a table to show the version of BUSCO and its dependencies
 
 
 ## PacBio HiFi Single Genome Assessment with merqury
