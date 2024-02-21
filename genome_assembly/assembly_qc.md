@@ -89,7 +89,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="2"}
 
-2. Upload your primary genome assembly file to your current Galaxy history
+2. Upload your primary genome assembly file and the raw reads to your current Galaxy history
      - See this link for [details on how to upload files](https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly#upload-data-files)
      - If you don’t have a history (i.e. you are using an existing assembly), you can create one, as shown in the image below
 
@@ -116,34 +116,41 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="5"}
 
-5. The workflow invocation window will open. 
+5. The workflow invocation window will open. Click 
 
-6. Select either the primary assembly file that you previously loaded into your Galaxy history, or the assembly you created using the Galaxy HiFi genome assembly workflow, using the drop-down menu (step 1 in **Fig 5**).
+6. Select input data for the assembly. Choose either the primary assembly file that you previously loaded into your Galaxy history, or the assembly you created using the Galaxy HiFi genome assembly workflow, using the drop-down menu (step 1 in **Fig 5**). The genome assembly should be in `fasta` format.
 
 {% include image.html file="assembly_qc/workflow_launch_1.png" caption="Fig 5. The workflow invocation menu for the `Genome assessment post assembly` workflow. Step 1 is to select the primary assembly file using the drop-down menu, and Step 2 is to select `Run workflow`."%}
 
 {:start="7"}
 
-7. Both the genome assembly and raw read files should be in `.fa` or `.fastq` format. 
+7. Select input data for the raw sequencing reads. These should be the HiFi reads, that have had adapters removed. These should be in `fastqsanger` format. 
 
-8. Determine optimal k-mer size for genome
+9. Determine optimal k-mer size for genome
 
      - In order for Meryl to generate a database for each read file, a k-mer length must be selected 
      - It should be large enough to allow the k-mer to map uniquely to the genome 
      - k = 21 is generally a good length for a haploid genome of 3.1 Gb and a diploid genome of 6.2 Gb
 
-9. BUSCO lineage selection
+10. BUSCO lineage selection
 
-     - Select the lineage relevant to your genome
+     - In this workflow, the default setting for lineage is `eukaryota`
+     - However, you can select an alternative lineage relevant to your genome
      - For example, if you were analysing a lizard genome, you may wish to select the *Sauropsida* lineage
      - Alternatively, you may prefer to select a broader lineage such as *Vertebrata* to allow for broader comparisons to other species’ genomes
      - Keeping in mind that BUSCO results should generally be compared across the same version of BUSCO and the same lineage
 
 {% include image.html file="assembly_qc/BUSCO.png"%}
 
+10. Quast settings
+
+    - In this workflow, the default setting for lineage is `eukaryotes`
+    - However, you can select an alternative lineage relevant to your genome
+    - In this workflow, the default setting for `Is genome large (>100 Mbp)?` is `yes`, but this can be changed
+ 
 {:start="10"}
 
-10. Click `Run workflow` (step 2 in **Fig 5**).
+11. Click `Run workflow` (step 2 in **Fig 5**).
 
 {% include callout.html type="note" content="if you would like to determine the best k-mer length to use, you can use a script 
 that generates the meryl database and runs Merqury. Meryl databases will be used to assess the genome, and if you have multiple read files, 
