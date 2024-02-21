@@ -16,7 +16,7 @@ Once a genome has been assembled, it is important to assess the quality of the a
 Figure 1 shows the structure of the QC workflow on Galaxy Australia, from input of FASTA contigs, through to analysis using the tools Fasta statistics, [Quast](https://bio.tools/quast), 
 [BUSCO](https://bio.tools/busco), [Meryl](https://bio.tools/meryl) and [Merqury](https://bio.tools/merqury).
 
-{% include image.html file="assembly_qc/workflow_qc.png" caption="Fig 1. The `Genome assessment post assembly` workflow." max-width="50em" %}
+{% include image.html file="assembly_qc/workflow_qc2.png" caption="Fig 1. The `Genome assessment post assembly` workflow." max-width="50em" %}
 
 Once you have checked the genome assembly, you may decide that:
 
