@@ -1,7 +1,7 @@
 ---
 title: Assess the quality of your genome assembly
 type: genome-assembly
-contributors: [Kate Farquharson, Johan Gustafsson, Gareth Price, Simon Tang]
+contributors: [Kate Farquharson, Johan Gustafsson, Gareth Price, Simon Tang, Anna Syme]
 description: It is important to assess the quality of a genome assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here
 affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
 ---
@@ -28,11 +28,11 @@ Once you have checked the genome assembly, you may decide that:
 
 ### How to cite the workflow
 
-> Price, G. (2023). Genome assessment post assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.2" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.2</a>
+> Price, G., & Syme, A. (2024). Genome-assessment-post-assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.3" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.3</a>
 
 ### A note on software versions
 
-{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=2' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2</a>." %}
+{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=3' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2</a>." %}
 
 | Software | Version       |
 |----------|---------------|
@@ -97,7 +97,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="3"}
 
-3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=2" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
+3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_=3" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
 
      - retrieve the workflow for assembly quality control, 
      - add it to your Galaxy Australia workflows list, and
