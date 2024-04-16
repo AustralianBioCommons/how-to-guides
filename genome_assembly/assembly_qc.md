@@ -32,7 +32,7 @@ Once you have checked the genome assembly, you may decide that:
 
 ### A note on software versions
 
-{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=3' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2</a>." %}
+{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=3' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2.0.2</a>." %}
 
 | Software | Version       |
 |----------|---------------|
