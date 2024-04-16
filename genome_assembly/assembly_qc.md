@@ -1,7 +1,7 @@
 ---
 title: Assess the quality of your genome assembly
 type: genome-assembly
-contributors: [Kate Farquharson, Johan Gustafsson, Gareth Price, Simon Tang]
+contributors: [Kate Farquharson, Johan Gustafsson, Gareth Price, Simon Tang, Anna Syme]
 description: It is important to assess the quality of a genome assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here
 affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
 ---
@@ -16,7 +16,7 @@ Once a genome has been assembled, it is important to assess the quality of the a
 Figure 1 shows the structure of the QC workflow on Galaxy Australia, from input of FASTA contigs, through to analysis using the tools Fasta statistics, [Quast](https://bio.tools/quast), 
 [BUSCO](https://bio.tools/busco), [Meryl](https://bio.tools/meryl) and [Merqury](https://bio.tools/merqury).
 
-{% include image.html file="assembly_qc/workflow_qc.png" caption="Fig 1. The `Genome assessment post assembly` workflow." max-width="50em" %}
+{% include image.html file="assembly_qc/workflow_qc2.png" caption="Fig 1. The `Genome assessment post assembly` workflow." max-width="50em" %}
 
 Once you have checked the genome assembly, you may decide that:
 
@@ -28,17 +28,17 @@ Once you have checked the genome assembly, you may decide that:
 
 ### How to cite the workflow
 
-> Price, G. (2023). Genome assessment post assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.2" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.2</a>
+> Price, G., & Syme, A. (2024). Genome-assessment-post-assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.3" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.3</a>
 
 ### A note on software versions
 
-{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=2' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 1.1.0</a>." %}
+{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=3' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2.0.2</a>." %}
 
 | Software | Version       |
 |----------|---------------|
 |FASTA stats | 2.0           |
 |QUAST | 5.0.2+galaxy1 |
-|BUSCO | 5.2.2+galaxy0 |
+|BUSCO | 5.4.6+galaxy0 |
 |Meryl | 1.3+galaxy6   |
 |Merqury| 1.3           |
 
@@ -89,7 +89,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="2"}
 
-2. Upload your primary genome assembly file to your current Galaxy history
+2. Upload your primary genome assembly file and the raw reads (concatenate multiple read files into a single file) to your current Galaxy history
      - See this link for [details on how to upload files](https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly#upload-data-files)
      - If you don’t have a history (i.e. you are using an existing assembly), you can create one, as shown in the image below
 
@@ -97,7 +97,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="3"}
 
-3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_version=2" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
+3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_=3" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
 
      - retrieve the workflow for assembly quality control, 
      - add it to your Galaxy Australia workflows list, and
@@ -116,15 +116,15 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="5"}
 
-5. The workflow invocation window will open. 
+5. The workflow invocation window will open. Click 
 
-6. Select either the primary assembly file that you previously loaded into your Galaxy history, or the assembly you created using the Galaxy HiFi genome assembly workflow, using the drop-down menu (step 1 in **Fig 5**).
+6. Select input data for the assembly. Choose either the primary assembly file that you previously loaded into your Galaxy history, or the assembly you created using the Galaxy HiFi genome assembly workflow, using the drop-down menu (step 1 in **Fig 5**). The genome assembly should be in `fasta` format.
 
 {% include image.html file="assembly_qc/workflow_launch_1.png" caption="Fig 5. The workflow invocation menu for the `Genome assessment post assembly` workflow. Step 1 is to select the primary assembly file using the drop-down menu, and Step 2 is to select `Run workflow`."%}
 
 {:start="7"}
 
-7. Both the genome assembly and raw read files should be in `.fa` or `.fastq` format. 
+7. Select input data for the raw sequencing reads. These should be the HiFi reads, that have had adapters removed, and then concatenated into a single file. This should be in `fastqsanger` format. 
 
 8. Determine optimal k-mer size for genome
 
@@ -134,16 +134,23 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 9. BUSCO lineage selection
 
-     - Select the lineage relevant to your genome
+     - In this workflow, the default setting for lineage is `eukaryota`
+     - However, you can select an alternative lineage relevant to your genome
      - For example, if you were analysing a lizard genome, you may wish to select the *Sauropsida* lineage
      - Alternatively, you may prefer to select a broader lineage such as *Vertebrata* to allow for broader comparisons to other species’ genomes
      - Keeping in mind that BUSCO results should generally be compared across the same version of BUSCO and the same lineage
 
 {% include image.html file="assembly_qc/BUSCO.png"%}
 
+10. Quast settings
+
+    - In this workflow, the default setting for lineage is `eukaryotes`
+    - However, you can select an alternative lineage relevant to your genome
+    - In this workflow, the default setting for `Is genome large (>100 Mbp)?` is `yes`, but this can be changed
+ 
 {:start="10"}
 
-10. Click `Run workflow` (step 2 in **Fig 5**).
+11. Click `Run workflow` (step 2 in **Fig 5**).
 
 {% include callout.html type="note" content="if you would like to determine the best k-mer length to use, you can use a script 
 that generates the meryl database and runs Merqury. Meryl databases will be used to assess the genome, and if you have multiple read files, 
@@ -217,6 +224,15 @@ If reporting BUSCO in a publication, be sure to report the:
 
 Meryl produces a meryldb (download only, no visualisation available), which is required for Merqury. 
 It is visible in the workflow to allow for easy access, and to allow input for tools other than Merqury
+
+### Additional tables
+
+Two additional tables are created and displayed as output files, as well as in the workflow report. 
+
+These are:
+
+- a table for assembly statistics, which includes a calculation of genome coverage and selected lines from the Fasta Statistics output
+- a table to show the version of BUSCO and its dependencies
 
 
 ## PacBio HiFi Single Genome Assessment with merqury
