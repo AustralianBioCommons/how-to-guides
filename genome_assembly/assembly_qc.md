@@ -97,7 +97,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="3"}
 
-3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403&trs_=4" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
+3. Visit <a href="https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403" ga-product="workflow_link" ga-id="403_assembly_QC">this link</a> to:
 
      - retrieve the workflow for assembly quality control, 
      - add it to your Galaxy Australia workflows list, and
