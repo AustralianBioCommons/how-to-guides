@@ -30,7 +30,8 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 
 ## The overall workflow
-{Figure 1 caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red."}
+
+{% include image.html file="/infrastructures/genome_annotation/Fig1.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red." max-width="10" %}
 
 Further to this, a summary of the different elements of this assembly approach are detailed below:
 
@@ -50,20 +51,58 @@ Further to this, a summary of the different elements of this assembly approach a
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-{Figure 2 caption="Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/)."%}
+{% include image.html file="/infrastructures/genome_annotation/Fig2.png" caption="Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/)." max-width="10" %}
+
 
 ### Upload data file(s)
-1. In Galaxy Australia, create a new history and click on ```Upload Data```  and choose local files (See Figure 3)
-2. Upload your assembled reference genome and masked reference genome (Link to repeat masking workflow), as well as the .cdna, .pro and .dat output from your transcriptome assembly (Link to transcriptome guide)
+
+1. In Galaxy Australia, create a new history and click on ```Upload Data```
+2. Choose local files (see Figure 3)
+
+{% include image.html file="/infrastructures/genome_annotation/Fig3.png" caption="Fig 3." max-width="10" %}
+
+{:start="3"}
+
+3. Upload your assembled reference genome and masked reference genome (Link to repeat masking workflow), as well as the `.cdna`, `.pro` and `.dat` output from your transcriptome assembly (Link to transcriptome guide)
+
 
 ### Run the annotation workflow
 
 1. Make sure you are logged into Galaxy Australia
-2. Visit this link[Link to workflow]:
-    retrieve the workflow for genome annotation
-    import into your Galaxy Australia workflows
+2. [Visit this link]() to:
+    - retrieve the workflow for genome annotation, and
+    - import into your Galaxy Australia workflows
 3. Once you have reached the workflow screen, select the ```play``` button for the annotation workflow (See Figure 4)
-4. The workflow invoation window will open. Select your reference genome fasta file (Step 1 in Fig 5), select your repeat masked reference genome fasta file (Step 2 in Fig 5). Select the matrix of a closely related species (Full list of matricies see: http://www.softberry.com/berry.phtml?topic=org_list&group=programs&subgroup=gfind) (Step 1 in Fig 6), Select the appropriate reference database (Step 2 in Fig 6), select the appropriate NR database (TSI animals or TSI plants) (Step 3 in Fig 6). Select your cDNA (Step 1 in Fig 7), protein (Step 2 in Fig 7) and Dat files (Step 3 in Fig 7).
-5. Choose your reference genome as the sequence file for task 6 and 7 (Step 1 and 2 in Fig 8)
-6. Choose the most appropriate lineage to run BUSCO on the protein output file (Step 1 in Fig 9)
 
+{% include image.html file="/infrastructures/genome_annotation/Fig4.png" caption="Fig 4." max-width="10" %}
+
+{:start="4"}
+
+4. The workflow invocation window will open. 
+5. Select your reference genome fasta file (Step 1 in Fig 5),
+6. Select your repeat masked reference genome fasta file (Step 2 in Fig 5).
+
+{% include image.html file="/infrastructures/genome_annotation/Fig5.png" caption="Fig 5." max-width="10" %}
+
+{:start="7"}
+
+7. Select the matrix of a closely related species ([full list of matrices](http://www.softberry.com/berry.phtml?topic=org_list&group=programs&subgroup=gfind)) (Step 1 in Fig 6), 
+8. Select the appropriate reference database (Step 2 in Fig 6), 
+9. Select the appropriate NR database (TSI animals or TSI plants) (Step 3 in Fig 6). 
+
+{% include image.html file="/infrastructures/genome_annotation/Fig6.png" caption="Fig 6." max-width="10" %}
+
+{:start="10"}
+
+10. Select your `cDNA` (Step 1 in Fig 7), `protein` (Step 2 in Fig 7) and `Dat` files (Step 3 in Fig 7).
+
+{% include image.html file="/infrastructures/genome_annotation/Fig7.png" caption="Fig 7." max-width="10" %}
+
+{:start="11"}
+
+11. Choose your reference genome as the sequence file for task 6 and 7 (Step 1 and 2 in Fig 8)
+12. Choose the most appropriate lineage to run BUSCO on the protein output file (Step 1 in Fig 9)
+
+{% include image.html file="/infrastructures/genome_annotation/Fig8.png" caption="Fig 8." max-width="10" %}
+
+{% include image.html file="/infrastructures/genome_annotation/Fig9.png" caption="Fig 9." max-width="10" %}
