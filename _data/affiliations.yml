@@ -13,3 +13,7 @@
   expose: true
   type: infrastructure
   url: https://usegalaxy.org.au/
+- name: University of Sydney
+  expose: true
+  type: infrastructure
+  url: https://www.sydney.edu.au/
