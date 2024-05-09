@@ -90,7 +90,7 @@ Further to this, a summary of the different elements of this assembly approach a
 8. Select the appropriate reference database (Step 2 in Fig 6), 
 9. Select the appropriate NR database (TSI animals or TSI plants) (Step 3 in Fig 6). 
 
-{% include image.html file="/infrastructures/genome_annotation/Fig6.png" caption="Fig 6." max-width="10" %}
+{% include image.html file="/genome_annotation/Fig6.png" caption="Fig 6." max-width="10" %}
 
 {:start="10"}
 
