@@ -7,9 +7,17 @@ This collection presents step-by-step guides that support the reuse of Galaxy wo
 
 Other guides are available at the BioCommons [How-to Hub](https://australianbiocommons.github.io/how-to-hub), the central location for all guides and associated documents that have been prepared by community members who gather around BioCommons activities.
 
+
 ## Genome assembly
 
 {% include section-navigation-tiles.html type="genome-assembly"%}
+
+
+## Genome annotation
+
+{% include section-navigation-tiles.html type="transcriptome-alignment"%}
+
+{% include section-navigation-tiles.html type="genome-annotation"%}
 
 
 ## Population genomics
