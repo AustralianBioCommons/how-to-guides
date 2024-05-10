@@ -19,17 +19,30 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 2. Create a new history
 3. Upload your assembled reference genome and raw RNA sequencing reads (can be imported from [Bioplatforms Australia Portal](https://data.bioplatforms.com/about))
 4. Load and execute workflows, using required options
-  - [Open `Repeat masking` workflow]()
-  - [Open `RNA seq QC and read trimming` workflow]()
-  - [Open `Align reads to find transcripts` workflow]()
-  - [Open `Combine transcripts` workflow]()
-  - [Open `Extract longest transcripts` workflow]()
-  - [Open `Convert outputs` workflow]()
+  - [Open `Repeat masking` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=875)
+  - [Open `RNA seq QC and read trimming` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=876)
+  - [Open `Align reads to find transcripts` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=877)
+  - [Open `Combine transcripts` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=878)
+  - [Open `Extract longest transcripts` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=879)
+  - [Open `Convert outputs` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=880)
 5. Review workflow report and perform additional QC as needed
 6. Re-run workflows, or individual tools, as needed
 
 
 ## How to cite the workflows
+
+> Silver, L., & Syme, A. (2024). Repeat masking - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.875.2
+
+> Silver, L., & Syme, A. (2024). QC and trimming of RNAseq reads - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.876.1
+
+> Silver, L., & Syme, A. (2024). Find transcripts - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.877.1
+
+> Silver, L., & Syme, A. (2024). Combine transcripts - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.878.1
+
+> Silver, L., & Syme, A. (2024). Extract transcripts - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.879.1
+
+> Silver, L., & Syme, A. (2024). Convert formats - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.880.1
+
 
 ## The overall workflow
 
@@ -40,12 +53,12 @@ Further to this, a summary of the different elements of this alignment approach 
 | Process name     | Workflow name                             | Description                                                                          | Inputs                                                              | Outputs                                                                                                     |
 | ---------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | UPLOAD FILES     | Not applicable                            | See the [different upload options](#upload-data-files).                                     |  reference genome, Fastq mRNA | Uploaded data!   |
-| Repeat Masking  | [Repeat masking - TSI]()                         | Repeat masking of reference genome  |   Reference genome  | FASTA file, Statistic file 
-| RNA seq QC and trimming| [QC and trimming of RNAseq reads -TSI]()                         | Trimming of fastq files, including a fastqc step | Raw mRNA sequencing files  |   FASTQC report, Paired read FASTQ file  |
-| Align  reads to find transcripts  | [Find transcripts - TSI]()                         | Alignment of trimmed FASTQ reads to masked reference genome | Repeat masked reference genome, paired trimmed FASTQ reads  |   BAM file, GTF file alignment metrics|
-| Combine Transcripts  | [Combine Transcripts - TSI]()                         | Merges individual tissue transcripts to a global transcriptome and predicts coding sequences |GTF file, closely related species coding and non-coding sequences  |   GTF for global transcriptome, FASTA sequences of coding transcripts   |
-| Extract Longest Transcripts  | [Extract Transcripts-TSI]()                         | Transdecoder predictions and filtering of transcripts | FASTA sequence of coding transcripts  |   pep.fasta, cds.fasta and gff3 file of longest isoform transcripts  |
-| Convert Outputs  | [Convert formats - TSI]()                         | Converts outputs of transcdecoder to required inputs for FGenesH++ annotation  | transdecoder-peptides.fasta, global_nucleotides.fasta  |.cdna, .dat and .pro files  |
+| Repeat Masking  | [Repeat masking - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=875)                         | Repeat masking of reference genome  |   Reference genome  | FASTA file, Statistic file 
+| RNA seq QC and trimming| [QC and trimming of RNAseq reads -TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=876)                         | Trimming of fastq files, including a fastqc step | Raw mRNA sequencing files  |   FASTQC report, Paired read FASTQ file  |
+| Align  reads to find transcripts  | [Find transcripts - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=877)                         | Alignment of trimmed FASTQ reads to masked reference genome | Repeat masked reference genome, paired trimmed FASTQ reads  |   BAM file, GTF file alignment metrics|
+| Combine Transcripts  | [Combine Transcripts - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=878)                         | Merges individual tissue transcripts to a global transcriptome and predicts coding sequences |GTF file, closely related species coding and non-coding sequences  |   GTF for global transcriptome, FASTA sequences of coding transcripts   |
+| Extract Longest Transcripts  | [Extract Transcripts-TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=879)                         | Transdecoder predictions and filtering of transcripts | FASTA sequence of coding transcripts  |   pep.fasta, cds.fasta and gff3 file of longest isoform transcripts  |
+| Convert Outputs  | [Convert formats - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=880)                         | Converts outputs of transcdecoder to required inputs for FGenesH++ annotation  | transdecoder-peptides.fasta, global_nucleotides.fasta  |.cdna, .dat and .pro files  |
 
 
 ## In-depth workflow guide
@@ -71,7 +84,7 @@ Further to this, a summary of the different elements of this alignment approach 
 ### Run the Repeat Masking Workflow
 
 1. Make sure you are logged into Galaxy Australia
-2. [Visit this link]() to:
+2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=875) to:
    - Retrieve the workflows for `Repeat Masking`
    - Import into your Galaxy Australia workflows
 3. Once you have reached the workflow screen, select the ```play``` button for Repeat Masking (See Figure 4)
@@ -84,7 +97,7 @@ Further to this, a summary of the different elements of this alignment approach 
 
 ### Run RNA seq QC and trimming workflow
 
-1. [Visit this link]() to:
+1. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=876) to:
    - Retrieve the workflows for `QC and trimming of RNAseq reads`
    - Import into your Galaxy Australia workflows
 2. If each tissue was sequences across multiple lanes, make two datasets, one containing forward reads and one containing reverse reads
@@ -99,7 +112,7 @@ Further to this, a summary of the different elements of this alignment approach 
 
 ### Run align reads to find transcripts workflow
 
-1. [Visit this link]() to:
+1. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=877) to:
    - Retrieve the workflows for `Align reads to find transcripts` 
    - Import into your Galaxy Australia workflows
 2. Once you have reached the workflow screen, select the ```play``` button for Align reads to find transcripts (Fig 8)
@@ -114,7 +127,7 @@ Further to this, a summary of the different elements of this alignment approach 
 
 ### Run Combine Transcripts
 
-1. [Visit this link]() to:
+1. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=878) to:
    - Retrieve the workflow for `Combine transcripts`
    - Import into your Galaxy Australia workflows
 2. Once you have reached the workflow screen, select the ```play``` button for Combine Transcripts (Fig 10)
@@ -139,7 +152,7 @@ Further to this, a summary of the different elements of this alignment approach 
 
 ### Run Extract Longest Transcripts workflow
 
-1. [Visit this link]() to:
+1. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=879) to:
    - Retrieve the workflows for `Extract longest transcripts`
    - Import into your Galaxy Australia workflows
 2. Once you have reached the workflow screen, select the ```play``` button for `Extract longest transcript`  (Fig 16)
@@ -156,8 +169,8 @@ Further to this, a summary of the different elements of this alignment approach 
 
 ### Run Convert Outputs workflow
 
-1. [Visit this link]() to:
-   - Retrieve the workflows for Convert outputs 
+1. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=880) to:
+   - Retrieve the workflows for `Convert outputs` 
    - Import into your Galaxy Australia workflows
 2. Once you have reached the workflow screen, select the ```play``` button for Covert outputs  (Fig 18)
 
