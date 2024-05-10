@@ -46,7 +46,7 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 ## The overall workflow
 
-{% include image.html file="/transcriptome/Fig1.png" caption="Fig 1. The overall transcriptome alignment workflow." max-width="10" %}
+{% include image.html file="/transcriptome/Fig1.PNG" caption="Fig 1. The overall transcriptome alignment workflow." max-width="10" %}
 
 Further to this, a summary of the different elements of this alignment approach are detailed below:
 
@@ -70,7 +70,7 @@ Further to this, a summary of the different elements of this alignment approach 
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-{Figure 2 caption="Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/)."}
+{% include image.html file="/genome_annotation/Fig2.png" caption="Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/)." max-width="10" %}
 
 
 ### Upload data file(s)
@@ -134,11 +134,15 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {% include image.html file="/transcriptome/Fig10.png" caption="Fig 10." max-width="10" %}
 
+{:start="3"}
+
 3. Search for your species on [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi) to find the most closely related species which has an NCBI RefSeq annotation (Fig 11)
 4. Go to the NCBI ftp server and locate the entry for this species (e.g. Corroborree frog RefSeq entry is GCF_028390025.1 and ftp entry is https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/028/390/025/)
 5. Download the `_cds_from_genomic.fna.gz` and `pseudo_without_product.fna.gz` files to your local computer and upload into Galaxy (Fig 12)
 
 {% include image.html file="/transcriptome/Fig12.png" caption="Fig 12." max-width="10" %}
+
+{:start="6"}
 
 6. Select the gtf collection, masked reference genome, coding sequences and pseudo coding sequences in the combine transcripts workflow
 7. In Step 7 of the workflow ensure the masked genome is selected and that in Step 10 of the workflow type "1" in the `List of Fields` box (Fig 13; Fig 14; Fig 15)
@@ -159,9 +163,13 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {% include image.html file="/transcriptome/Fig16.png" caption="Fig 16." max-width="10" %}
 
+{:start="3"}
+
 3. Select the fasta output file from the previous workflow (tagged with #seqs-with-high-coding-prob) as input to the workflow (Fig 17)
 
 {% include image.html file="/transcriptome/Fig17.png" caption="Fig 17." max-width="10" %}
+
+{:start="4"}
 
 4. Also, in workflow step 4, select the most appropriate BUSCO lineage to run on the output file from Transdecoder 
 5. Check the BUSCO output to ensure a high percentage of complete BUSCO's are found in the transcriptome
@@ -176,11 +184,15 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {% include image.html file="/transcriptome/Fig18.png" caption="Fig 18." max-width="10" %}
 
+{:start="3"}
+
 3. Select the transdecoder peptide fasta file and the text transformed fasta output file from the Combine Transcripts workflow (Fig 19; Fig20)
 
 {% include image.html file="/transcriptome/Fig19.png" caption="Fig 19." max-width="10" %}
 
 {% include image.html file="/transcriptome/Fig20.png" caption="Fig 20." max-width="10" %}
+
+{:start="4"}
 
 4. The output files tagged with `#dat`, `#pro`, and `#cdna`, along with the masked and unmasked reference genome are used as input files for [FGenesH++ genome annotation](Fgenesh%20How%20to%20Guide.md)
 
