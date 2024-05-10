@@ -17,7 +17,7 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 1. [Login to Galaxy Australia](#register-and-login)
 2. Create a new history
-3. Upload your `assembled reference genome`, `repeat masked reference genome`, `.cdna`, `.pro` and `.dat` files from the [transcriptome workflow](Transcriptome%20How%20to%20Guide)
+3. Upload your `assembled reference genome`, `repeat masked reference genome`, `.cdna`, `.pro` and `.dat` files from the [transcriptome workflow](Transcriptome)
 4. Load and execute workflows, using required options
    - [Open `FgenesH++ genome annotation` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=881)
 5. Review workflow report and perform additional QC as needed
@@ -63,7 +63,7 @@ Further to this, a summary of the different elements of this assembly approach a
 
 {:start="3"}
 
-3. Upload your assembled reference genome and masked reference genome (Link to repeat masking workflow), as well as the `.cdna`, `.pro` and `.dat` output from your [transcriptome assembly](Transcriptome%20How%20to%20Guide)
+3. Upload your assembled reference genome and masked reference genome (Link to repeat masking workflow), as well as the `.cdna`, `.pro` and `.dat` output from your [transcriptome assembly](Transcriptome)
 
 
 ### Run the annotation workflow

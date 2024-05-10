@@ -1,6 +1,6 @@
 ---
 title: Transcriptome Alignment
-type: transcriptome-alignment
+type: genome-annotation
 contributors: [Luke Silver, Anna Syme]
 description: How-to Guide for Transcriptome alignment.
 affiliation: [The University of Sydney, Australian BioCommons]
@@ -194,5 +194,5 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {:start="4"}
 
-4. The output files tagged with `#dat`, `#pro`, and `#cdna`, along with the masked and unmasked reference genome are used as input files for [FGenesH++ genome annotation](Fgenesh%20How%20to%20Guide.md)
+4. The output files tagged with `#dat`, `#pro`, and `#cdna`, along with the masked and unmasked reference genome are used as input files for [FGenesH++ genome annotation](Fgenesh)
 

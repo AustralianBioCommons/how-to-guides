@@ -11,9 +11,9 @@ subitems:
   - title: Genome annotation
     subitems:
       - title: Transcriptome alignment
-        url: /genome_annotation/Transcriptome%20How%20to%20Guide
+        url: /genome_annotation/Transcriptome
       - title: Genome annotation
-        url: /genome_annotation/Fgenesh%20How%20to%20Guide
+        url: /genome_annotation/Fgenesh
   - title: Population genomics
     subitems:
       - title: Stacks workflows in Galaxy Australia using RADseq
