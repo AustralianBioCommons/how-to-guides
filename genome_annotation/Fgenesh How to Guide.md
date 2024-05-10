@@ -19,14 +19,14 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 2. Create a new history
 3. Upload your `assembled reference genome`, `repeat masked reference genome`, `.cdna`, `.pro` and `.dat` files from the [transcriptome workflow](Transcriptome%20How%20to%20Guide)
 4. Load and execute workflows, using required options
-   - [Open `FgenesH++ genome annotation` workflow]()
+   - [Open `FgenesH++ genome annotation` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=881)
 5. Review workflow report and perform additional QC as needed
 6. Re-run workflows, or individual tools, as needed
 
 
-## How to cite the workflows
+## How to cite the workflow
 
-> TBA
+> Silver, L. (2024). Fgenesh annotation -TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.881.1 
 
 
 ## The overall workflow
@@ -38,7 +38,7 @@ Further to this, a summary of the different elements of this assembly approach a
 | Process name     | Workflow name                             | Description                                                                          | Inputs                                                              | Outputs                                                                                                     |
 | ---------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | UPLOAD FILES     | Not applicable                            | See the [different upload options](#upload-data-files).                                     |  reference genome, repeat masked reference genome, `.cdna`, `.pro` and `.dat` files from transcriptome assembly workflow | Uploaded data!   |
-| GENOME ANNOTATION  | [Fgenesh annotation-TSI]()                         | Splitting of reference and masked reference genome files, annotation of genome using FgenesH++, merging of annotation files and extraction of mRNA, CDS and protein sequences | reference genome, repeat masked reference genome, `.cdna`, `.pro` and `.dat` files from transcriptome assembly workflow  |   GFF3 of annotated genes, fasta file of mRNA, CDS and protein sequences which were annotated  | 
+| GENOME ANNOTATION  | [Fgenesh annotation-TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=881)                         | Splitting of reference and masked reference genome files, annotation of genome using FgenesH++, merging of annotation files and extraction of mRNA, CDS and protein sequences | reference genome, repeat masked reference genome, `.cdna`, `.pro` and `.dat` files from transcriptome assembly workflow  |   GFF3 of annotated genes, fasta file of mRNA, CDS and protein sequences which were annotated  | 
 
 
 ## In-depth workflow guide
@@ -69,7 +69,7 @@ Further to this, a summary of the different elements of this assembly approach a
 ### Run the annotation workflow
 
 1. Make sure you are logged into Galaxy Australia
-2. [Visit this link]() to:
+2. [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=881) to:
     - retrieve the workflow for genome annotation, and
     - import into your Galaxy Australia workflows
 3. Once you have reached the workflow screen, select the ```play``` button for the annotation workflow (See Figure 4)
