@@ -6,6 +6,14 @@
 # reference maintainers/contributors by their name used in contributors metadata section on the pages.
 
 
+Luke Silver:
+    git: lukesilver-1
+    affiliation: School of Life and Environmental Sciences, The University of Sydney, NSW, Australia
+
+Tiff Nelson:
+    orcid: 0000-0002-5341-312X
+    affiliation: Australian BioCommons, Griffith University
+
 Jo Day:
     orcid: 0000-0001-9390-7506
     email: jday@zoo.nsw.gov.au
@@ -24,7 +32,7 @@ Johan Gustafsson:
     email: johan@biocommons.org.au
     orcid: 0000-0002-2977-5032
     role: editor
-    affiliation: Australian BioCommons / University of Melbourne
+    affiliation: Australian BioCommons, University of Melbourne
 
 Tom Harrop:
     orcid: 0000-0001-6557-0440

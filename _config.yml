@@ -9,7 +9,7 @@ theme_variables:
   # biocommons blue
   theme_color: 205a86
   topnav:
-    brand_logo: assets/img/main_logo.png
+    brand_logo: assets/img/Australian-Biocommons-Logo-Tagline-Community-RGB.png
   privacy_statement_url: https://www.biocommons.org.au/privacy
 
 permalink: /:categories/:year/:month/:day/:title

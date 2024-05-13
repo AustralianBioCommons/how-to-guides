@@ -8,6 +8,12 @@ subitems:
         url: /genome_assembly/hifi_assembly
       - title: Assess the quality of your genome assembly
         url: /genome_assembly/assembly_qc
+  - title: Genome annotation
+    subitems:
+      - title: Transcriptome alignment
+        url: /genome_annotation/Transcriptome
+      - title: Genome annotation
+        url: /genome_annotation/Fgenesh
   - title: Population genomics
     subitems:
       - title: Stacks workflows in Galaxy Australia using RADseq

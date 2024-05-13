@@ -3,16 +3,31 @@ title: Genomics How-to Guides
 toc: false
 ---
 
-This resource presents step-by-step guides and other associated documentation that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+This collection presents step-by-step guides that support the reuse of Galaxy workflows created in collaboration with the Bioplatforms Australia [Threatened Species Initiative (TSI)](https://threatenedspeciesinitiative.com/). There are guides for genome assembly and quality control, RAD-seq analysis with Stacks, and more!
+
+Other guides are available at the BioCommons [How-to Hub](https://australianbiocommons.github.io/how-to-hub), the central location for all guides and associated documents that have been prepared by community members who gather around BioCommons activities.
+
 
 ## Genome assembly
 
 {% include section-navigation-tiles.html type="genome-assembly"%}
 
 
+## Genome annotation
+
+{% include section-navigation-tiles.html type="transcriptome-alignment"%}
+
+{% include section-navigation-tiles.html type="genome-annotation"%}
+
+
 ## Population genomics
 
 {% include section-navigation-tiles.html type="pop-gen"%}
+
+
+## Contributing
+
+Please see the [contributing instructions](contributing).
 
 
 ## Contributors
