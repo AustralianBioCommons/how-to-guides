@@ -25,10 +25,6 @@ Other guides are available at the BioCommons [How-to Hub](https://australianbioc
 {% include section-navigation-tiles.html type="pop-gen"%}
 
 
-## Contributing
-
-Please see the [contributing instructions](contributing).
-
 
 ## Contributors
 
