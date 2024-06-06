@@ -3,7 +3,7 @@ title: Genome Annotation
 type: genome-annotation
 contributors: [Luke Silver, Anna Syme, Mike Thang, Tiff Nelson]
 description: How-to Guide for Genome Annotation with FgenesH++.
-affiliations: [University of Sydney, Australian BioCommons, Bioplatforms Australia, Galaxy Australia]
+affiliations: [University of Sydney, Australian BioCommons, Bioplatforms Australia, Galaxy Australia, Threatened Species Initiative]
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of conducting genome annotation using the FgenesH++ annotation tool.
