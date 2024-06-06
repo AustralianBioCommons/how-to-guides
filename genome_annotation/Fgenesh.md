@@ -2,7 +2,7 @@
 title: Genome Annotation
 type: genome-annotation
 contributors: [Luke Silver, Anna Syme, Mike Thang, Tiff Nelson]
-description: How-to Guide for Genome Annotation with FgenesH++.
+description: How-to Guide for genome annotation with FgenesH++.
 affiliations: [University of Sydney, Australian BioCommons, Bioplatforms Australia, Galaxy Australia, Threatened Species Initiative]
 ---
 
