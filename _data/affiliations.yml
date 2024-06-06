@@ -1,15 +1,15 @@
 - name: Australian BioCommons
-  image_url: /assets/img/main_logo.png
+  image_url: /images/infrastructures/Australian-Biocommons-Logo-Horizontal-RGB.jpg
   expose: true
   type: infrastructure
   url: https://www.biocommons.org.au/
 - name: Bioplatforms Australia
-  image_url: /images/infrastructures/BioplatformsAustralia.png
+  image_url: /images/infrastructures/Bioplatforms_full-logo_whitebg.png
   expose: true
   type: infrastructure
   url: https://bioplatforms.com/
 - name: Galaxy Australia
-  image_url: /images/infrastructures/galaxy-aust-logo-portrait-CMYK.png
+  image_url: /images/infrastructures/Galaxy-Aust-Logo-Horizontal-RGB.jpg
   expose: true
   type: infrastructure
   url: https://usegalaxy.org.au/
@@ -18,3 +18,8 @@
   expose: true
   type: infrastructure
   url: https://www.sydney.edu.au/
+- name: Threatened Species Initiative
+  image_url: /images/infrastructures/Threatened Species Initiative_TSI_whitebg.png
+  expose: true
+  type: infrastructure
+  url: https://threatenedspeciesinitiative.com/
