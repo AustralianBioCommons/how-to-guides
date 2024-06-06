@@ -4,25 +4,13 @@ toc: false
 ---
 
 
-## GitHub issues
+## I've got a suggestion or spotted an error
 
-If you think something should be added, or if you find an error, bug or mistake, please [create an issue](https://github.com/AustralianBioCommons/how-to-guides/issues/new) detailing the problem. We will do our best to fix the issue as soon as possible. You can also create an issue by clicking the `!` symbol next to the title on any of the pages.
-
-
-## Pull Request
-
-If you want to add content to this site, please do the following:
-
-1. Please let us know via GitHub [discussions](https://github.com/AustralianBioCommons/how-to-guides/discussions);
-2. Create your own fork of this GitHub repository;
-3. In your fork, create a branch with a concise name, that reflects its contents (e.g. `add/how-to-login-galaxy`);
-4. Use [`guide_template.md`](../guide_template.md) as a starting point to create your own `[guide_name].md`;
-5. Make sure you update the contributors section in the header of `[guide_name].md`, as well as [`CONTRIBUTORS.yml`](_data/CONTRIBUTORS.yml);
-6. Create and commit the edits to your new branch;
-7. Open a GitHub Pull Request (PR) on this repository for your branch, concisely providing context for your additions;
-8. Follow-up on any feedback from the repository maintainers;
-9. Once ready, the maintainers will merge the changes and deploy the new content;
-10. Once deployed, look at your shiny published content [here](https://australianbiocommons.github.io/how-to-guides/)!
+If you think something should be added, or if you find an error, bug or mistake, please [create an issue](https://github.com/AustralianBioCommons/how-to-guides/issues/new) detailing the problem. We will do our best to fix the issue as soon as possible. You can also create an issue by clicking the `!` symbol next to the title on any of the pages. Thanks for letting us know!
 
 
-## Thanks for contributing!
+## Adding guides
+
+If you have your own How-to Guide that you want to share, please follow the instructions in the [Australian BioCommons How-to Hub](https://australianbiocommons.github.io/how-to-hub/contributing). BioCommons also have instructions and a template for [writing your own How-to Guide](https://australianbiocommons.github.io/how-to-guide-template/).
+
+If you have a suggestion for a new guide that supports the reuse of Galaxy workflows, please [let us know](mailto:contact@biocommons.org.au) 

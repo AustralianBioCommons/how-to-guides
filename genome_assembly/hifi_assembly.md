@@ -3,7 +3,7 @@ title: Genome assembly with `hifiasm` on Galaxy Australia
 type: genome-assembly
 contributors: [Gareth Price, Jo Day, Johan Gustafsson, Kate Farquharson]
 description: This guide describes the steps required to assemble your genome on the Galaxy Australia platform using multiple workflows
-affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
+affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons, Threatened Species Initiative]
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of *de novo* assembling genomes based on PacBio high fidelity reads built from circular consensus sequence HiFi reads.
