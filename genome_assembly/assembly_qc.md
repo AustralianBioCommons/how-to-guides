@@ -3,7 +3,7 @@ title: Assess the quality of your genome assembly
 type: genome-assembly
 contributors: [Kate Farquharson, Johan Gustafsson, Gareth Price, Simon Tang, Anna Syme]
 description: It is important to assess the quality of a genome assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here
-affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
+affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons, Threatened Species Initiative]
 ---
 
 

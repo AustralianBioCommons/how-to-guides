@@ -3,7 +3,7 @@ title: Transcriptome Alignment
 type: genome-annotation
 contributors: [Luke Silver, Anna Syme]
 description: How-to Guide for Transcriptome alignment.
-affiliations: [University of Sydney, Australian BioCommons]
+affiliations: [University of Sydney, Australian BioCommons, Threatened Species Initiative]
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of performing genome repeat masking and transcriptome alignment with stringtie and transdecoder
