@@ -137,6 +137,9 @@ Further to this, a summary of the different elements of this alignment approach 
 {:start="3"}
 
 3. Search for your species on [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi) to find the most closely related species which has an NCBI RefSeq annotation (Fig 11)
+
+{% include image.html file="/transcriptome/Fig11.png" caption="Fig 11." max-width="10" %}
+
 4. Go to the NCBI ftp server and locate the entry for this species (e.g. Corroborree frog RefSeq entry is GCF_028390025.1 and ftp entry is https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/028/390/025/)
 5. Download the `_cds_from_genomic.fna.gz` and `pseudo_without_product.fna.gz` files to your local computer and upload into Galaxy (Fig 12)
 
