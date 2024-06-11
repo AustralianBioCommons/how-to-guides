@@ -186,11 +186,9 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {:start="3"}
 
-3. Select the transdecoder peptide fasta file and the text transformed fasta output file from the Combine Transcripts workflow (Fig 19; Fig20)
+3. Select the transdecoder peptide fasta file and the text transformed fasta output file from the Combine Transcripts workflow (Fig 19)
 
-{% include image.html file="/transcriptome/Fig19.png" caption="Fig 19." max-width="10" %}
-
-{% include image.html file="/transcriptome/Fig20.png" caption="Fig 20." max-width="10" %}
+{% include image.html file="/transcriptome/Fig19_updated.png" caption="Fig 19." max-width="10" %}
 
 {:start="4"}
 
