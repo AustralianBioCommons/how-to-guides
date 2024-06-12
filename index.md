@@ -35,9 +35,9 @@ These guides would not be possible without the following contributors.
 
 ## Acknowledgements
 
-This work is supported by the [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/), the Australian Research Data Commons (https://doi.org/10.47486/PL105) and the Queensland Government RICF programme. Bioplatforms Australia and the Australian Research Data Commons are funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+This work is supported by the [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/)and the Queensland Government RICF programme. Bioplatforms Australia is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
 
-This repository makes use of the ELIXIR toolkit theme: 
+These guides were first developed as part of the [Australian BioCommons BYOD Expansion Project](https://www.biocommons.org.au/byo-data-platform-expansion), which was is funded through NCRIS investments from Bioplatforms Australia and the Australian Research Data Commons ([http://doi.org/10.47486/PL105]) that were matched by co-investments from AARNet, Melbourne Bioinformatics, NCI, Pawsey, QCIF via the Queensland Government RICF fund, The University of Sydney, AGRF, Griffith University and Monash University. 
 
-[![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+This repository makes use of the ELIXIR toolkit theme: [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
