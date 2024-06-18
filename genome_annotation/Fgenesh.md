@@ -26,7 +26,7 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 ## How to cite the workflow
 
-> Silver, L. (2024). Fgenesh annotation -TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.881.1 
+> Silver, L. (2024). Fgenesh annotation -TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.881.3 
 
 
 ## The overall workflow
