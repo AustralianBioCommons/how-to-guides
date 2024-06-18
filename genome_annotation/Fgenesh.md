@@ -64,7 +64,7 @@ Further to this, a summary of the different elements of this assembly approach a
 
 {:start="3"}
 
-3. Upload your assembled reference genome and masked reference genome (Link to repeat masking workflow), as well as the `.cdna`, `.pro` and `.dat` output from your [transcriptome assembly](Transcriptome)
+3. Upload your assembled reference genome and masked reference genome (Link to repeat masking workflow), as well as the `.cdna`, `.pro` and `.dat` output from your [transcriptome assembly](Transcriptome). Note: it is recommended by Softberry that the genome is hard-masked rather than soft-masked. 
 
 
 ### Run the annotation workflow
