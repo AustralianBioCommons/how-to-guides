@@ -79,10 +79,10 @@ Further to this, a summary of the different elements of this assembly approach a
 {:start="4"}
 
 4. The workflow invocation window will open. 
-5. Select your reference genome fasta file (Step 1 in Fig 5),
-6. Select your repeat masked reference genome fasta file (Step 2 in Fig 5).
+5. Select your reference assembled genome fasta file (Fig 5).
+6. Select your repeat masked reference genome fasta file (Fig 5).
 
-{% include image.html file="/genome_annotation/Fig5.png" caption="Fig 5." max-width="10" %}
+{% include image.html file="/genome_annotation/Fig5-updated.png" caption="Fig 5." max-width="10" %}
 
 {:start="7"}
 
