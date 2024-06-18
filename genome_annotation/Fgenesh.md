@@ -31,7 +31,7 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 ## The overall workflow
 
-{% include image.html file="/genome_annotation/Fig1.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red." max-width="10" %}
+{% include image.html file="/genome_annotation/Fig1-updated.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red." max-width="10" %}
 
 Further to this, a summary of the different elements of this assembly approach are detailed below:
 
