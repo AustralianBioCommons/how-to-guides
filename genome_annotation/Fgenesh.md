@@ -6,7 +6,7 @@ description: How-to Guide for genome annotation with FgenesH++.
 affiliations: [University of Sydney, Australian BioCommons, Bioplatforms Australia, Galaxy Australia, Threatened Species Initiative]
 ---
 
-[Galaxy Australia](https://usegalaxy.org.au/) is capable of conducting genome annotation using the FgenesH++ annotation tool.
+[Galaxy Australia](https://usegalaxy.org.au/) is capable of conducting genome annotation using the FgenesH++ annotation tool. Users need to apply for access to this tool, please see [service notes here](https://www.biocommons.org.au/fgenesh-plus-plus) and apply for access [here](https://site.usegalaxy.org.au/request/access/fgenesh).
 
 This How-to-Guide will describe the steps required to annotate your genome on the Galaxy Australia platform (see **Fig 1**), developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
 
@@ -16,12 +16,13 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 ## Quick start guide
 
 1. [Login to Galaxy Australia](#register-and-login)
-2. Create a new history
-3. Upload your `assembled reference genome`, `repeat masked reference genome`, `.cdna`, `.pro` and `.dat` files from the [transcriptome workflow](Transcriptome)
-4. Load and execute workflows, using required options
+2. [Apply for access to FGenesH++](https://site.usegalaxy.org.au/request/access/fgenesh).
+3. Create a new history
+4. Upload your `assembled reference genome`, `repeat masked reference genome`, `.cdna`, `.pro` and `.dat` files from the [transcriptome workflow](Transcriptome)
+5. Load and execute workflows, using required options
    - [Open `FgenesH++ genome annotation` workflow](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=881)
-5. Review workflow report and perform additional QC as needed
-6. Re-run workflows, or individual tools, as needed
+6. Review workflow report and perform additional QC as needed
+7. Re-run workflows, or individual tools, as needed
 
 
 ## How to cite the workflow
