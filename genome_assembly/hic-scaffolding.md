@@ -46,46 +46,45 @@ Note: If you initially assembled the genome with HiFi data only, and you have ne
 
 Please see the how-to guide for HiFi genome assembly for additional information about how to import and run workflows. A brief summary is given here:
 
-* Go to the Workflow tab
-* Import
-* TRS ID
-* make sure the TRS server is set to workflowhub.eu
-* type in `1054`
-* clck the latest version to import
-
+* In Galaxy, go to the Workflow tab
+* Click "Import"
+* Click on the tab at the right, "TRS ID"
+* Make sure the "TRS server" is set to `workflowhub.eu`
+* At "TRS ID", type in `1054`
+* Click on the version you wish to import (e.g. Version 1)
 
 ### Run the workflow
 
 * Click on the Workflow tab, find this workflow and click on the triangle run button.
   
 * Add in the required inputs:
-
-  ** assembly.fasta
-  ** restriction enzymes
-  ** HiC forward and reverse reads - these need to be a single concatenated file for each set, and in fastqsanger.gz format
-  ** Estimated genome size as integer
-  ** Lineage for BUSCO
+    * assembly.fasta
+    * restriction enzymes
+    * HiC forward and reverse reads - these need to be a single concatenated file for each set, and in fastqsanger.gz format
+    * Estimated genome size as integer
+    * Lineage for BUSCO
 
 * Click Run
 
 ### Check the outputs
 
 The main outputs are:
-
 * scaffolded_assmbly.fasta
 * comparison of pre- post- scaffolding contact maps
-  
 
+For more information about what these outputs mean, please see the HiC Scaffolding section in the [VGP assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html).
 
  ## Acknowledgements
 
-With thanks and acknowledgements to the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. 
+We acknowledge and thank the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. 
 
- VGP Project
- TSI
- Galaxy Australia
+[Galaxy-VGP project page](https://galaxyproject.org/projects/vgp)/.
+Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/)
+[Galaxy Australia](https://usegalaxy.org.au/)
+The [Australian BioCommons](https://www.biocommons.org.au/).
 
-Citation
+
+Workflow citation: 
 
 > Syme, A., Silver, L., based on VGP Project (2024). **TSI-Scaffolding-with-HiC (based on VGP-HiC-scaffolding)**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1" ga-product="workflow_doi" ga-id="1054_conversion_qc">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1</a>
 
