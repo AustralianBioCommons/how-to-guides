@@ -53,7 +53,7 @@ Note: If you initially assembled the genome with HiFi data only, and you have ne
 
 {:start="4"}
 
-4. Import data
+2. Import data
    
 * ```assembly.fasta```. This file may be in one of your Galaxy histories.
 * HiC data: concatenated ```HiC_F.fastqsanger.gz```, concatenated ```HiC_R.fastqsanger.gz```
@@ -64,6 +64,32 @@ Please see the how-to guide for HiFi genome assembly for additional information 
 
 * Import the scaffolding workflow: Go to Workflow - Import - TRS ID - make sure the TRS server is set to workflowhub.eu - type in `1054` - clck the latest version to import.
 * In the Workflow tab, find this workflow and click on the triangle run button.
+  
+* Add in the required inputs:
+
+  ** assembly.fasta
+  ** restriction enzymes
+  ** HiC forward and reverse reads - these need to be a single concatenated file for each set, and in fastqsanger.gz format
+  ** Estimated genome size as integer
+  ** Lineage for BUSCO
+
+* Click Run
+
+
+The main outputs are:
+
+* scaffolded_assmbly.fasta
+* comparison of pre- post- scaffolding contact maps
+  
+
+
+ ### Acknowledgements
+
+ VGP Project
+ TSI
+ Galaxy Australia
+
+ 
 
   
 
