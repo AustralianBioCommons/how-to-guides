@@ -10,12 +10,12 @@ This How-to-Guide will describe the steps required to scaffold your genome on th
 
 This workflow has been created from a Vertebrate Genomes Project (VGP) scaffolding workflow. 
 * For more information about the VGP project see the [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp).
-* The VGP scaffolding workflow is hosted on [Dockstore](https://dockstore.org/workflows/github.com/iwc-workflows/Scaffolding-HiC-VGP8/main:main?tab=info). Please see that link for the workflow diagram and more information if required. 
+* The VGP scaffolding workflow is hosted at [WorkflowHub](https://workflowhub.eu/workflows/625).
 * Some minor changes have been made to better fit with TSI project data: optional inputs of SAK info and sequence graph have been removed; the required input format for the genome is changed from gfa to fasta; and the estimated genome size now requires user input rather than being extracted from output of a previous workflow.
 
 Please see the HiC Scaffolding section in the [VGP assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html) for additional information about this workflow. 
 
-Note: If you initially assembled the genome with HiFi data only, and you have new HiC data, you may wish to consider re-assembling the genome with the [VGP HiFi-HiC assembly pipeline](https://dockstore.org/workflows/github.com/iwc-workflows/Assembly-Hifi-HiC-phasing-VGP4/main:main?tab=info), which can give better results than using HiFi data alone. 
+Note: If you initially assembled the genome with HiFi data only, and you have new HiC data, you may wish to consider re-assembling the genome with the [VGP HiFi-HiC assembly pipeline](https://workflowhub.eu/workflows/612) which can give better results than using HiFi data alone. 
 
 {% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
 
