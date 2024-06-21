@@ -37,14 +37,11 @@ Please see the how-to guide for HiFi genome assembly for additional information 
   
 ### Import the scaffolding workflow
 
-Please see the how-to guide for HiFi genome assembly for additional information about how to import and run workflows. A brief summary is given here:
+Please see the how-to guide for HiFi genome assembly for additional information about how to import and run workflows. 
 
-* In Galaxy, go to the Workflow tab
-* Click "Import"
-* Click on the tab at the right, "TRS ID"
-* Make sure the "TRS server" is set to `workflowhub.eu`
-* At "TRS ID", type in `1054`
-* Click on the version you wish to import (e.g. Version 1)
+* [Visit this link](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1054) to:
+   - Retrieve the workflow for `TSI-Scaffolding-with-HiC`
+   - Import into your Galaxy Australia workflows
 
 ### Run the workflow
 
