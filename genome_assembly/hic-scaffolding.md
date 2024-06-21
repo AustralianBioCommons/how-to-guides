@@ -9,7 +9,7 @@ affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons, 
 This How-to-Guide will describe the steps required to scaffold your genome on the Galaxy Australia platform, using HiC data, developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
 
 This workflow has been created from a Vertebrate Genomes Project (VGP) scaffolding workflow. 
-* For more information about the VGP project see the [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp)/.
+* For more information about the VGP project see the [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp).
 * The VGP scaffolding workflow is hosted on [Dockstore](https://dockstore.org/workflows/github.com/iwc-workflows/Scaffolding-HiC-VGP8/main:main?tab=info). Please see that link for the workflow diagram and more information if required. 
 * Some minor changes have been made to better fit with TSI project data: optional inputs of SAK info and sequence graph have been removed; the required input format for the genome is changed from gfa to fasta; and the estimated genome size now requires user input rather than being extracted from output of a previous workflow.
 
@@ -76,7 +76,7 @@ For more information about what these outputs mean, please see the HiC Scaffoldi
 
  ## Acknowledgements
 
-* We acknowledge and thank the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. More information about VGP workflows: [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp)/.
+* We acknowledge and thank the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. More information about VGP workflows: [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp).
 * Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/)
 * [Galaxy Australia](https://usegalaxy.org.au/)
 * The [Australian BioCommons](https://www.biocommons.org.au/).
