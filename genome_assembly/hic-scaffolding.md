@@ -13,7 +13,6 @@ This workflow has been created from a Vertebrate Genomes Project (VGP) scaffoldi
 * The VGP scaffolding workflow is hosted on [Dockstore](https://dockstore.org/workflows/github.com/iwc-workflows/Scaffolding-HiC-VGP8/main:main?tab=info). Please see that link for the workflow diagram and more information if required. 
 * Some minor changes have been made to better fit with TSI project data: optional inputs of SAK info and sequence graph have been removed; the required input format for the genome is changed from gfa to fasta; and the estimated genome size now requires user input rather than being extracted from output of a previous workflow.
 
-
 Note: If you initially assembled the genome with HiFi data only, and you have new HiC data, you may wish to consider re-assembling the genome with the [VGP HiFi-HiC assembly pipeline](https://dockstore.org/workflows/github.com/iwc-workflows/Assembly-Hifi-HiC-phasing-VGP4/main:main?tab=info), which can give better results than using HiFi data alone. 
 
 {% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
@@ -21,26 +20,20 @@ Note: If you initially assembled the genome with HiFi data only, and you have ne
 ### Register and login
 
 1. To register for Galaxy Australia, visit the [login page](https://usegalaxy.org.au/login).
-2. Click the ```Register here``` link, as shown in **Fig 2**.
+2. Click the ```Register here``` link.
 3. Complete the registration wizard and click ```Create```.
 4. Login to your account!
 
-{% include image.html file="hifi_assembly/1_register.png" caption="Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/)."%}
-
 ### Upload data files
 
-* Please see the how-to guide for HiFi genome assembly for additional information about uploading data from the Bioplatforms Australia Data Portal.
-* Please see the HiC Scaffolding section in the [VGP assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html) for additional information about this workflow. 
+Please see the how-to guide for HiFi genome assembly for additional information about uploading data from the Bioplatforms Australia Data Portal.
 
+Please see the HiC Scaffolding section in the [VGP assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html) for additional information about this workflow. 
 
-1. In Galaxy Australia, create a new history
-
-   ![](../images/hifi_assembly/galaxy_history.png)
-
-2. Import data
-   
-* ```assembly.fasta```. This file may be in one of your Galaxy histories.
-* HiC data: concatenated ```HiC_F.fastqsanger.gz```, concatenated ```HiC_R.fastqsanger.gz```
+* In Galaxy Australia, create a new history
+* Import data
+    * ```assembly.fasta```. This file may be in one of your Galaxy histories.
+    * HiC data: concatenated ```HiC_F.fastqsanger.gz```, concatenated ```HiC_R.fastqsanger.gz```
   
 ### Import the scaffolding workflow
 
@@ -56,14 +49,12 @@ Please see the how-to guide for HiFi genome assembly for additional information 
 ### Run the workflow
 
 * Click on the Workflow tab, find this workflow and click on the triangle run button.
-  
 * Add in the required inputs:
     * assembly.fasta
     * restriction enzymes
     * HiC forward and reverse reads - these need to be a single concatenated file for each set, and in fastqsanger.gz format
     * Estimated genome size as integer
     * Lineage for BUSCO
-
 * Click Run
 
 ### Check the outputs
