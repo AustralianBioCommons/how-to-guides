@@ -74,7 +74,7 @@ For more information about what these outputs mean, please see the HiC Scaffoldi
 
 Workflow citation: 
 
-> Syme, A., Silver, L., based on VGP Project (2024). **TSI-Scaffolding-with-HiC (based on VGP-HiC-scaffolding)**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1" ga-product="workflow_doi" ga-id="1054_conversion_qc">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1</a>
+> Syme, A., Silver, L., based on VGP Project (2024). **TSI-Scaffolding-with-HiC (based on VGP-HiC-scaffolding)**. WorkflowHub. [https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1)
 
   
 
