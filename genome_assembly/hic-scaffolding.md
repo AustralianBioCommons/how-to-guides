@@ -76,13 +76,10 @@ For more information about what these outputs mean, please see the HiC Scaffoldi
 
  ## Acknowledgements
 
-We acknowledge and thank the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. 
-
-[Galaxy-VGP project page](https://galaxyproject.org/projects/vgp)/.
-Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/)
-[Galaxy Australia](https://usegalaxy.org.au/)
-The [Australian BioCommons](https://www.biocommons.org.au/).
-
+* We acknowledge and thank the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. More information about VGP workflows: [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp)/.
+* Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/)
+* [Galaxy Australia](https://usegalaxy.org.au/)
+* The [Australian BioCommons](https://www.biocommons.org.au/).
 
 Workflow citation: 
 
