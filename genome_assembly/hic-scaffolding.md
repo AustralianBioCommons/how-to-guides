@@ -18,20 +18,6 @@ Note: If you initially assembled the genome with HiFi data only, and you have ne
 
 {% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
 
-## Quick start guide
-
-1. [Login to Galaxy Australia](#register-and-login)
-2. Create a new history
-3. Upload your files to your Galaxy history: ```assembly.fasta```, concatenated ```HiC_F.fastqsanger.gz```, concatenated ```HiC_R.fastqsanger.gz```. 
-5. Load and execute workflows (links included below), using required options:
-   - HIC SCAFFOLDING workflow: [```TSI-scaffolding-with-HiC-v1.0```](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1054&trs_version=1)
-  
-## How to cite the workflows
-
-> Syme, A., Silver, L., based on VGP Project (2024). **TSI-Scaffolding-with-HiC (based on VGP-HiC-scaffolding)**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1" ga-product="workflow_doi" ga-id="1054_conversion_qc">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1</a>
-
-## In-depth workflow guide
-
 ### Register and login
 
 1. To register for Galaxy Australia, visit the [login page](https://usegalaxy.org.au/login).
@@ -41,7 +27,7 @@ Note: If you initially assembled the genome with HiFi data only, and you have ne
 
 {% include image.html file="hifi_assembly/1_register.png" caption="Fig 2. Log-in / registration menu for [Galaxy Australia](https://usegalaxy.org.au/)."%}
 
-### Upload data file(s)
+### Upload data files
 
 * Please see the how-to guide for HiFi genome assembly for additional information about uploading data from the Bioplatforms Australia Data Portal.
 * Please see the HiC Scaffolding section in the [VGP assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html) for additional information about this workflow. 
@@ -51,18 +37,20 @@ Note: If you initially assembled the genome with HiFi data only, and you have ne
 
    ![](../images/hifi_assembly/galaxy_history.png)
 
-{:start="4"}
-
 2. Import data
    
 * ```assembly.fasta```. This file may be in one of your Galaxy histories.
 * HiC data: concatenated ```HiC_F.fastqsanger.gz```, concatenated ```HiC_R.fastqsanger.gz```
   
-### Scaffolding workflow
+### Import the scaffolding workflow
 
 Please see the how-to guide for HiFi genome assembly for additional information about how to import and run workflows. A brief summary is given here:
 
 * Import the scaffolding workflow: Go to Workflow - Import - TRS ID - make sure the TRS server is set to workflowhub.eu - type in `1054` - clck the latest version to import.
+
+
+### Run the workflow
+
 * In the Workflow tab, find this workflow and click on the triangle run button.
   
 * Add in the required inputs:
@@ -75,6 +63,7 @@ Please see the how-to guide for HiFi genome assembly for additional information 
 
 * Click Run
 
+### Check the outputs
 
 The main outputs are:
 
@@ -83,13 +72,15 @@ The main outputs are:
   
 
 
- ### Acknowledgements
+ ## Acknowledgements
 
  VGP Project
  TSI
  Galaxy Australia
 
- 
+Citation
+
+> Syme, A., Silver, L., based on VGP Project (2024). **TSI-Scaffolding-with-HiC (based on VGP-HiC-scaffolding)**. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1" ga-product="workflow_doi" ga-id="1054_conversion_qc">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1054.1</a>
 
   
 
