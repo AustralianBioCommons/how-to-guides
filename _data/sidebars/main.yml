@@ -8,6 +8,8 @@ subitems:
         url: /genome_assembly/hifi_assembly
       - title: Assess the quality of your genome assembly
         url: /genome_assembly/assembly_qc
+      - title: Genome scaffolding with Hi-C on Galaxy Australia
+        url: /genome_assembly/hic-scaffolding
   - title: Genome annotation
     subitems:
       - title: Transcriptome alignment
