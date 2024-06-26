@@ -1,7 +1,7 @@
 ---
 title: Genome scaffolding with Hi-C on Galaxy Australia
 type: genome-assembly
-contributors: [VGP Project, Luke Silver, Anna Syme]
+contributors: [Luke Silver, Anna Syme]
 description: This guide describes the steps required to scaffold your genome on the Galaxy Australia platform using HiC data
 affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons, Threatened Species Initiative]
 ---
