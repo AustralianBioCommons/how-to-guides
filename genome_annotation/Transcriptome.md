@@ -31,7 +31,7 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 ## How to cite the workflows
 
-> Silver, L., & Syme, A. (2024). Repeat masking - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.875.2
+> Silver, L., & Syme, A. (2024). Repeat masking - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.875.3
 
 > Silver, L., & Syme, A. (2024). QC and trimming of RNAseq reads - TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.876.1
 
@@ -53,10 +53,10 @@ Further to this, a summary of the different elements of this alignment approach 
 | Process name     | Workflow name                             | Description                                                                          | Inputs                                                              | Outputs                                                                                                     |
 | ---------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | UPLOAD FILES     | Not applicable                            | See the [different upload options](#upload-data-files).                                     |  reference genome, Fastq mRNA | Uploaded data!   |
-| Repeat Masking  | [Repeat masking - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=875)                         | Repeat masking of reference genome  |   Reference genome  | FASTA file, Statistic file 
+| Repeat Masking  | [Repeat masking - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=875)                         | Repeat masking of reference genome  |   Reference genome  | FASTA files of hard-masked and soft-masked genomes, Statistic file 
 | RNA seq QC and trimming| [QC and trimming of RNAseq reads -TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=876)                         | Trimming of fastq files, including a fastqc step | Raw mRNA sequencing files  |   FASTQC report, Paired read FASTQ file  |
-| Align  reads to find transcripts  | [Find transcripts - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=877)                         | Alignment of trimmed FASTQ reads to masked reference genome | Repeat masked reference genome, paired trimmed FASTQ reads  |   BAM file, GTF file alignment metrics|
-| Combine Transcripts  | [Combine Transcripts - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=878)                         | Merges individual tissue transcripts to a global transcriptome and predicts coding sequences |GTF file, closely related species coding and non-coding sequences  |   GTF for global transcriptome, FASTA sequences of coding transcripts   |
+| Align  reads to find transcripts  | [Find transcripts - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=877)                         | Alignment of trimmed FASTQ reads to masked reference genome | (soft) repeat masked reference genome, paired trimmed FASTQ reads  |   BAM file, GTF file alignment metrics|
+| Combine Transcripts  | [Combine Transcripts - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=878)                         | Merges individual tissue transcripts to a global transcriptome and predicts coding sequences |GTF file, soft-masked genome, closely related species coding and non-coding sequences  |   GTF for global transcriptome, FASTA sequences of coding transcripts   |
 | Extract Longest Transcripts  | [Extract Transcripts-TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=879)                         | Transdecoder predictions and filtering of transcripts | FASTA sequence of coding transcripts  |   pep.fasta, cds.fasta and gff3 file of longest isoform transcripts  |
 | Convert Outputs  | [Convert formats - TSI](https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=880)                         | Converts outputs of transcdecoder to required inputs for FGenesH++ annotation  | transdecoder-peptides.fasta, global_nucleotides.fasta  |.cdna, .dat and .pro files  |
 
@@ -116,7 +116,7 @@ Further to this, a summary of the different elements of this alignment approach 
    - Retrieve the workflows for `Align reads to find transcripts` 
    - Import into your Galaxy Australia workflows
 2. Once you have reached the workflow screen, select the ```play``` button for Align reads to find transcripts (Fig 8)
-3. Select the paired forward and paired reverse trimmed reads and masked reference genome as input (Fig9), ensure you select files tagged with `#fastq_out_r1_paired` and `#fastq_out_r2_paired`
+3. Select the paired forward and paired reverse trimmed reads and soft-masked reference genome as input (Fig9), ensure you select files tagged with `#fastq_out_r1_paired` and `#fastq_out_r2_paired`
 4. Check the mapping summary file for each tissue to make sure there are high mapping rates to the genome
 5. Make a dataset collection containing gtf files for all tissue transcriptomes
 
@@ -137,6 +137,9 @@ Further to this, a summary of the different elements of this alignment approach 
 {:start="3"}
 
 3. Search for your species on [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi) to find the most closely related species which has an NCBI RefSeq annotation (Fig 11)
+
+{% include image.html file="/transcriptome/Fig11.png" caption="Fig 11." max-width="10" %}
+
 4. Go to the NCBI ftp server and locate the entry for this species (e.g. Corroborree frog RefSeq entry is GCF_028390025.1 and ftp entry is https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/028/390/025/)
 5. Download the `_cds_from_genomic.fna.gz` and `pseudo_without_product.fna.gz` files to your local computer and upload into Galaxy (Fig 12)
 
@@ -144,7 +147,7 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {:start="6"}
 
-6. Select the gtf collection, masked reference genome, coding sequences and pseudo coding sequences in the combine transcripts workflow
+6. Select the gtf collection, soft-masked reference genome, coding sequences and pseudo coding sequences in the combine transcripts workflow
 7. In Step 7 of the workflow ensure the masked genome is selected and that in Step 10 of the workflow type "1" in the `List of Fields` box (Fig 13; Fig 14; Fig 15)
 
 {% include image.html file="/transcriptome/Fig13.png" caption="Fig 13." max-width="10" %}
@@ -186,13 +189,11 @@ Further to this, a summary of the different elements of this alignment approach 
 
 {:start="3"}
 
-3. Select the transdecoder peptide fasta file and the text transformed fasta output file from the Combine Transcripts workflow (Fig 19; Fig20)
+3. Select the transdecoder peptide fasta file and the text transformed fasta output file from the Combine Transcripts workflow (Fig 19)
 
-{% include image.html file="/transcriptome/Fig19.png" caption="Fig 19." max-width="10" %}
-
-{% include image.html file="/transcriptome/Fig20.png" caption="Fig 20." max-width="10" %}
+{% include image.html file="/transcriptome/Fig19_updated.png" caption="Fig 19." max-width="10" %}
 
 {:start="4"}
 
-4. The output files tagged with `#dat`, `#pro`, and `#cdna`, along with the masked and unmasked reference genome are used as input files for [FGenesH++ genome annotation](Fgenesh)
+4. The output files tagged with `#dat`, `#pro`, and `#cdna`, along with the hard-masked and unmasked reference genome are used as input files for [FGenesH++ genome annotation](Fgenesh). 
 
