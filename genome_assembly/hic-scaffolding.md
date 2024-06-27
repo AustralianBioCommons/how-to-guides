@@ -45,14 +45,14 @@ Please see the how-to guide for HiFi genome assembly for additional information 
 
 ### Run the workflow
 
-* Click on the Workflow tab, find this workflow and click on the triangle run button.
+* Click on the `Workflow` tab, find this workflow and click on the triangle run button.
 * Add in the required inputs:
-    * assembly.fasta
+    * `assembly.fasta`
     * restriction enzymes
-    * HiC forward and reverse reads - these need to be a single concatenated file for each set, and in fastqsanger.gz format
+    * HiC forward and reverse reads - these need to be a single concatenated file for each set, and in `fastqsanger.gz` format
     * Estimated genome size as integer
     * Lineage for BUSCO
-* Click Run
+* Click `Run`
 
 ### What the workflow does
 
@@ -123,12 +123,12 @@ Please see the how-to guide for HiFi genome assembly for additional information 
 ### Check the outputs
 
 The main outputs are:
-* scaffolded_assmbly.fasta
-* comparison of pre- post- scaffolding contact maps
+* `scaffolded_assembly.fasta`
+* comparison of pre- / post- scaffolding contact maps
 
 For more information about what these outputs mean, please see the HiC Scaffolding section in the [VGP assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html).
 
- ## Acknowledgements
+## Acknowledgements
 
 * We acknowledge and thank the Vertebrate Genomes Project for this workflow. This is not original work, but extracted from the VGP scaffolding workflow with some minor changes to inputs to better support various groups of researchers. More information about VGP workflows: [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp).
 * Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/)
