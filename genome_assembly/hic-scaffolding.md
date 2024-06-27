@@ -56,142 +56,68 @@ Please see the how-to guide for HiFi genome assembly for additional information 
 
 ### What the workflow does
 
-<table>
+<table border="1">
   <tr>
-   <td><strong>Step</strong>
-   </td>
-   <td><strong>Inputs</strong>
-   </td>
-   <td><strong>Tool</strong>
-   </td>
-   <td><strong>Outputs</strong>
-   </td>
+    <td><strong>Step</strong></td>
+    <td><strong>Inputs</strong></td>
+    <td><strong>Tool</strong></td>
+    <td><strong>Outputs</strong></td>
   </tr>
   <tr>
-   <td>Map HiC reads to genome
-   </td>
-   <td>assembled_genome.fasta
-<p>
-HiCR1.fastqsanger.gz
-<p>
-HiCR2.fastqsanger.gz
-   </td>
-   <td>BWA MEM 2
-   </td>
-   <td>HiCR1.bam
-<p>
-HiCR2.bam
-   </td>
+    <td>Map HiC reads to genome</td>
+    <td>assembled_genome.fasta<br>HiCR1.fastqsanger.gz<br>HiCR2.fastqsanger.gz</td>
+    <td>BWA MEM 2</td>
+    <td>HiCR1.bam<br>HiCR2.bam</td>
   </tr>
   <tr>
-   <td>Merge bams
-   </td>
-   <td>HiCR1.bam
-<p>
-HiCR2.bam
-   </td>
-   <td>Filter and merge
-   </td>
-   <td>HiC.bam
-   </td>
+    <td>Merge bams</td>
+    <td>HiCR1.bam<br>HiCR2.bam</td>
+    <td>Filter and merge</td>
+    <td>HiC.bam</td>
   </tr>
   <tr>
-   <td>Make pre-scaffolding pretex map
-   </td>
-   <td>HiC.bam
-   </td>
-   <td>Pretext map
-   </td>
-   <td>Pretext map output
-   </td>
+    <td>Make pre-scaffolding pretex map</td>
+    <td>HiC.bam</td>
+    <td>Pretext map</td>
+    <td>Pretext map output</td>
   </tr>
   <tr>
-   <td>Make pre-scaffolding pretex map snapshot
-   </td>
-   <td>Pretext map output
-   </td>
-   <td>Pretext snapshot
-   </td>
-   <td>HiC contact map
-<p>
-(view)
-   </td>
+    <td>Make pre-scaffolding pretex map snapshot</td>
+    <td>Pretext map output</td>
+    <td>Pretext snapshot</td>
+    <td>HiC contact map<br>(view)</td>
   </tr>
   <tr>
-   <td>Scaffold
-   </td>
-   <td>assembled_genome.fasta
-<p>
-HiC.bam
-   </td>
-   <td>YAHS
-   </td>
-   <td>scaffolded_assembly.fasta
-   </td>
+    <td>Scaffold</td>
+    <td>assembled_genome.fasta<br>HiC.bam</td>
+    <td>YAHS</td>
+    <td>scaffolded_assembly.fasta</td>
   </tr>
   <tr>
-   <td>Map HiC reads to scaffold
-   </td>
-   <td>scaffolded_assembly.fasta
-<p>
-HiCR1.fastqsanger.gz
-<p>
-HiCR2.fastqsanger.gz
-   </td>
-   <td>BWA MEM 2
-   </td>
-   <td>HiCR1scaffold.bam
-<p>
-HiCR2scaffold.bam
-   </td>
+    <td>Map HiC reads to scaffold</td>
+    <td>scaffolded_assembly.fasta<br>HiCR1.fastqsanger.gz<br>HiCR2.fastqsanger.gz</td>
+    <td>BWA MEM 2</td>
+    <td>HiCR1scaffold.bam<br>HiCR2scaffold.bam</td>
   </tr>
   <tr>
-   <td>Merge bams
-   </td>
-   <td>HiCR1scaffold.bam
-<p>
-HiCR2scaffold.bam
-   </td>
-   <td>Filter and merge
-   </td>
-   <td>HiCscaffold.bam
-   </td>
+    <td>Merge bams</td>
+    <td>HiCR1scaffold.bam<br>HiCR2scaffold.bam</td>
+    <td>Filter and merge</td>
+    <td>HiCscaffold.bam</td>
   </tr>
   <tr>
-   <td>Make post-scaffolding pretex map
-   </td>
-   <td>HiCscaffold.bam
-   </td>
-   <td>Pretext map
-   </td>
-   <td>Pretext map output scaffold
-   </td>
+    <td>Make post-scaffolding pretex map</td>
+    <td>HiCscaffold.bam</td>
+    <td>Pretext map</td>
+    <td>Pretext map output scaffold</td>
   </tr>
   <tr>
-   <td>Make post-scaffolding pretex map snapshot
-   </td>
-   <td>Pretext map output scaffold
-   </td>
-   <td>Pretext snapshot
-   </td>
-   <td>HiC contact map scaffold
-<p>
-(view, compare to pre-scaffold map)
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
+    <td>Make post-scaffolding pretex map snapshot</td>
+    <td>Pretext map output scaffold</td>
+    <td>Pretext snapshot</td>
+    <td>HiC contact map scaffold<br>(view, compare to pre-scaffold map)</td>
   </tr>
 </table>
-
-
 
 
 ### Check the outputs
