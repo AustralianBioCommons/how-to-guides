@@ -3,16 +3,16 @@ title: Stacks workflows in Galaxy Australia using RADseq
 type: pop-gen
 contributors: [Anna Syme, Johan Gustafsson, Tom Harrop, Wai Cheng (Mike) Thang]
 description: This guide describes the steps required to run multiple Stacks workflows on Galaxy Australia to analyse RADseq data.
-affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons]
+affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons, Threatened Species Initiative]
 ---
 
 ## Introduction & context
 
-This How-to-Guide will describe the steps required to run the Stacks workflows on [Galaxy Australia](https://usegalaxy.org.au/) to analyse RADseq data, using workflows developed in consultations between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia, and the Australian BioCommons.
+This How-to-Guide will describe the steps required to run the Stacks workflows on [Galaxy Australia](https://usegalaxy.org.au/) to analyse RADseq data, using workflows developed in consultations between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia, and Australian BioCommons.
 
 ### What is Galaxy?
 
-* A web-based place to analyse your data. 
+* A web-based place to analyse your data
 * For more information see [Galaxy Australia — Australian BioCommons](https://www.biocommons.org.au/galaxy-australia)
 * For introductory tutorials see [Introduction to Galaxy Analyses](https://training.galaxyproject.org/training-material/topics/introduction/)
 * For help see [Galaxy Community Help](https://help.galaxyproject.org/) or email help@genome.edu.au
@@ -25,7 +25,7 @@ For an introduction see these Galaxy tutorials for [RAD-Seq Reference-based data
 
 Stacks is used to analyse RADseq data. 
 
-* For detail, see the [Stacks manual](http://catchenlab.life.illinois.edu/stacks/manual/#files)
+* For more detail, see the [Stacks manual](http://catchenlab.life.illinois.edu/stacks/manual/#files)
 * In Galaxy, the available Stacks modules are installed separately (e.g. `ustacks`, `gstacks`)
 * There are also two modules ([ref_map](https://usegalaxy.org.au/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/stacks2_refmap/stacks2_refmap/) & [denovo_map](https://usegalaxy.org.au/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/stacks2_denovomap/stacks2_denovomap/)) that run certain sets of other modules; these are described more in the Stacks manual. 
 
@@ -65,7 +65,7 @@ Please note that:
 
 ### Get data: Import sequence reads in fastq format. 
 
-1. To import BPA data, see [https://australianbiocommons.github.io/how-to-guides/galaxy_australia/upload_data](https://australianbiocommons.github.io/how-to-guides/galaxy_australia/upload_data)
+1. To import Bioplatforms Australia data, see [https://australianbiocommons.github.io/how-to-guides/galaxy_australia/upload_data](https://australianbiocommons.github.io/how-to-guides/galaxy_australia/upload_data)
 2. The files you need are ddRAD fastq.gz
 3. To import test data, see the information in the tutorial [RAD-Seq Reference-based data analysis](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ref-based-rad-seq/tutorial.html)
 
