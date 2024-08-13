@@ -107,11 +107,6 @@ available as soon as possible.
 
 {% include image.html file="hifi_assembly/2_upload.png" caption="Fig 5. Choosing local files to upload to Galaxy Australia."%}
 
-#### Self-managed (Cloudstor mediated)
-
-- Upload / transfer data to Cloudstor (see [Getting Started Guide](https://support.aarnet.edu.au/hc/en-us/articles/227469547-CloudStor-Getting-Started-Guide)), then
-- Upload / transfer to Galaxy Australia (see ```Import from CloudStor``` tool in Galaxy Australia)
-
 #### Supported
 
 - Contact the [Galaxy Australia Support team](mailto:help@genome.edu.au) for data chaperoning.
