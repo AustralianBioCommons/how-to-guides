@@ -6,7 +6,7 @@ description: This guide describes the steps required to scaffold your genome on 
 affiliations: [Bioplatforms Australia, Galaxy Australia, Australian BioCommons, Threatened Species Initiative]
 ---
 
-This How-to-Guide will describe the steps required to scaffold your genome on the Galaxy Australia platform using a HiC scaffolding workflow developed by the [Vertebrate Genomes Project](https://vertebrategenomesproject.org/), and modified by the [Galaxy Australia](https://usegalaxy.org.au/) team in consultations with the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/) and the [Australian BioCommons](https://www.biocommons.org.au/).
+This How-to-Guide describes the steps required to scaffold your genome on the Galaxy Australia platform using a HiC scaffolding workflow developed by the [Vertebrate Genomes Project](https://vertebrategenomesproject.org/), and modified by the [Galaxy Australia](https://usegalaxy.org.au/) team in consultations with the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/) and [Australian BioCommons](https://www.biocommons.org.au/).
 
 This workflow has been created from a Vertebrate Genomes Project (VGP) scaffolding workflow. 
 * For more information about the VGP project see the [Galaxy-VGP project page](https://galaxyproject.org/projects/vgp).
