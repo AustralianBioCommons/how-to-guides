@@ -8,14 +8,14 @@ affiliations: [University of Sydney, Australian BioCommons, Bioplatforms Austral
 
 [Galaxy Australia](https://usegalaxy.org.au/) is capable of conducting genome annotation using the FgenesH++ annotation tool. Users need to apply for access to this tool, please see [service notes here](https://www.biocommons.org.au/fgenesh-plus-plus) and apply for access [here](https://site.usegalaxy.org.au/request/access/fgenesh).
 
-This How-to-Guide will describe the steps required to annotate your genome on the Galaxy Australia platform (see **Fig 1**), developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and the [Australian BioCommons](https://www.biocommons.org.au/).
+This How-to-Guide will describe the steps required to annotate your genome on the Galaxy Australia platform (see **Fig 1**), developed in consultations between the Bioplatforms Australia [Threatened Species Initiative](https://threatenedspeciesinitiative.com/), [Galaxy Australia](https://usegalaxy.org.au/), and [Australian BioCommons](https://www.biocommons.org.au/).
 
 If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)
 
 
 ## Quick start guide
 
-1. [Login to Galaxy Australia](#register-and-login)
+1. [Log in to Galaxy Australia](#register-and-login)
 2. [Apply for access to FGenesH++](https://site.usegalaxy.org.au/request/access/fgenesh).
 3. Create a new history
 4. Upload your `assembled reference genome`, `repeat masked reference genome`, `.cdna`, `.pro` and `.dat` files from the [transcriptome workflow](Transcriptome)
