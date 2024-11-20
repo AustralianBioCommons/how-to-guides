@@ -1,5 +1,5 @@
 ---
-title: Genome Annotation
+title: Genome Annotation with FgenesH++
 type: genome-annotation
 contributors: [Luke Silver, Anna Syme, Mike Thang, Tiff Nelson]
 description: How-to Guide for genome annotation with FgenesH++.
