@@ -1,5 +1,5 @@
 ---
-title: Genome Annotation
+title: Genome Annotation with FgenesH++
 type: genome-annotation
 contributors: [Luke Silver, Anna Syme, Mike Thang, Tiff Nelson]
 description: How-to Guide for genome annotation with FgenesH++.
@@ -27,12 +27,12 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 ## How to cite the workflow
 
-> Silver, L. (2024). Fgenesh annotation -TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.881.4 
+> Silver, L. (2024). Fgenesh annotation -TSI. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.881.5 
 
 
 ## The overall workflow
 
-{% include image.html file="/genome_annotation/Fig1-updated.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red." max-width="10" %}
+{% include image.html file="/genome_annotation/Fig1-updated2.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red." max-width="10" %}
 
 Further to this, a summary of the different elements of this assembly approach are detailed below:
 
