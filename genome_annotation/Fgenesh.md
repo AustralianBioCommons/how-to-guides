@@ -32,7 +32,7 @@ If you need help, the Galaxy community is both approachable and helpful. [Ask th
 
 ## The overall workflow
 
-{% include image.html file="/genome_annotation/Fig1-updated2.png" caption="Fig 1. The approach described in this How-to-Guide, including Quick Start guide steps 1) registration, 2) upload of input files, 3) FgenesH++ genome annotation Required workflow steps are blue, and optional steps are red." max-width="10" %}
+{% include image.html file="/genome_annotation/Fig1-updated2.png" caption="Fig 1. Genome annotation workflow diagram." max-width="10" %}
 
 Further to this, a summary of the different elements of this assembly approach are detailed below:
 
@@ -79,31 +79,16 @@ Further to this, a summary of the different elements of this assembly approach a
 
 {:start="4"}
 
-4. The workflow invocation window will open. 
-5. Select your reference assembled genome fasta file (Fig 5).
-6. Select your repeat masked reference genome fasta file (Fig 5).
+4. The workflow invocation window will open.
 
-{% include image.html file="/genome_annotation/Fig5-updated.png" caption="Fig 5." max-width="10" %}
+5. Select your reference assembled genome fasta file.
 
-{:start="7"}
+6. Select your (hard) repeat-masked reference genome fasta file.
 
-7. Select the matrix of a closely related species ([full list of matrices](http://www.softberry.com/berry.phtml?topic=org_list&group=programs&subgroup=gfind)) (Step 1 in Fig 6), 
-8. Select the appropriate reference database (Step 2 in Fig 6), 
-9. Select the appropriate NR database (TSI animals or TSI plants) (Step 3 in Fig 6). 
+7. Select the matrix of an approximately closely-related species ([full list of matrices](http://www.softberry.com/berry.phtml?topic=org_list&group=programs&subgroup=gfind)).
+8. Select "mammal" or "non-mammal" database.
+9. Select a lineage that BUSCO will use on the output protein file.
+10. For "Select nr db type", note that this only applies if you are using a set of known protein sequences, and have selected the option further down: USE_PROTEINS = yes. In this case, select the appropriate NR database (e.g. TSI animals). If you aren't using proteins, disregard this and leave as default setting.
+11. Select the correct inputs for cDNA, protein and dat files. 
+12. Click "Run Workflow".
 
-{% include image.html file="/genome_annotation/Fig6.png" caption="Fig 6." max-width="10" %}
-
-{:start="10"}
-
-10. Select your `cDNA` (Step 1 in Fig 7), `protein` (Step 2 in Fig 7) and `Dat` files (Step 3 in Fig 7).
-
-{% include image.html file="/genome_annotation/Fig7.png" caption="Fig 7." max-width="10" %}
-
-{:start="11"}
-
-11. Choose your reference genome as the sequence file for task 6 and 7 (Step 1 and 2 in Fig 8)
-12. Choose the most appropriate lineage to run BUSCO on the protein output file (Step 1 in Fig 9)
-
-{% include image.html file="/genome_annotation/Fig8.png" caption="Fig 8." max-width="10" %}
-
-{% include image.html file="/genome_annotation/Fig9.png" caption="Fig 9." max-width="10" %}
