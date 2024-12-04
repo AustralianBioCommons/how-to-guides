@@ -122,7 +122,7 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="7"}
 
-7. Select input data for the raw sequencing reads. These should be the HiFi reads, that have had adapters removed, and then concatenated into a single file. This should be in `fastqsanger` format. 
+7. Select input data for the sequencing reads. These should be the HiFi or Nanopore reads, that have had adapters removed, and then concatenated into a single file. This should be in `fastqsanger.gz` format. 
 
 8. Determine optimal k-mer size for genome
 
