@@ -28,11 +28,11 @@ Once you have checked the genome assembly, you may decide that:
 
 ### How to cite the workflow
 
-> Price, G., & Syme, A. (2024). Genome-assessment-post-assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.4" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.4</a>
+> Price, G., & Syme, A. (2024). Genome-assessment-post-assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.7" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.4</a>
 
 ### A note on software versions
 
-{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2.0.4</a>." %}
+{% include callout.html type="important" content="the noted software versions are for <a href='https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=403' ga-product='workflow_link' ga-id='403_assembly_QC'>Genome assessment post assembly version 2.0.4</a>. You can regenerate these for other workflow versions - they will be listed in the workflow report." %}
 
 | Software | Version       |
 |----------|---------------|
