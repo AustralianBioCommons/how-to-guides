@@ -28,7 +28,7 @@ Once you have checked the genome assembly, you may decide that:
 
 ### How to cite the workflow
 
-> Kate Farquharson, Gareth Price, Simon Tang, Anna Syme (2024). Genome-assessment-post-assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.7" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.4</a>
+> Kate Farquharson, Gareth Price, Simon Tang, Anna Syme (2024). Genome-assessment-post-assembly. WorkflowHub. <a href="https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.7" ga-product="workflow_doi" ga-id="403_assembly_QC">https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.403.7</a>
 
 ### A note on software versions
 
