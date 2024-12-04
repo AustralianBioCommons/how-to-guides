@@ -84,7 +84,12 @@ Note that there is no such thing as the perfect genome! Standards such as the Ea
 
 {:start="2"}
 
-2. Upload your primary genome assembly file and the raw reads (concatenate multiple read files into a single file) to your current Galaxy history
+2. Upload your primary genome assembly file and the reads that were used in the genome assembly, i.e. the filtered reads (concatenate multiple read files into a single file) to your current Galaxy history
+     - Note that the reads should be in the format `fastqsanger.gz`
+     - If you are coming to this workflow after the hifiasm assembly workflow, you will need to convert the reads (that have had adapters removed) from `fastq.gz` to `fastqsanger.gz`
+     - Click on the pencil icon near the file name, go to Datatypes, Assign Datatype, and assign a new Datatype
+     - If you are coming to this workflow after the nanopore assembly workflow, you will need to convert the reads (from Nanofilt) from `fastqsanger` to `fastqsanger.gz`
+     - Click on the pencil icon near the file name, go to Datatypes, Convert to Datatype, and choose the compressed file
      - See this link for [details on how to upload files](https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly#upload-data-files)
      - If you don’t have a history (i.e. you are using an existing assembly), you can create one (click the plus button at the top of this history panel).
 
